@@ -1,0 +1,204 @@
+================================================================================
+SECTION 1: STUDENT NOTES (CLEAR, SIMPLE, ACTIONABLE)
+================================================================================
+
+KEY IDEA 1 – PICK ONE STRATEGY AND MASTER IT  
+WHY IT MATTERS:  You can’t be good at everything.  Mastery gives you an edge over the crowd.  
+HOW TO APPLY:  Choose the Minervini SEPA approach, study it daily, and ignore other “systems”.
+
+KEY IDEA 2 – VALUATION IS SECONDARY TO MOMENTUM  
+WHY IT MATTERS:  A high‑PE stock that is making new highs shows strong institutional demand; a low‑PE may hide trouble.  
+HOW TO APPLY:  When a stock meets all technical qualifiers, take it even if the PE is double the market.
+
+KEY IDEA 3 – TREND IS THE QUALIFIER, NOT THE PREDICTOR  
+WHY IT MATTERS:  Buying a continuation of an existing up‑trend raises the probability of a big move.  
+HOW TO APPLY:  Scan only for stocks above their 200‑day moving average (MA) and with Relative Strength (RS) > 68.
+
+KEY IDEA 4 – FUNDAMENTALS HELP BUT ONLY IF PRICE CONFIRMS  
+WHY IT MATTERS:  Earnings, sales, and margin growth are the fuel for a move, but the stock must be “telling” the story on the chart.  
+HOW TO APPLY:  Look for earnings acceleration, margin expansion, and revenue growth **and** a breakout on price.  If the chart is weak, ignore the numbers.
+
+KEY IDEA 5 – THREE WAYS A COMPANY GROWS EARNINGS  
+1) Sell more units  
+2) Raise prices  
+3) Cut costs (margin improvement) – limited in duration.  
+WHY IT MATTERS:  Sustainable growth comes from #1 and #2 (revenue growth).  
+HOW TO APPLY:  Prioritize stocks with strong revenue growth; treat cost cuts as a short‑term boost only.
+
+KEY IDEA 6 – MATURATION CYCLE & STAGE CONCEPTS  
+STAGE 2 – Early uptrend, forming a base (VCP‑type contraction).  
+STAGE 3 – Mid‑trend, growth still strong but beginning to slow.  
+STAGE 4 – Late trend, earnings decelerating, price often below 200‑day.  
+WHY IT MATTERS:  The best entry is at the start of Stage 2; exit before Stage 4.  
+HOW TO APPLY:  Identify the base, buy on the breakout, and set a stop just below the base.
+
+KEY IDEA 7 – POST‑EARNINGS DRIFT & ESTIMATE REVISIONS  
+WHY IT MATTERS:  Analysts revise estimates slowly; a strong earnings surprise can keep the stock rising for weeks.  
+HOW TO APPLY:  After a big positive surprise, stay in the trade if price holds above the breakout level; watch for a reversal in volume.
+
+KEY IDEA 8 – DIFFERENTIAL DISCLOSURE (PRICE VS. FUNDAMENTALS)  
+WHY IT MATTERS:  A huge earnings beat followed by a massive sell‑off signals that institutions are dumping despite the numbers.  
+HOW TO APPLY:  If price moves opposite the earnings story (big down‑volume on a beat), stay out.
+
+KEY IDEA 9 – CODE MATRIX (ACCELERATION SCORE)  
+CODE 33 = 3 quarters of EPS acceleration + 3 quarters of revenue acceleration + 3 quarters of margin expansion (ideal).  
+CODE 32, 23, etc. = partial combos.  
+WHY IT MATTERS:  Higher code → higher probability of a big move.  
+HOW TO APPLY:  Rank your watchlist by code; prioritize CODE 33 and CODE 32 stocks.
+
+KEY IDEA 10 – DISCIPLINE & BELIEF ARE THE REAL EDGE  
+WHY IT MATTERS:  Everyone has information; only disciplined traders stick to the plan and compound returns.  
+HOW TO APPLY:  Follow the daily checklist, respect stop‑losses, and keep a trade journal to reinforce the process.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- **Market Leader / Institutional Favorite** – Stocks that dominate their niche; they attract the biggest capital flows.  
+- **Turnaround Situation** – Companies with recent earnings acceleration after a period of weakness; look for sequential EPS jumps.  
+- **Cyclicals & Commodities** – Generally avoided; they are less predictable and often lack the clean up‑trend needed for SEPA.  
+- **Valuation (PE Ratio)** – High PE is acceptable if the stock is making new highs; low PE can be a red flag for hidden problems.  
+- **Trend as Qualifier** – Only trade stocks in a confirmed up‑trend (above 200‑day MA, RS > 68).  
+- **Earnings Growth Drivers** – Sell more, raise prices, cut costs (cost cuts are short‑lived).  
+- **Maturation Cycle Stages** – Stage 2 (base formation), Stage 3 (mid‑trend), Stage 4 (late‑trend, deceleration).  
+- **Post‑Earnings Drift** – Continued price rise after a strong earnings surprise due to slow analyst revisions.  
+- **Differential Disclosure** – Look for mismatches between fundamentals and price action (e.g., big beat + huge sell‑off).  
+- **Breakout Year** – A year where earnings or estimates jump out of a multi‑year range; signals acceleration.  
+- **Code Matrix (Code 33, 32, 23, etc.)** – Scoring system for quarters of EPS, revenue, and margin acceleration.  
+- **Profit‑Margin Expansion + Revenue Growth** – The “accelerant” that creates exponential earnings growth.  
+- **Position Sizing & Risk** – Implicit: max 1% of capital per trade, stop‑loss just below the base.  
+- **Psychology** – Discipline, belief in the process, avoidance of “forecasting” and “story‑telling”.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:  
+- Trade only stocks above their 200‑day moving average.  
+- Require Relative Strength (RS) greater than 68 before entering.  
+- Look for a clear base (volatility contraction) and buy on the breakout.  
+- Confirm earnings, sales, or margin acceleration with a price breakout.  
+- Use the Code 33/32 matrix to prioritize watchlist candidates.  
+- Set a stop‑loss just below the base or the most recent swing low.  
+- Limit each trade to no more than 1% of total capital risk.  
+- Review every trade in a journal; note why you entered and exited.  
+- Keep discipline: no “forecasting” or buying on a story alone.  
+- Re‑scan the market each morning for new Stage 2 setups.
+
+DON’T:  
+- Buy a stock that is below its 200‑day MA, even if fundamentals look great.  
+- Trust earnings beats when the stock sells off on massive volume (differential disclosure).  
+- Chase low‑PE “value” stocks that are in a downtrend.  
+- Enter a trade when RS is below 68 or when the stock is in Stage 3/4.  
+- Add to a losing position; instead, exit and re‑evaluate.  
+- Over‑trade; stick to the pre‑defined number of setups per day.  
+- Let emotions dictate position size; always respect the stop‑loss.  
+- Ignore margin erosion; it often precedes earnings deceleration.  
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (BASED ON TRANSCRIPT)
+================================================================================
+
+CHART CUES  
+- Price above 200‑day MA (long‑term uptrend).  
+- Relative Strength (RS) > 68, preferably in the 90‑99 range.  
+- A recent base or VCP (tightening range, decreasing volume).  
+- Breakout candle closing above the base high with increased volume.  
+
+PRICE / VOLUME BEHAVIOR  
+- Volume spikes on breakout → confirmation.  
+- Large volume down‑move on an earnings beat = red flag (institutional dump).  
+- Post‑earnings drift: price holds above breakout for several days/weeks.  
+
+BUY POINTS  
+- Enter on the first close above the base high (or on a pull‑back to the breakout level).  
+- Ensure earnings/revenue/margin acceleration is present (check last 3‑4 quarters).  
+
+CONFIRMATION SIGNALS  
+- EPS, revenue, and margin each showing acceleration (Code 33 or at least Code 32).  
+- Positive guidance revision or beat of the highest analyst estimate.  
+- No sign of margin erosion or earnings deceleration.  
+
+DANGER SIGNS / INVALIDATIONS  
+- Price falls back below the 200‑day MA.  
+- RS drops below 68.  
+- Earnings beat accompanied by a large down‑volume day.  
+- Margin compression or earnings deceleration in the last two quarters.  
+- Stock entering Stage 3/4 (price plateau, base flattening).  
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST  
+- Update watchlist with stocks that meet: 200‑day MA up, RS > 68, recent base, Code 33/32.  
+- Scan earnings calendar; flag any upcoming reports for watchlist stocks.  
+- Verify the last 3‑4 quarters: EPS acceleration, revenue growth, margin expansion.  
+- Set alerts for breakout levels and for any earnings surprise news.  
+
+MARKET HOURS DISCIPLINE  
+- Watch the pre‑market for any overnight news that could invalidate a setup.  
+- When a stock breaks its base, enter on the first close above the breakout with volume confirmation.  
+- Place stop‑loss immediately (2‑3% below entry or just below the base).  
+- Size the position to risk ≤ 1% of total capital.  
+- Monitor volume and price action; if price drops below stop, exit without hesitation.  
+- Limit to a maximum of 3 new entries per day to avoid over‑trading.  
+
+POST‑MARKET REVIEW TASKS  
+- Log every trade: entry, exit, stop level, reason for entry, outcome.  
+- Review any earnings releases that occurred; note differential disclosure signals.  
+- Update the Code matrix for each watchlist stock (add new quarters, drop stale ones).  
+- Identify any missed setups and why they were missed (e.g., late entry, wrong RS).  
+
+RISK CONTROL REMINDERS  
+- Never risk more than 1% of equity on a single trade.  
+- Stop‑loss must be placed before the trade is executed.  
+- If cumulative daily loss reaches 3% of capital, stop trading for the day.  
+- Avoid trading stocks that fall below the 200‑day MA at any time.  
+
+MINDSET REINFORCEMENT (MARK STYLE)  
+- Remind yourself: “The chart is the boss; fundamentals are the assistant.”  
+- Visualize the trade plan before the market opens; repeat the plan mentally.  
+- Accept that losses are part of the process; focus on the win‑rate and expectancy.  
+- Keep a “discipline mantra”: *“Stick to the rules, trust the price, compound fast.”*  
+
+================================================================================
+SECTION 6: EXAMPLES (IF APPLICABLE)
+================================================================================
+
+1. **Crocs** – EPS +144% beat, but massive down‑volume on the day; price fell 20% despite the beat.  Lesson: ignore the earnings story when price shows institutional dumping.  
+
+2. **Bicor (1991 IPO)** – Strong early earnings, then deceleration; price fell sharply after a modest beat.  Lesson: watch for earnings deceleration and price reaction.  
+
+3. **Home Depot (example)** – RS = 90, growth 4% → 23% after breakout; earnings beat and guidance raised; stock doubled while PE stayed flat.  Lesson: high RS + earnings acceleration = big move.  
+
+4. **Cisco (1990 IPO)** – Bought at IPO base, sold a few points higher, then the stock exploded 70,000%.  Lesson: early base breakout can yield massive compounding if the company sustains growth.  
+
+5. **Apple Turnaround** – Margins rose from 1.2% to 23.9% (20×) with revenue growth → massive price appreciation.  Lesson: simultaneous margin and revenue expansion creates explosive earnings acceleration.  
+
+6. **Monster Beverage** – Sales rose 20→63→93, margins jumped 3.3%→18%; earnings surged 75%–214% → stock exploded.  Lesson: profit‑margin expansion magnifies revenue growth.  
+
+7. **Ollie’s** – Revenue +16.8%, margins +2.0% → earnings +50%; without margin boost earnings would be only ~8%.  Lesson: even a small margin increase can dramatically boost earnings when revenue is growing.  
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ONLY BUY ABOVE THE 200‑DAY MOVING AVERAGE – price must respect the long‑term trend.  
+2. RELATIVE STRENGTH MUST BE > 68 (ideally 90+).  
+3. ENTER ON THE BREAKOUT OF A VCP/BASE WITH INCREASING VOLUME.  
+4. CONFIRM THAT EPS, REVENUE, AND MARGINS ARE ACCELERATING (CODE 33 or CODE 32).  
+5. A HIGH PE IS OK IF THE STOCK IS MAKING NEW HIGHS; LOW PE MAY SIGNAL TROUBLE.  
+6. IF PRICE SLOWS OR FALLS AFTER A BIG EARNINGS BEAT (large down‑volume), STAY OUT – differential disclosure.  
+7. SET STOP‑LOSS JUST BELOW THE BASE OR 2‑3% BELOW ENTRY; RISK ≤ 1% OF CAPITAL.  
+8. EXIT BEFORE STAGE 4 (earnings deceleration, margin erosion, price below 200‑day).  
+9. COMPUND QUICKLY: roll gains into the next qualified breakout; avoid holding a stock for a full year to get a 20% move.  
+10. DISCIPLINE OVER ALL – follow the checklist, trust the chart, and keep belief in the process.  
+
+================================================================================
+END OF COACHING NOTE
+================================================================================
+
+================================================================================
+END OF SUMMARY
+================================================================================

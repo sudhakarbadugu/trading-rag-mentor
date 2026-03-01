@@ -1,0 +1,200 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA: POSITION SIZE IS A LIQUIDITY CONSTRAINT  
+WHY IT MATTERS: Trading more than 50,000‑100,000 shares (or > $10‑20 M) creates execution problems, wider spreads and higher market impact.  
+HOW TO APPLY: Keep individual stock positions under 50,000 shares (or under $10 M for high‑priced stocks). If you must trade larger accounts, split orders, use algorithmic execution, and stay aware of daily volume.
+
+KEY IDEA: SHORTING IS RARE AND MAINLY INDEX‑LEVEL  
+WHY IT MATTERS: Less than 1 % of Mark’s wealth comes from shorting individual stocks; shorting indexes provides liquidity and limited overnight risk.  
+HOW TO APPLY: Focus on long positions. If you short, do it only on broad indexes or occasional “recreational” short ideas with tight stops.
+
+KEY IDEA: DAILY + WEEKLY CHARTS ARE BOTH REQUIRED  
+WHY IT MATTERS: Daily charts reveal entry pull‑backs, pivots, and breakout highs; weekly charts confirm the broader trend and stage‑2 uptrend.  
+HOW TO APPLY: Scan daily for pull‑backs to prior day highs; verify the stock is above its 200‑day moving average on the weekly and meets the 8‑point stage‑2 criteria before entering.
+
+KEY IDEA: FUNDAMENTALS ARE A FILTER, NOT THE DRIVING FORCE  
+WHY IT MATTERS: Over‑analysis can erode discipline; the chart does the heavy lifting. Earnings, sales, and margins are the only fundamentals needed to avoid “bad” stocks (e.g., very low PE, bizarre balance‑sheet issues).  
+HOW TO APPLY: For each candidate, glance at the last 4‑6 quarters of earnings, next two EPS estimates, and sales growth. If numbers look reasonable, let the chart decide. Do NOT deep‑dive into balance sheets.
+
+KEY IDEA: RELATIVE STRENGTH (RS) RANKING IS A QUICK SCREEN  
+WHY IT MATTERS: High RS (IBD RPR or Market Search) identifies market leaders that historically produce the biggest winners.  
+HOW TO APPLY: Use Market Search or Minervini Markets 360 to pull stocks with RS ≥ 80. Combine with the stage‑2 technical filter.
+
+KEY IDEA: STAGE‑2 UPTREND CRITERIA (8 POINTS) IS THE ENTRY GATE  
+WHY IT MATTERS: Only stocks that satisfy all eight technical conditions are considered “in a stage‑2 uptrend” – the only stage Mark trades.  
+HOW TO APPLY: Learn the eight criteria (price above 200‑day, 20‑day high > 50‑day high, volume contraction, etc.). If any criterion fails, stay out. Do not worry about stage‑3 or stage‑4 unless you are already in a position.
+
+KEY IDEA: POWER PLAYS ARE VERY SHORT‑TERM (10‑12 DAY MINIMUM)  
+WHY IT MATTERS: Pull‑backs shorter than 10 days lack a solid base and often fail.  
+HOW TO APPLY: Target setups that have been correcting for at least 10‑12 trading days before the breakout.
+
+KEY IDEA: CYCLICAL STOCKS CAN BE TRADED, BUT ONLY WITH A “BASE‑IN‑DIRTY” MINDSET  
+WHY IT MATTERS: Cyclicals often top when fundamentals look terrible; buying at the “worst” point can be profitable but is riskier.  
+HOW TO APPLY: If you venture into cyclicals, look for a technical base forming while earnings are negative, then wait for a VCP‑type contraction before entering.
+
+KEY IDEA: 50‑80 RULE FOR LEADERS  
+WHY IT MATTERS: Historically, 50 % of leaders fall 80 % and 80 % fall 50 % after topping; average decline ≈ 70 %.  
+HOW TO APPLY: When a market‑leader shows signs of topping (break below key moving averages, volume surge on down‑move), start scaling out well before the 50 % decline zone.
+
+KEY IDEA: ADR FILTER IS DANGEROUS  
+WHY IT MATTERS: Average Daily Range (ADR) is a lagging volatility measure that can mislead entry timing.  
+HOW TO APPLY: Do NOT use ADR as a primary filter. Instead, watch real‑time volatility contraction and price‑volume patterns.
+
+KEY IDEA: STOP‑LOSS AND RISK CONTROL ARE NON‑NEGOTIABLE  
+WHY IT MATTERS: Even a 45‑60 % win rate can be profitable if losses are limited to 1‑2 % of account per trade.  
+HOW TO APPLY: Set initial stop‑loss at 5‑7 % (or below recent swing low). Never risk more than 1 % of total capital on any single trade.
+
+KEY IDEA: BATTING AVERAGE OF ~45‑60 % IS NORMAL  
+WHY IT MATTERS: Expect to be right roughly half the time; success comes from risk‑reward and discipline, not from “being right” all the time.  
+HOW TO APPLY: Keep a trade journal, review win/loss ratios, and focus on average R:R of at least 2:1.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- VCP (Volatility Contraction Pattern): Implied in discussion of “volatility contraction” and “big breaks with volume”. The pattern is a tightening of price range and decreasing volume before a breakout.  
+- Stage‑2 Uptrend (8‑point criteria): Must be above 200‑day, 20‑day high > 50‑day high, volume contraction, etc. Only stage‑2 stocks are traded.  
+- Relative Strength (RS/RPR): IBD’s RS rating or Market Search’s RPR ranking; high RS indicates market‑leader behavior.  
+- Earnings/Sales/Margins Filter: Only look at last 4‑6 quarters, next two EPS estimates, and sales growth; ignore deep balance‑sheet analysis.  
+- Position Sizing Rules: Keep shares < 50 k (or < $10 M) per trade; avoid > 100 k shares blocks.  
+- Risk Management: Max 1 % account risk per trade, stop‑loss 5‑7 % below entry, exit on strength, use “50‑plus break‑even rule”.  
+- Psychology/Discipline: Accept ~50 % win rate, avoid paralysis by analysis, trust the chart over opinions, keep emotions out of exits.  
+- Power Plays: Short‑term pull‑backs of 10‑12 days minimum; not true “day trades”.  
+- Cyclical vs Growth vs Turnaround: Different fundamental expectations; cyclicals bought at “worst” fundamentals, growth stocks need earnings acceleration.  
+- Institutional Favorites vs Market Leaders: Leaders are secular; favorites may be temporary. Leaders outrank groups.  
+- 50‑80 Rule: Expected decline after a leader tops (average 70 % drop).  
+- Ledge Concept: Hard break below a key level (often 200‑day) with little rally – a short signal.  
+- Time‑Frame Continuity Principle: Trend must be green on monthly, weekly, daily, and intraday to confirm strength.  
+- Post‑Earnings Drift: Stock may continue moving in the direction of the earnings gap if the market hasn’t fully priced the news.  
+- Limited Visibility: Inefficiency exists because future earnings are unknown; this is the source of profit opportunities.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Trade only stocks that meet the full 8‑point stage‑2 criteria.  
+- Use both daily and weekly charts for every trade.  
+- Keep position size under 50,000 shares (or under $10 M for high‑priced stocks).  
+- Set a stop‑loss at 5‑7 % below entry (or below recent swing low).  
+- Risk no more than 1 % of total capital on any single trade.  
+- Scan for high RS (≥ 80) and then apply the technical filter.  
+- Exit on strength; take partial profits early and let the remainder run.  
+- Review earnings, sales, and margins only; ignore deep balance‑sheet analysis.  
+- Treat a leader’s topping as a cue to start scaling out well before a 50 % decline.  
+- Use volatility contraction and volume spikes as entry confirmation.  
+
+DON'T:
+- Trade more than 100,000 shares or > $20 M without a proven execution plan.  
+- Short individual stocks as a core strategy; limit shorts to indexes.  
+- Rely on ADR or any lagging indicator as a primary entry filter.  
+- Over‑analyze fundamentals; avoid “paralysis by analysis”.  
+- Hold a stock through a clear break below key moving averages without a stop.  
+- Assume a high RS guarantees a win; still require stage‑2 technical confirmation.  
+- Trade power‑plays shorter than 10‑12 days of consolidation.  
+- Chase a stock that has already broken its 50‑day or 200‑day moving average.  
+- Let emotions dictate exit; never hold a 50 % loss hoping for a rebound.  
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Stock is above its 200‑day moving average on the weekly chart.  
+- Daily price is making higher highs and higher lows (uptrend).  
+- 20‑day high is above the 50‑day high (one of the 8 criteria).  
+- Volume is contracting over several weeks, then spikes on breakout.  
+
+PRICE / VOLUME BEHAVIOR
+- A “VCP”‑type contraction: narrowing price range, decreasing volume, then a breakout candle with volume 2‑3× the average.  
+- Pull‑back of at least 10‑12 trading days before the breakout (Power Play minimum).  
+- For cyclicals, look for a base forming while earnings are negative; volume should still contract.  
+
+BUY POINTS
+- Enter on the first close above the prior day’s high after a clean pull‑back.  
+- Confirm with a volume surge (≥ 2× average daily volume).  
+- Ensure the stock still meets all 8 stage‑2 criteria at entry.  
+
+CONFIRMATION SIGNALS
+- Weekly chart still green (price above 200‑day).  
+- RS rating remains high (≥ 80).  
+- No major news or earnings surprise pending within the next 1‑2 days.  
+
+DANGER SIGNS / INVALIDATIONS
+- Break below the 200‑day on the weekly or daily chart.  
+- Volume spikes on a down‑move (sign of distribution).  
+- RS rating drops sharply or the stock falls out of the top RS tier.  
+- Failure to meet any of the 8 stage‑2 criteria (e.g., price falls below 20‑day high).  
+- A “ledge” formation: hard break below a key level with no rally afterward – consider short or exit.  
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Review overnight news, earnings releases, and economic data.  
+- Scan Market Search / Minervini Markets 360 for RS ≥ 80 stocks.  
+- Filter those stocks through the 8‑point stage‑2 checklist (price above 200‑day, 20‑day > 50‑day, volume contraction, etc.).  
+- Note any stocks with upcoming earnings; decide if you will hold through or avoid.  
+- Set alerts for volume spikes and price breaking prior day highs.  
+
+MARKET HOURS DISCIPLINE
+- Watch the daily chart for pull‑backs to prior day high; only enter on a clean close above that level.  
+- Confirm entry with a volume surge (≥ 2× average).  
+- Place stop‑loss immediately (5‑7 % below entry or below recent swing low).  
+- Risk no more than 1 % of account; adjust position size accordingly.  
+- If a stock breaks its 50‑day or 200‑day moving average, exit immediately.  
+- Take partial profit at 2‑3 × risk; let the remainder run with trailing stop at breakeven + 1 % .  
+
+POST‑MARKET REVIEW TASKS
+- Log every trade: entry, stop, exit, R:R, RS rating, stage‑2 status.  
+- Review any stops hit: was the stop placed correctly?  
+- Re‑evaluate any stocks that failed the stage‑2 test after entry – note why.  
+- Update your watchlist: add new high‑RS stocks that now meet stage‑2.  
+- Spend no more than 30 minutes on fundamentals (last 4‑6 quarters, next 2 EPS estimates).  
+
+RISK CONTROL REMINDERS
+- Max 1 % capital risk per trade.  
+- Never add to a losing position.  
+- Use “50‑plus break‑even rule”: if price falls 50 % of the way to your stop, consider exiting early.  
+- Keep a cash buffer of at least 20 % of account for liquidity.  
+
+MINDSET REINFORCEMENT (Mark style)
+- Accept a ~50 % win rate; focus on protecting capital.  
+- Trust the chart over opinions; avoid “paralysis by analysis”.  
+- Remember the 50‑80 rule – leaders eventually fall hard; be ready to get out.  
+- Treat each trade as a small experiment; learn from both winners and losers.  
+- Keep emotions out: no revenge trading, no holding through a clear breakdown.  
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. NVIDIA CORRECTION (2020) – Stock fell ~40 % during a market correction, then rebounded with a classic VCP. Entry was on the first close above the prior day high after a 12‑day pull‑back, volume spiked 3×, RS = 95, and the 8‑point stage‑2 criteria were met.  
+
+2. LULU (Lululemon) – Showed a base formation, broke out, then appeared to roll over into stage‑4. The chart later re‑entered stage‑2, illustrating the fine line between stage‑1, stage‑3, and stage‑4.  
+
+3. MAG‑7 (Google, NVIDIA, Palantir, Microsoft, etc.) – All are market leaders and institutional favorites. They each meet high RS and stage‑2 criteria, but Mark warns to watch for the 50‑80 rule; when any of them broke below key moving averages, he began scaling out well before the 50 % decline.  
+
+4. CRUX (short example) – Weekly chart showed a “ledge” (hard break below 200‑day with no rally). In hindsight it would have been a short, but Mark rarely shorts individual stocks, so he would have avoided the trade.  
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ONLY TRADE STOCKS THAT PASS ALL 8 STAGE‑2 TECHNICAL CRITERIA.  
+2. KEEP POSITION SIZE < 50,000 SHARES (or < $10 M) TO AVOID LIQUIDITY ISSUES.  
+3. USE DAILY + WEEKLY CHARTS: DAILY for entry, WEEKLY for trend confirmation.  
+4. RELATIVE STRENGTH (RS ≥ 80) IS THE QUICKEST FILTER – THEN APPLY TECHNICALS.  
+5. LIMIT FUNDAMENTAL REVIEW TO LAST 4‑6 QUARTERS, NEXT 2 EPS ESTIMATES, AND SALES GROWTH.  
+6. SET STOP‑LOSS 5‑7 % BELOW ENTRY; RISK ≤ 1 % OF TOTAL CAPITAL PER TRADE.  
+7. EXIT ON STRENGTH – TAKE PARTIAL PROFITS early, trail stop to breakeven + 1 %.  
+8. AVOID ADR AND OTHER LAGGING INDICATORS; RELY ON PRICE‑VOLUME ACTION.  
+9. REMEMBER THE 50‑80 RULE: Leaders average a 70 % decline after topping – start scaling out early.  
+10. ACCEPT ~50 % WIN RATE; SUCCESS COMES FROM RISK‑CONTROL AND DISCIPLINE, NOT FROM BEING RIGHT EVERY TIME.  
+
+================================================================================
+END OF SUMMARY
+================================================================================

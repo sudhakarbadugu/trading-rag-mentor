@@ -1,0 +1,210 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – ONLY TRADE IN A LONG‑TERM UPTREND
+Why it matters: If the market or the stock is not in a confirmed uptrend, all other fundamentals become irrelevant – you will likely lose money.
+How to apply: Start every scan by checking the 200‑day moving average (or higher) on the index and on the individual stock. If the price is below that line, discard the ticker.
+
+KEY IDEA 2 – USE A HIERARCHY OF QUALIFIERS
+Why it matters: A step‑by‑step filter removes weak candidates and leaves only the strongest setups.
+How to apply: Follow the three‑step order:
+1. Long‑term trend (uptrend on the index and on the stock).
+2. Current price action (higher lows, divergence from the market, new‑high dots).
+3. Low‑risk entry (breakout of a base, pull‑back to a support zone, or a “follow‑through” day).
+
+KEY IDEA 3 – NEW HIGHS ARE A POSITIVE SIGNAL, NOT A WARNING
+Why it matters: A stock cannot make a large move without creating new all‑time highs. The money that fuels big moves lives on those highs.
+How to apply: Look for black dots (all‑time highs) on the chart. When a stock is making a new high while the market is still low, it is a leader. Buy on the breakout or on a small pull‑back to the breakout level.
+
+KEY IDEA 4 – FOCUS ON MARKET LEADERS DURING CORRECTIONS
+Why it matters: 96 % of the biggest winners emerge from market corrections. Leaders diverge from the market, make higher lows, and eventually break out.
+How to apply: Scan for stocks that:
+– Are near or at 52‑week highs (within 5‑15 % of the high).
+– Have a Relative Strength (RS) line that is flat or rising while the market is falling.
+– Show higher lows while the index is making lower lows.
+
+KEY IDEA 5 – PREDICTIVE, COINCIDENT, CONFIRMING SETUPS
+Why it matters: Timing the entry depends on how early the leader appears.
+How to apply:
+– Predictive: Stock breaks out before the market bottom. Enter as soon as the base breakout is confirmed.
+– Coincident: Stock breaks out around the same time the market makes a low. Use a “follow‑through” day as confirmation.
+– Confirming: Stock breaks out after the market has already turned. Wait for a second day of higher volume to confirm.
+
+KEY IDEA 6 – RELATIVE STRENGTH IS YOUR COMPASS
+Why it matters: RS isolates the stock’s performance from the market. A rising RS while the market is down signals true strength.
+How to apply: Plot the RS line (stock price divided by index price). Look for a line that is flat or trending up, especially when the index is trending down.
+
+KEY IDEA 7 – POSITION SIZE & RISK CONTROL
+Why it matters: Even the best setups can fail. Limiting loss protects capital and keeps you in the game.
+How to apply:
+– Max loss per trade ≤ 1 % of total account.
+– Stop‑loss just below the recent swing low or below the base support.
+– Reduce size on cyclical or less‑understood categories (biotech, turn‑arounds) until you have proven the pattern.
+
+KEY IDEA 8 – DISCIPLINE OVER EMOTION
+Why it matters: Undisciplined traders stay in losing positions, miss the next leader, and erode confidence.
+How to apply: When a trade hits the stop, exit immediately. Do not “average down.” Keep a journal of every trade and review it daily.
+
+KEY IDEA 9 – LEVERAGE COMES FROM BUYING ON NEW HIGHS
+Why it matters: Buying a leader as it makes a new high gives you built‑in upside; the stock can move many multiples of the initial risk.
+How to apply: After the breakout, let the trade run. Add to the position only if the stock makes a higher low and stays above the breakout level.
+
+KEY IDEA 10 – CONTINUOUS LEARNING & REPEATS
+Why it matters: The patterns repeat across decades (1990, 2000, 2008, 2020). Recognizing the repeat builds confidence.
+How to apply: Study historic examples (Walmart 1982, Amazon 2001, Netflix 2008, NVIDIA 2020) and compare them to today’s charts. Keep a “pattern library” in your journal.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- CATEGORY & CATALYST FILTERING: Choose sectors that fit the SEPA style; avoid or size down cyclical, biotech (no earnings), and turnaround stocks unless they meet earnings‑catalyst criteria.
+- LONG‑TERM TREND (200‑day MA): Must be above the 200‑day line for both market and stock.
+- CURRENT PRICE ACTION: Higher lows, divergence from market, formation of higher highs, and presence of all‑time‑high dots.
+- LOW‑RISK ENTRY POINT: Breakout of a base, pull‑back to breakout level, or a follow‑through day.
+- NEW HIGHS (ALL‑TIME HIGH DOTS): Indicator that money is flowing in; the stock is on “new‑high ground.”
+- SUPPLY‑DEMAND DYNAMICS: New‑high ground means no unhappy shareholders; supply is exhausted, demand drives price.
+- RELATIVE STRENGTH (RS) LINE: Stock price divided by index price; a rising RS during a market decline signals a leader.
+- PREDICTIVE / COINCIDENT / CONFIRMING SETUPS: Timing categories for leader emergence relative to market bottom.
+- 96 % BIG WINNERS EMERGE FROM CORRECTIONS: Focus on market corrections to find leaders.
+- FOLLOW‑THROUGH DAY (O’NEILL): A day of strong volume and price move that confirms a breakout.
+- SLINGSHOT / FAST REBOUNDER: Stock undercuts its IPO low then rockets to a new high within days.
+- 50‑80 RULE: Once a leader tops, 50 % chance it will fall 80 %; 80 % chance it will fall 50 %. Timing is critical.
+- POSITION SIZING: Max 1 % account risk per trade; smaller sizes for less‑understood categories.
+- STOP‑LOSS PLACEMENT: Below recent swing low or base support.
+- DISCIPLINE VS UNDISCIPLINE: Undisciplined traders hold losers, miss leaders; disciplined traders stay out of the market during panic and are ready to act.
+- LEVERAGE FROM NEW HIGHS: Buying on new highs provides built‑in leverage (e.g., WR Grace 150 % in 55 days, 15‑fold leverage).
+- HISTORICAL EXAMPLES: Walmart (1982), Amazon (2001), Apple, eBay, Humana (1978), Pharmacyclics, Netflix (2008), NVIDIA (2020), Cisco, Peloton, DocuSign, etc.
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Verify the long‑term uptrend on both the index and the stock before any other analysis.
+- Scan for stocks within 5‑15 % of their 52‑week high during market corrections.
+- Use the RS line; buy only when RS is flat or rising while the market is falling.
+- Look for all‑time‑high dots (black dots) as confirmation of new‑high ground.
+- Enter on a clean breakout of a base or on a pull‑back to the breakout level.
+- Place a stop‑loss just below the most recent swing low or base support.
+- Risk no more than 1 % of your account on any single trade.
+- Reduce position size for cyclical, biotech, or turnaround stocks until you have proven the setup.
+- Keep a trade journal; review every trade after market close.
+- Stay out of the market when you are emotionally compromised; be ready to act when the next leader appears.
+
+DON’T:
+- Trade a stock that is below its 200‑day moving average.
+- Buy a stock that is far from its 52‑week high (more than 25 % down) during a correction.
+- Chase a stock after it has already made a large new high; wait for the next pull‑back.
+- Hold a losing position hoping it will turn around; exit at the stop.
+- Increase size on a losing trade to “average down.”
+- Ignore institutional footprints; avoid stocks with no clear institutional buying.
+- Rely solely on earnings for biotech; they often have no earnings – use pure chart analysis instead.
+- Enter a trade without a clear entry rule (breakout, pull‑back, follow‑through day).
+- Let emotions dictate trade size or timing.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Black dots = all‑time highs. A cluster of new dots signals “new‑high ground.”
+- Higher lows while the index is making lower lows = divergence, a leader.
+- Base patterns (cup‑with‑handle, flat base, V‑base) that are forming in an uptrend.
+- A “follow‑through” day: strong volume, price closes above the breakout level.
+
+PRICE / VOLUME BEHAVIOR
+- Volume spikes on breakout or on the follow‑through day.
+- Low volume pull‑backs to the breakout level are ideal entry points.
+- After breakout, volume should stay above the average of the breakout day.
+
+BUY POINTS
+- At the breakout candle’s high (enter on the close of the breakout).
+- On a pull‑back to the breakout level (enter at the low of the pull‑back).
+- On the first day of a follow‑through after a base breakout.
+
+CONFIRMATION SIGNALS
+- RS line flat or rising while the market is falling.
+- Institutional buying footprints (large block trades, rising OBV).
+- Price staying above the 50‑day MA after entry.
+
+DANGER SIGNS / INVALIDATIONS
+- Stock falls back below the breakout level within 2‑3 days.
+- RS line turns sharply down while the market is still down.
+- New high dots stop appearing for more than 4‑6 weeks.
+- Volume dries up on pull‑backs, indicating lack of buying interest.
+- The stock breaks below its 200‑day MA after entry.
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Review the index’s 200‑day MA; confirm market is in an uptrend or at least not in a deep downtrend.
+- Scan for stocks within 5‑15 % of 52‑week high and above their 200‑day MA.
+- Pull up RS charts; filter for RS flat or rising.
+- Identify all‑time‑high dots on the daily chart.
+- Note any upcoming earnings or catalyst events; avoid biotech without earnings unless you have a pure chart case.
+- Prepare a watchlist of 8‑12 candidates that meet all three qualifiers.
+
+MARKET HOURS DISCIPLINE
+- Monitor the watchlist for breakout candles or pull‑backs to breakout levels.
+- When a breakout occurs, verify volume > 1.5× average and RS staying flat/rising.
+- Enter with position size = (1 % of account) / (distance from entry to stop).
+- Set stop‑loss immediately below swing low or base support.
+- Trail stop to just below new higher lows as the trade moves in your favor.
+- Avoid adding to a losing position; only add on a clear higher‑low confirmation.
+
+POST‑MARKET REVIEW TASKS
+- Log every trade: entry, stop, exit, reason, emotions.
+- Review charts for any missed setups (stocks that made new highs but you didn’t trade).
+- Update the watchlist: remove stocks that failed qualifiers, add new candidates.
+- Calculate P/L and ensure total daily loss ≤ 2 % of account (max two losing trades per day).
+- Reflect on discipline: did you exit at stop? Did you stick to the plan?
+
+RISK CONTROL REMINDERS
+- Max 1 % risk per trade, never exceed 2 % total daily loss.
+- Never move stop loss farther away after entry.
+- Keep position size smaller for cyclical/biotech/turn‑around stocks (½ % risk).
+- Use a hard stop; no “mental stops.”
+
+MINDSET REINFORCEMENT (Mark style)
+- Remind yourself: “The market is a voting machine; the stock is a pricing machine.”
+- Visualize the “new‑high ground” concept – money lives there.
+- Accept that losers happen; focus on the 96 % of winners that emerge from corrections.
+- Stay patient during market panic; the best opportunities appear when everyone is scared.
+- Repeat the mantra: “Qualify, qualify, qualify – then execute with precision.”
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. WALMART (1982) – Entered right after the market low; stock made a new high while the index kept falling. Demonstrated predictive leader.
+2. AMAZON (2001) – Stock broke out of a base as the market was still 1 year from its bottom; entered on breakout, rode to massive upside.
+3. WR GRACE (2004) – Bought at breakout, 150 % gain in 55 days; example of leverage from new‑high ground.
+4. NETFLIX (2007‑09) – Stock rose 125 % while the market made lower lows; RS line showed strong outperformance, a predictive leader.
+5. NVIDIA (2020) – Outperformed during COVID correction; entered on breakout, held through sideways phase, then rode second‑stage uptrend.
+6. CISCO (IPO slingshot) – Under‑cut IPO low, then hit all‑time high in 10 days; classic fast rebounder pattern.
+7. DOCUSIGN (COVID bear) – Dropped to 200‑day MA, then within 10 days broke to new high; follow‑through day confirmed entry.
+
+Each example follows the same template:
+- Market in correction → stock shows higher lows/divergence → new‑high dot appears → breakout → large upside.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. Trade ONLY when the stock and the index are above their 200‑day moving averages.
+2. Use a three‑step qualifier: long‑term trend → current price action → low‑risk entry.
+3. New‑high dots = money flowing in; buy on the breakout or a pull‑back to that level.
+4. In corrections, focus on stocks within 5‑15 % of their 52‑week high and with rising RS.
+5. Classify setups as predictive, coincident, or confirming; the earlier you catch a predictive leader, the bigger the upside.
+6. Set stop‑loss just below the recent swing low or base support; risk ≤ 1 % of account per trade.
+7. Keep position size smaller for cyclical, biotech, or turnaround stocks until you prove the pattern.
+8. Discipline > emotion: exit at stop, never average down, and stay out when you’re scared.
+9. Review every trade daily; update watchlist and reinforce the “new‑high ground” mindset.
+10. Remember the 96 % rule – the biggest winners come from market corrections; that’s where you look for leaders.
+
+================================================================================
+END OF SUMMARY
+================================================================================

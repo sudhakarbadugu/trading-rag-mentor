@@ -1,0 +1,218 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – CONTEXT IS EVERYTHING  
+Why it matters: Every trade must be viewed inside the larger market‑trend, earnings‑growth, and sector‑dynamic picture. Without context a good chart pattern can be a trap.  
+How to apply: Start each analysis with the “satellite view” (overall market trend), then zoom to “aerial view” (sector/industry), finally to “overhead view” (individual stock chart). Only move to the next level if the higher‑level context is favorable.
+
+KEY IDEA 2 – CATEGORIZE COMPANIES BEFORE YOU BUY  
+Why it matters: Different categories (market leader, top competitor, institutional favorite, turnaround, cyclicals, commodity) have different risk/reward profiles and require different entry criteria.  
+How to apply: When a stock appears on your screen, first decide which bucket it belongs to. Use the bucket’s specific checklist (e.g., turnarounds need triple‑digit earnings growth; cyclicals need tighter risk limits).
+
+KEY IDEA 3 – THE THREE CORE GOALS OF MINERVINI’S ENTRY PROCESS  
+Why it matters: The whole system is built to (1) minimize risk, (2) capture outsized upside, (3) compound returns efficiently.  
+How to apply:  
+1. Set a stop‑loss that limits loss to a small % of your account (typically 1‑2%).  
+2. Look for stocks that can move many times the risk amount (high “leverage” from price action, not from margin).  
+3. Turn capital over quickly – don’t stay in cash longer than necessary, but also don’t be over‑exposed (Mark is ~50% invested on average).
+
+KEY IDEA 4 – HARD FILTERS THAT NEVER BREAK  
+Why it matters: The 200‑day moving average (MA) rule alone blocks >99% of losers. It is non‑negotiable.  
+How to apply: Never buy a stock whose 200‑day MA is sloping down or whose price is below that MA. If you see a breakout but the 200‑day is down, walk away.
+
+KEY IDEA 5 – RELATIVE STRENGTH (RS) AS A QUICK SCREEN  
+Why it matters: 90% of historic winners have RS > 68 (IBD‑style). Low RS stocks rarely become big winners.  
+How to apply: Use the built‑in RS indicator on Minervini Markets 360 (or IBD RS). Reject any candidate below 68.
+
+KEY IDEA 6 – FUNDAMENTAL QUALIFIERS THAT ARE NOT NEGOTIABLE  
+Why it matters: Strong earnings acceleration, small float, recent IPO, and a clear catalyst are the statistical hallmarks of winners.  
+How to apply:  
+- Earnings growth ≥ 20‑30% QoQ for the last 6‑8 quarters.  
+- Float ≤ 50‑100 M (adjust upward for later eras).  
+- Recent IPO (within 5‑10 years) or a clear “new product/technology” catalyst.  
+If any of these is missing, lower the stock’s priority.
+
+KEY IDEA 7 – STYLE DRIFT IS THE REAL KILLER  
+Why it matters: Jumping from market leaders to cyclicals to “hot” strategies erodes skill development.  
+How to apply: Commit to one style (e.g., market‑leader/turnaround) for at least 6‑12 months. Use a checklist to keep you from buying a “trend” that doesn’t fit your chosen category.
+
+KEY IDEA 8 – MINIMAL USE OF MARGIN  
+Why it matters: Mark’s 40‑year record shows massive returns with little or no margin. Leverage should come from high‑alpha stocks, not borrowed money.  
+How to apply: Trade with cash or a small, judicious margin line only on intraday contests. For daily/weekly trading, keep margin at 0%.
+
+KEY IDEA 9 – NOTE‑TAKING IS PART OF THE LEARNING LOOP  
+How to apply: Write questions directly in the workbook, annotate charts, and review your notes after each session.
+
+KEY IDEA 10 – MINDSET: BELIEF + DISCIPLINE = CONSISTENT EDGE  
+Why it matters: Confidence in the process protects you from emotional shortcuts.  
+How to apply:  
+- Keep an open mind, especially when the market feels “too easy.”  
+- Remind yourself daily that the system works over decades, not weeks.  
+- Visualize the “fire‑hose” of information as a structured flow, not chaos.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- CONTEXT (Satellite → Aerial → Overhead) – hierarchical view of market, sector, stock.  
+- COMPANY CATEGORIES – Market Leader, Top Competitor, Institutional Favorite, Turnaround, Cyclical, Commodity.  
+- RELATIVE STRENGTH (RS) – IBD‑style RS; threshold ≈68.  
+- MOVING AVERAGE RULE – Price must be above a rising 200‑day MA; also above 50‑day MA.  
+- EARNINGS ACCELERATION – 6‑8 quarters of accelerating EPS, often triple‑digit for turnarounds.  
+- FLOAT SIZE – Small float (≈10‑50 M) historically linked to big moves.  
+- CATALYST REQUIREMENT – New product, tech breakthrough, spinoff, regulatory win, etc.  
+- LEVERAGE THROUGH PRICE ACTION – High alpha stocks provide “leverage” without margin.  
+- RISK MANAGEMENT – Minimal risk per trade, stop‑loss, max 50% portfolio exposure, avoid margin.  
+- STYLE DRIFT – The danger of hopping between unrelated strategies.  
+- FACTOR MODELING – Study of historical winners to extract repeatable traits (the “gold medalist” analogy).  
+- CYCLICAL vs. SEcular – Cyclicals are generally avoided or sized smaller; secular growth stocks are preferred.  
+- COMMODITY PLAY – Only when margin expansion is sustainable; otherwise avoid.  
+- SCREENING PIPELINE – From ~9,000 stocks → ~1,000 with basic filters → ~50‑100 with deeper analysis → 1‑3 daily trades.  
+- PSYCHOLOGY – Open mind, belief in process, commitment, note‑taking, avoid “quick‑fix” shortcuts.
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Write every question in the workbook with the page number.  
+- Watch every session; each builds on the previous.  
+- Keep the 200‑day MA rule intact – never buy below it.  
+- Use RS > 68 as a minimum strength filter.  
+- Look for earnings acceleration and a clear catalyst before entering.  
+- Trade only stocks priced $10+ (avoid penny stocks).  
+- Keep margin usage at zero for regular trading.  
+- Limit overall portfolio exposure to ~50% of capital.  
+- Size each trade to risk no more than 1‑2% of account equity.  
+- Review and annotate charts immediately after each trade.  
+- Maintain a single trading style for at least six months.  
+
+DON’T:
+- Post questions in the Zoom chat during the presentation.  
+- Buy a stock that is below its 200‑day moving average, even if the story is exciting.  
+- Trade based solely on hype or “hot” tips without the full checklist.  
+- Use large amounts of margin to chase returns.  
+- Trade cyclicals without tighter risk limits and smaller position sizes.  
+- Let style drift pull you into unrelated strategies.  
+- Ignore the need for a catalyst; a stock with strong fundamentals but no upcoming event is a lower‑probability play.  
+- Over‑trade; aim for a few high‑conviction entries per day.  
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Price breaking above a recent base (VCP‑like contraction) and forming a new “high‑ground” (new 52‑week high).  
+- Volume spike on breakout (2‑3× average daily volume).  
+- RS indicator climbing above 68 and staying there.  
+- 200‑day MA sloping upward, price above it; 50‑day MA also upward.  
+
+PRICE / VOLUME BEHAVIOR
+- Minimal pullback after breakout (tight stop‑loss placement).  
+- Consistent upward momentum on daily/weekly charts.  
+- Float is small enough to allow rapid price moves (check share count).  
+
+BUY POINTS
+- Enter on the first close above the breakout level with volume confirmation.  
+- Place stop‑loss just below the breakout point or below the 200‑day MA, whichever is tighter.  
+
+CONFIRMATION SIGNALS
+- Recent earnings beat or announced catalyst (new product, acquisition, spinoff).  
+- Earnings acceleration: QoQ EPS growth >20% for at least 3‑4 quarters.  
+- Relative Strength >68 for at least 4‑6 weeks.  
+
+DANGER SIGNS / INVALIDATIONS
+- Price falls back below the 200‑day MA.  
+- RS drops below 68 after entry.  
+- No catalyst or earnings are flat/declining.  
+- Float is large (>200 M) and price action is sluggish.  
+- Market enters a strong downtrend (e.g., S&P down >15%); avoid new entries.  
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Review macro: S&P trend, sector rotation, major news.  
+- Run screen: price > $10, above 200‑day MA, RS >68, float < 50 M, earnings QoQ growth >20% (last 4 quarters).  
+- Identify any upcoming catalysts (earnings releases, product launches, regulatory approvals).  
+- Update watchlist in Minervini Markets 360; annotate any new chart patterns.  
+- Set alerts for breakout levels on top 3‑5 candidates.  
+
+MARKET HOURS DISCIPLINE
+- Monitor alerts; when a breakout occurs, verify volume and RS before entering.  
+- Execute trade at the first close above breakout; set stop‑loss immediately.  
+- Keep position size to risk ≤2% of account equity.  
+- Avoid any trade that would push total exposure >50% of capital.  
+- Do not use margin; trade with cash only.  
+- Record entry price, stop‑loss, rationale, and chart screenshot in workbook.  
+- Stay away from chat for questions; write them down for Q&A session.  
+
+POST‑MARKET REVIEW TASKS
+- Close out any positions that hit stop‑loss or target.  
+- Journal each trade: what worked, what didn’t, any rule breaches.  
+- Update the workbook with lessons learned and any unanswered questions (page #).  
+- Re‑run the screen to refresh the watchlist for the next day.  
+- Review overall portfolio exposure; rebalance if >50% invested.  
+
+RISK CONTROL REMINDERS
+- Never buy below the 200‑day MA.  
+- Stop‑loss must be placed before the trade is entered.  
+- Max loss per trade = 2% of account.  
+- No more than 3 new entries per day.  
+- Avoid margin; if a contest forces margin, limit it to <10% of position size and only for intraday.  
+
+MINDSET REINFORCEMENT (Mark style)
+- Read a short excerpt from “Trade Like a Stock Market Wizard” each morning.  
+- Recite the three core goals: minimal risk, big upside, fast compounding.  
+- Visualize the “satellite → aerial → overhead” flow before scanning stocks.  
+- Remind yourself: “The system works over decades, not days.”  
+- Celebrate small wins (sticking to the rules) as much as big profits.  
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+EXAMPLE 1 – AMGEN (1999)  
+- Market leader in biotech, price above 200‑day MA, strong RS, new drug pipeline catalyst.  
+- Bought near breakout, sold after 360% move (partial exit).  
+
+EXAMPLE 2 – LUMBER LIQUIDATORS (Turnaround)  
+- Deeply discounted, negative earnings turning positive, triple‑digit earnings growth for two quarters.  
+- Bought at breakout, missed full move but demonstrated leverage (NASDAQ +33% vs stock +240%).  
+
+EXAMPLE 3 – DOCUSIGN (New High‑Ground)  
+- Small‑cap base, breakout on low‑volume base, RS >68, strong earnings acceleration.  
+- Gained 120% while NASDAQ rose 36%.  
+
+EXAMPLE 4 – BROADCOM (IPO Base to Mega‑Move)  
+- IPO base, multi‑year uptrend, RS high, small float, sustained earnings growth.  
+- Delivered 460% gain vs market +60%.  
+
+EXAMPLE 5 – NETFLIX vs BLOCKBUSTER (Top Competitor)  
+- Netflix entered as a mail‑order competitor, low initial RS, but catalyst (streaming) created new high‑ground.  
+- Blockbuster fell, Netflix surged after bandwidth became available.  
+
+EXAMPLE 6 – APPLE TURNAROUND (1998‑2000)  
+- Near‑bankruptcy, Steve Jobs return (catalyst), earnings acceleration, new product pipeline (iPod, iPhone).  
+- Stock moved from negative earnings to market‑leader status.  
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. NEVER BUY A STOCK BELOW ITS 200‑DAY MOVING AVERAGE – this rule is absolute.  
+2. ONLY TRADE STOCKS WITH RELATIVE STRENGTH > 68.  
+3. LOOK FOR EARNINGS ACCELERATION (≥20% QoQ) AND A CLEAR CATALYST BEFORE ENTRY.  
+4. FAVOR MARKET LEADERS, TOP COMPETITORS, AND TURNAROUNDS; avoid CYCLICALS unless you size them tiny.  
+5. KEEP POSITION RISK ≤ 2% OF ACCOUNT AND TOTAL EXPOSURE ≤ 50% OF CAPITAL.  
+6. USE CASH OR MINIMAL MARGIN – let the stock’s price action provide leverage.  
+7. FOLLOW THE SATELLITE → AERIAL → OVERHEAD ANALYSIS FRAMEWORK.  
+8. TAKE DETAILED NOTES IN THE WORKBOOK; write questions with page numbers for Q&A.  
+9. STAY COMMITTED TO ONE STYLE for at least 6‑12 months; STYLE DRIFT kills performance.  
+10. BELIEVE IN THE PROCESS DAILY – open mind, disciplined execution, and continuous learning are your true edge.  
+
+================================================================================
+END OF SUMMARY
+================================================================================
