@@ -2,6 +2,8 @@
 
 > **Personal AI Trading Mentor** — A custom Retrieval-Augmented Generation (RAG) system built on momentum & price action video transcripts. Ask questions and get answers grounded exclusively in your own trading knowledge base.
 
+[![Live Demo](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://trading-rag-mentor.streamlit.app/)
+
 ---
 
 ## 📌 Table of Contents
