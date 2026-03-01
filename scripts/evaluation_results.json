@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "timestamp": "2026-03-01T23:12:59.518235",
+    "num_questions": 12,
+    "k": 6,
+    "mean_retrieval_recall": 0.844
+  },
+  "results": [
+    {
+      "id": "vcp_definition",
+      "question": "What is the Volatility Contraction Pattern (VCP) and how does it work?",
+      "category": "vcp",
+      "retrieval_recall": 0.833,
+      "top_similarity_score": 0.523
+    },
+    {
+      "id": "200_day_ma_rule",
+      "question": "Why should I never buy a stock below its 200-day moving average?",
+      "category": "entries",
+      "retrieval_recall": 0.8,
+      "top_similarity_score": 0.494
+    },
+    {
+      "id": "stop_loss_rule",
+      "question": "How should I set my stop loss according to the trading rules?",
+      "category": "risk_management",
+      "retrieval_recall": 0.8,
+      "top_similarity_score": 0.572
+    },
+    {
+      "id": "market_leader_characteristics",
+      "question": "What are the characteristics of a market leader stock?",
+      "category": "fundamentals",
+      "retrieval_recall": 1.0,
+      "top_similarity_score": 0.52
+    },
+    {
+      "id": "line_of_least_resistance",
+      "question": "What is the line of least resistance and how is it determined?",
+      "category": "vcp",
+      "retrieval_recall": 1.0,
+      "top_similarity_score": 0.468
+    },
+    {
+      "id": "position_sizing",
+      "question": "How should I size my positions to manage risk?",
+      "category": "risk_management",
+      "retrieval_recall": 0.8,
+      "top_similarity_score": 0.58
+    },
+    {
+      "id": "breakout_volume",
+      "question": "What role does volume play in a breakout trade?",
+      "category": "entries",
+      "retrieval_recall": 0.6,
+      "top_similarity_score": 0.452
+    },
+    {
+      "id": "trading_discipline_mindset",
+      "question": "What is important about trading discipline and mindset?",
+      "category": "mindset",
+      "retrieval_recall": 0.8,
+      "top_similarity_score": 0.519
+    },
+    {
+      "id": "relative_strength_threshold",
+      "question": "What relative strength threshold should stocks meet before buying?",
+      "category": "fundamentals",
+      "retrieval_recall": 0.75,
+      "top_similarity_score": 0.44
+    },
+    {
+      "id": "primary_base",
+      "question": "What is a primary base and why is it important?",
+      "category": "entries",
+      "retrieval_recall": 1.0,
+      "top_similarity_score": 0.234
+    },
+    {
+      "id": "cyclical_stocks_avoidance",
+      "question": "Why should traders generally avoid cyclical stocks?",
+      "category": "fundamentals",
+      "retrieval_recall": 0.75,
+      "top_similarity_score": 0.586
+    },
+    {
+      "id": "earnings_acceleration",
+      "question": "Why is earnings acceleration important when selecting stocks?",
+      "category": "fundamentals",
+      "retrieval_recall": 1.0,
+      "top_similarity_score": 0.458
+    }
+  ]
+}

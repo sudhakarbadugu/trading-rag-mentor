@@ -1,0 +1,197 @@
+[
+  {
+    "id": "vcp_definition",
+    "question": "What is the Volatility Contraction Pattern (VCP) and how does it work?",
+    "expected_answer_keywords": [
+      "volatility",
+      "contraction",
+      "supply",
+      "demand",
+      "iterations",
+      "tight",
+      "volume"
+    ],
+    "expected_context_keywords": [
+      "volatility contraction",
+      "VCP",
+      "iterations",
+      "supply",
+      "demand",
+      "tight"
+    ],
+    "category": "vcp"
+  },
+  {
+    "id": "200_day_ma_rule",
+    "question": "Why should I never buy a stock below its 200-day moving average?",
+    "expected_answer_keywords": [
+      "200",
+      "moving average",
+      "uptrend",
+      "winner",
+      "downtrend"
+    ],
+    "expected_context_keywords": [
+      "200-day",
+      "moving average",
+      "uptrend",
+      "downtrend",
+      "never"
+    ],
+    "category": "entries"
+  },
+  {
+    "id": "stop_loss_rule",
+    "question": "How should I set my stop loss according to the trading rules?",
+    "expected_answer_keywords": ["stop", "loss", "risk", "percent", "sell"],
+    "expected_context_keywords": [
+      "stop",
+      "loss",
+      "risk",
+      "percent",
+      "non-negotiable"
+    ],
+    "category": "risk_management"
+  },
+  {
+    "id": "market_leader_characteristics",
+    "question": "What are the characteristics of a market leader stock?",
+    "expected_answer_keywords": [
+      "market leader",
+      "growth",
+      "earnings",
+      "relative strength",
+      "high"
+    ],
+    "expected_context_keywords": [
+      "market leader",
+      "52-week",
+      "relative strength",
+      "earnings",
+      "emerge"
+    ],
+    "category": "fundamentals"
+  },
+  {
+    "id": "line_of_least_resistance",
+    "question": "What is the line of least resistance and how is it determined?",
+    "expected_answer_keywords": ["resistance", "supply", "pivot", "demand"],
+    "expected_context_keywords": [
+      "line of least resistance",
+      "line of most resistance",
+      "supply",
+      "pivot"
+    ],
+    "category": "vcp"
+  },
+  {
+    "id": "position_sizing",
+    "question": "How should I size my positions to manage risk?",
+    "expected_answer_keywords": [
+      "position",
+      "risk",
+      "account",
+      "capital",
+      "percent"
+    ],
+    "expected_context_keywords": [
+      "position",
+      "risk",
+      "capital",
+      "size",
+      "percent"
+    ],
+    "category": "risk_management"
+  },
+  {
+    "id": "breakout_volume",
+    "question": "What role does volume play in a breakout trade?",
+    "expected_answer_keywords": [
+      "volume",
+      "breakout",
+      "demand",
+      "accumulation"
+    ],
+    "expected_context_keywords": [
+      "volume",
+      "breakout",
+      "demand",
+      "low volume",
+      "vacuum"
+    ],
+    "category": "entries"
+  },
+  {
+    "id": "trading_discipline_mindset",
+    "question": "What is important about trading discipline and mindset?",
+    "expected_answer_keywords": ["discipline", "loss", "risk", "capital"],
+    "expected_context_keywords": [
+      "loss",
+      "capital",
+      "risk",
+      "exposure",
+      "trade"
+    ],
+    "category": "mindset"
+  },
+  {
+    "id": "relative_strength_threshold",
+    "question": "What relative strength threshold should stocks meet before buying?",
+    "expected_answer_keywords": ["relative strength", "68", "winner"],
+    "expected_context_keywords": [
+      "relative strength",
+      "68",
+      "RS",
+      "big winner"
+    ],
+    "category": "fundamentals"
+  },
+  {
+    "id": "primary_base",
+    "question": "What is a primary base and why is it important?",
+    "expected_answer_keywords": ["primary", "base", "IPO", "first", "buyable"],
+    "expected_context_keywords": [
+      "primary base",
+      "IPO",
+      "first buyable",
+      "magnitude"
+    ],
+    "category": "entries"
+  },
+  {
+    "id": "cyclical_stocks_avoidance",
+    "question": "Why should traders generally avoid cyclical stocks?",
+    "expected_answer_keywords": [
+      "cyclical",
+      "inverse",
+      "cycle",
+      "pricing",
+      "growth"
+    ],
+    "expected_context_keywords": [
+      "cyclical",
+      "inverse cycle",
+      "commodity",
+      "pricing power"
+    ],
+    "category": "fundamentals"
+  },
+  {
+    "id": "earnings_acceleration",
+    "question": "Why is earnings acceleration important when selecting stocks?",
+    "expected_answer_keywords": [
+      "earnings",
+      "acceleration",
+      "growth",
+      "quarter"
+    ],
+    "expected_context_keywords": [
+      "earnings",
+      "acceleration",
+      "growth",
+      "quarter",
+      "sales"
+    ],
+    "category": "fundamentals"
+  }
+]
