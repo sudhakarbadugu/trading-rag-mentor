@@ -1,0 +1,97 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# .dockerignore — Trading RAG Mentor
+# Exclude everything that should NOT be baked into the production image.
+# Smaller build context = faster builds and no accidental secret leakage.
+# ═══════════════════════════════════════════════════════════════════════════════
+
+# ── Secrets — NEVER ship these into an image ──────────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ── Version control ───────────────────────────────────────────────────────────
+.git/
+.gitignore
+.gitattributes
+
+# ── Python build artefacts ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+MANIFEST
+
+# ── Virtual / conda environments ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+
+# ── Runtime data — provided via Docker volumes, not baked in ─────────────────
+# chroma_db is rebuilt on first start and persisted in a named volume.
+data/chroma_db/
+data/chat_history.db
+
+# ── Test suite ────────────────────────────────────────────────────────────────
+tests/
+scripts/
+
+# ── Documentation ─────────────────────────────────────────────────────────────
+docs/
+README.md
+LICENSE
+CHANGELOG.md
+
+# ── Images / static assets ────────────────────────────────────────────────────
+images/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+
+# ── IDE / editor artefacts ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── CI / DevOps config (not needed inside the image) ─────────────────────────
+.github/
+.circleci/
+.travis.yml
+Makefile
+docker-compose*.yml
+render.yaml
+railway.json
+.pre-commit-config.yaml
+
+# ── Jupyter notebooks ─────────────────────────────────────────────────────────
+*.ipynb
+.ipynb_checkpoints/
+
+# ── Local HuggingFace / torch model cache (large, rebuilt in image) ───────────
+.cache/
+*.cache
+
+# ── Node (just in case a frontend is ever added) ─────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-error.log*

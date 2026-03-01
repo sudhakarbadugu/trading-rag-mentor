@@ -9,11 +9,15 @@ import os
 import logging
 from pathlib import Path
 
+import requests
+from typing import Any
+
 import streamlit as st
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_core.prompts import PromptTemplate
 from langchain_groq import ChatGroq
+from langchain_ollama import ChatOllama
 from langchain_core.language_models import FakeListLLM
 from dotenv import load_dotenv
 
@@ -25,6 +29,83 @@ import tiktoken
 
 logging.basicConfig(level=logging.INFO)
 load_dotenv()
+
+# ── Ollama model catalogue ─────────────────────────────────────────────────────
+# Reflects locally installed models — run `ollama list` to refresh.
+OLLAMA_MODELS = ["gemma3:1b"]
+
+
+def check_ollama_connection(base_url: str) -> bool:
+    """
+    Check whether an Ollama server is reachable.
+
+    Performs a lightweight GET to /api/tags with a 2-second timeout so that
+    the sidebar never blocks the UI for more than a couple of seconds when
+    Ollama is not running.
+
+    Args:
+        base_url: Root URL of the Ollama server (e.g. ``http://localhost:11434``).
+
+    Returns:
+        ``True`` if the server responds with HTTP 200, ``False`` otherwise.
+    """
+    try:
+        resp = requests.get(f"{base_url.rstrip('/')}/api/tags", timeout=2)
+        return resp.status_code == 200
+    except Exception:
+        return False
+
+
+def get_llm(
+    provider: str,
+    model: str,
+    temperature: float,
+    ollama_base_url: str = "http://localhost:11434",
+) -> Any:
+    """
+    Provider-aware LLM factory.
+
+    Returns the appropriate LangChain chat model based on the selected
+    provider.  Falls back to a ``FakeListLLM`` with a descriptive error
+    message so the rest of the app keeps running even on misconfiguration.
+
+    Args:
+        provider: Either ``"Groq (Fast Cloud)"`` or ``"Ollama (Local & Private)"``.
+        model: Model name / ID string (Groq model ID or Ollama model tag).
+        temperature: Sampling temperature in the range [0.0, 1.0].
+        ollama_base_url: Base URL for the local Ollama server.
+
+    Returns:
+        A ``ChatGroq``, ``ChatOllama``, or ``FakeListLLM`` instance.
+    """
+    if provider == "Groq (Fast Cloud)":
+        groq_api_key = os.environ.get("GROQ_API_KEY")
+        if not groq_api_key:
+            return FakeListLLM(
+                responses=["⚠️ GROQ_API_KEY not set. Please add it to your .env file."]
+            )
+        try:
+            return ChatGroq(
+                temperature=temperature,
+                model_name=model,
+                groq_api_key=groq_api_key,
+                streaming=True,
+            )
+        except Exception as exc:
+            logging.error("Failed to initialise ChatGroq: %s", exc)
+            return FakeListLLM(responses=[f"⚠️ Groq initialisation error: {exc}"])
+
+    # ── Ollama path ────────────────────────────────────────────────────────────
+    try:
+        return ChatOllama(
+            model=model,
+            base_url=ollama_base_url,
+            temperature=temperature,
+        )
+    except Exception as exc:
+        logging.error("Failed to initialise ChatOllama: %s", exc)
+        return FakeListLLM(responses=[f"⚠️ Ollama initialisation error: {exc}"])
+
 
 # ── Ensure SQLite schema exists ───────────────────────────────────────────────
 init_db()
@@ -52,6 +133,29 @@ st.caption("Ask anything about my momentum & price action video transcripts")
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.header("⚙️ RAG Configuration")
+
+    # ── LLM Provider ───────────────────────────────────────────────────────────
+    st.subheader("🤖 LLM Provider")
+
+    # Initialise provider choice from env var or default to Groq
+    if "llm_provider" not in st.session_state:
+        st.session_state.llm_provider = os.environ.get("LLM_PROVIDER", "Groq (Fast Cloud)")
+
+    llm_provider = st.radio(
+        "Provider",
+        options=["Groq (Fast Cloud)", "Ollama (Local & Private)"],
+        index=0 if st.session_state.llm_provider == "Groq (Fast Cloud)" else 1,
+        horizontal=True,
+        label_visibility="collapsed",
+        help=(
+            "**Groq** — fast cloud inference, requires GROQ_API_KEY.  \n"
+            "**Ollama** — runs models locally; no data leaves your machine."
+        ),
+    )
+    # Persist across Streamlit reruns
+    st.session_state.llm_provider = llm_provider
+
+    st.divider()
 
     # ── Session management ────────────────────────────────────────────────────
     st.subheader("💬 Chat Session")
@@ -98,21 +202,60 @@ with st.sidebar:
     st.divider()
 
     # ── Model selector ────────────────────────────────────────────────────────
-    st.subheader("🤖 Model")
-    _env_model = os.environ.get("GROQ_MODEL_NAME", "openai/gpt-oss-120b")
-    AVAILABLE_MODELS = [
-        "llama-3.1-8b-instant",
-        "llama-3.3-70b-versatile",
-        "openai/gpt-oss-120b",
-    ]
-    if _env_model not in AVAILABLE_MODELS:
-        AVAILABLE_MODELS.insert(0, _env_model)
-    selected_model = st.selectbox(
-        "Groq Model",
-        options=AVAILABLE_MODELS,
-        index=AVAILABLE_MODELS.index(_env_model),
-        help="Choose the Groq LLM to use for answering questions.",
-    )
+    st.subheader("� Model")
+
+    if llm_provider == "Groq (Fast Cloud)":
+        _env_model = os.environ.get("GROQ_MODEL_NAME", "openai/gpt-oss-120b")
+        _groq_models = [
+            "llama-3.1-8b-instant",
+            "llama-3.3-70b-versatile",
+            "openai/gpt-oss-120b",
+        ]
+        if _env_model not in _groq_models:
+            _groq_models.insert(0, _env_model)
+        selected_model = st.selectbox(
+            "Groq Model",
+            options=_groq_models,
+            index=_groq_models.index(_env_model),
+            help="Groq model to use. Switch anytime — no restart required.",
+        )
+        # Connection status
+        if os.environ.get("GROQ_API_KEY"):
+            st.success("Connected to Groq", icon="🟢")
+        else:
+            st.error("GROQ_API_KEY not set — add it to your .env file.", icon="🔑")
+        # Unused in Groq mode but must be defined for get_llm()
+        ollama_base_url = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434")
+
+    else:  # ── Ollama (Local & Private) ──────────────────────────────────────
+        _env_ollama_model = os.environ.get("OLLAMA_MODEL", "gpt-oss:120b-cloud")
+        _ollama_model_options = list(OLLAMA_MODELS)
+        if _env_ollama_model not in _ollama_model_options:
+            _ollama_model_options.insert(0, _env_ollama_model)
+        selected_model = st.selectbox(
+            "Ollama Model",
+            options=_ollama_model_options,
+            index=_ollama_model_options.index(_env_ollama_model),
+            help="Local model tag served by Ollama. Pull first with `ollama pull <model>`.",
+        )
+        ollama_base_url = st.text_input(
+            "Ollama Base URL",
+            value=os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434"),
+            help="URL where your Ollama server is listening.",
+        )
+        # Connection status + fallback button
+        _ollama_ok = check_ollama_connection(ollama_base_url)
+        if _ollama_ok:
+            st.success("Ollama is running", icon="🟢")
+        else:
+            st.error(
+                "Ollama not running — start with `ollama serve`",
+                icon="🔴",
+            )
+            if st.button("⚡ Switch to Groq", use_container_width=True):
+                st.session_state.llm_provider = "Groq (Fast Cloud)"
+                st.toast("Switched to Groq (Fast Cloud)", icon="⚡")
+                st.rerun()
 
     # ── Temperature ───────────────────────────────────────────────────────────
     st.subheader("🌡️ Temperature")
@@ -158,12 +301,13 @@ with st.sidebar:
 
     st.divider()
     st.caption(
-        "**Model** controls which LLM answers your question.  \n"
-        "**Temperature** controls creativity.  \n"
-        "**k** controls how many transcript chunks are searched.  \n"
-        "**Hybrid Search** enables BM25 + vector retrieval.  \n"
-        "**Re-ranking** uses a cross-encoder for higher precision.  \n"
-        "**Memory** enables follow-up question understanding."
+        "**LLM Provider** — Groq (cloud) or Ollama (local).  \n"
+        "**Model** — which LLM answers your question.  \n"
+        "**Temperature** — creativity vs. determinism.  \n"
+        "**k** — transcript chunks searched per query.  \n"
+        "**Hybrid Search** — BM25 + vector retrieval.  \n"
+        "**Re-ranking** — cross-encoder for higher precision.  \n"
+        "**Memory** — follow-up question understanding."
     )
 
 # ── Build index if needed ─────────────────────────────────────────────────────
@@ -210,20 +354,22 @@ def load_bm25(_vectorstore):
 
 bm25_retriever = load_bm25(vectorstore) if vectorstore else None
 
-# ── Build LLM ─────────────────────────────────────────────────────────────────
+# ── Build LLM via provider-aware factory ─────────────────────────────────────
 prompt = PromptTemplate.from_template(TRADING_MENTOR_PROMPT)
-groq_api_key = os.environ.get("GROQ_API_KEY")
 
-if groq_api_key:
-    llm = ChatGroq(
-        temperature=temperature,
-        model_name=selected_model,
-        groq_api_key=groq_api_key,
-        streaming=True,
-    )
-else:
-    llm = FakeListLLM(
-        responses=["Error: GROQ_API_KEY not set. Please add it to your .env file."]
+llm = get_llm(
+    provider=llm_provider,
+    model=selected_model,
+    temperature=temperature,
+    ollama_base_url=ollama_base_url,
+)
+
+# ── Warn prominently if Ollama was chosen but is unreachable ──────────────────
+if llm_provider == "Ollama (Local & Private)" and not check_ollama_connection(ollama_base_url):
+    st.warning(
+        f"⚠️ **Ollama is not reachable** at `{ollama_base_url}`.  \n"
+        "Start it with `ollama serve` or switch to **Groq** in the sidebar.",
+        icon="🖥️",
     )
 
 # ── Load / sync chat history from SQLite ─────────────────────────────────────

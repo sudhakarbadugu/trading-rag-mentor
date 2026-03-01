@@ -1,0 +1,74 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# docker-compose.yml — Trading RAG Mentor
+# Local development & testing stack
+#
+# Quick-start:
+#   cp .env.example .env          # fill in GROQ_API_KEY
+#   docker compose up             # first start builds the image + indexes docs
+#   docker compose up --build     # force image rebuild (e.g. after code changes)
+#   docker compose down           # stop containers (volumes preserved)
+#   docker compose down -v        # stop + wipe all persistent data (fresh start)
+# ═══════════════════════════════════════════════════════════════════════════════
+
+services:
+  trading-rag-mentor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime          # only build up to the runtime stage
+    image: trading-rag-mentor:local
+    container_name: trading-rag-mentor
+
+    # ── Load secrets from .env (never commit this file) ──────────────────────
+    env_file:
+      - .env                   # must contain at minimum: GROQ_API_KEY=<your_key>
+
+    environment:
+      # Override $PORT for local development — no platform injection needed
+      PORT: "8501"
+      # Ensure offline mode matches the baked-in models
+      TRANSFORMERS_OFFLINE: "1"
+      HF_DATASETS_OFFLINE: "1"
+
+    ports:
+      - "8501:8501"            # http://localhost:8501
+
+    volumes:
+      # ── Persistent runtime data ─────────────────────────────────────────────
+      # Single named volume covers chroma_db/ AND chat_history.db.
+      # Survives `docker compose down`; removed only with `docker compose down -v`.
+      - trading_rag_data:/app/data
+
+      # ── Transcripts: bind-mount for live editing ────────────────────────────
+      # Drop new .txt / .pdf / .json files into data/transcripts/ on the HOST
+      # and the next query will trigger an incremental index rebuild — no
+      # container restart needed. Mounted read-only so the app never mutates them.
+      - ./data/transcripts:/app/data/transcripts:ro
+
+    restart: unless-stopped
+
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      # Give index-build enough time on the very first start
+      start_period: 120s
+      retries: 3
+
+    # ── Resource limits (adjust for your hardware) ───────────────────────────
+    # torch + sentence-transformers benefit from at least 2 GB RAM.
+    deploy:
+      resources:
+        limits:
+          memory: 6G
+        reservations:
+          memory: 2G
+
+# ── Named volumes ──────────────────────────────────────────────────────────────
+# Docker manages these on the host; they are NOT relative to the project folder.
+# Inspect with: docker volume inspect trading-rag-mentor_trading_rag_data
+volumes:
+  trading_rag_data:
+    driver: local
+    labels:
+      com.trading-rag-mentor.description: "ChromaDB vectors + SQLite chat history"

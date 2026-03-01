@@ -162,6 +162,9 @@ def build_index():
     """
     logger.info("Checking for file changes...")
 
+    stored_metadata = load_metadata()
+    new_files, modified_files, deleted_files, current_files = get_changed_files(stored_metadata)
+
     logger.info(f"Detected changes: {len(new_files)} new, {len(modified_files)} modified, {len(deleted_files)} deleted.")
     
     # Initialize embeddings and vectorstore

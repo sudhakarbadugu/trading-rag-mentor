@@ -1,0 +1,74 @@
+# ═══════════════════════════════════════════════════════════════════════════════
+# render.yaml — Trading RAG Mentor
+# Infrastructure-as-Code for Render.com (Blueprint Spec)
+# Docs: https://render.com/docs/blueprint-spec
+#
+# Deploy steps:
+#   1. Push this repo to GitHub / GitLab.
+#   2. In Render dashboard → "New Blueprint" → point to this repo.
+#   3. Render detects render.yaml and provisions the service automatically.
+#   4. Set GROQ_API_KEY in the Render dashboard (Environment → Secret Files).
+# ═══════════════════════════════════════════════════════════════════════════════
+
+services:
+  - type: web
+    name: trading-rag-mentor
+    runtime: docker
+
+    # Path to Dockerfile relative to repo root
+    dockerfilePath: ./Dockerfile
+
+    # ── Instance plan ─────────────────────────────────────────────────────────
+    # starter ($7/mo, 512 MB RAM) is sufficient for personal / low-traffic use.
+    # Upgrade to 'standard' (2 GB) or 'pro' (4 GB) for heavier workloads.
+    # See: https://render.com/pricing
+    plan: starter
+
+    # ── Region ────────────────────────────────────────────────────────────────
+    # Options: oregon | frankfurt | singapore | ohio | virginia
+    region: oregon
+
+    # ── Git branch to auto-deploy from ────────────────────────────────────────
+    branch: main
+    autoDeploy: true          # deploy on every push to `main`
+
+    # ── Health check ──────────────────────────────────────────────────────────
+    # Render marks the deploy as successful only after this path returns 200.
+    healthCheckPath: /_stcore/health
+
+    # ── Environment variables ─────────────────────────────────────────────────
+    envVars:
+      # Render injects $PORT automatically (defaults to 10000 for Docker services).
+      # The Dockerfile CMD uses ${PORT:-8501}, so this is honoured automatically.
+      - key: PORT
+        value: "10000"
+
+      # !! Set this securely in the Render dashboard — do NOT commit the value !!
+      - key: GROQ_API_KEY
+        sync: false           # 'sync: false' prompts you to fill it in the UI
+
+      # Python / app runtime settings
+      - key: PYTHONUNBUFFERED
+        value: "1"
+      - key: STREAMLIT_SERVER_HEADLESS
+        value: "true"
+      - key: STREAMLIT_BROWSER_GATHER_USAGE_STATS
+        value: "false"
+
+      # Use models baked into the Docker image — no runtime download
+      - key: TRANSFORMERS_OFFLINE
+        value: "1"
+      - key: HF_DATASETS_OFFLINE
+        value: "1"
+
+    # ── Persistent disk ───────────────────────────────────────────────────────
+    # Render attaches this disk to the container at the specified mountPath.
+    # It survives deploys and container restarts — ChromaDB + chat history
+    # are stored here so the knowledge base and sessions are never lost.
+    #
+    # Pricing: ~$0.25 / GB / month (billed separately from the instance plan).
+    # Increase sizeGB as your transcript library grows.
+    disk:
+      name: trading-rag-data
+      mountPath: /app/data
+      sizeGB: 5
