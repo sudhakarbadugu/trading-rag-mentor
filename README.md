@@ -43,24 +43,33 @@ This project is a **personal AI coach** that answers trading questions strictly 
 - **SQLite** for persistent multi-session chat history
 - **Streamlit** for the interactive web UI with live sidebar controls
 
-The AI will **only** answer from your transcripts. If the answer isn't in your notes, it replies: _"Not in my notes."_
+The AI will **only** answer from your transcripts. If the answer isn't in your notes, it replies:
+
+> "I am a **Retrieval-Augmented Generation (RAG)** assistant — not a general AI chatbot like ChatGPT.
+>
+> I can ONLY answer questions using the trading transcripts, notes, and documents you have uploaded.  
+> I have zero access to real-time data, the internet, live market prices, or any knowledge outside your files.
+>
+> I searched the provided excerpts but could not find any relevant information to answer your question accurately.
+>
+> Please try rephrasing your question or upload more relevant transcripts!"
 
 ---
 
 ## Features
 
-| Feature                           | Details                                                                            |
-| --------------------------------- | ---------------------------------------------------------------------------------- |
-| 🔍 **RAG pipeline**               | Semantic search over your transcripts using ChromaDB + HuggingFace embeddings      |
-| 🗂️ **Multi-session chat history** | Conversations persist across browser refreshes in SQLite                           |
-| ⚙️ **Live sidebar configuration** | Switch model, adjust temperature and retrieval count (`k`) without restarting      |
-| 📄 **Source citations**           | Every answer shows which transcripts were retrieved                                |
-| 🟢 **Relevance score badges**     | Each source shows a colour-coded match % (green / yellow / red)                    |
-| 🧪 **Evaluation test suite**      | 18 pytest tests covering index integrity, retrieval quality, and prompt validation |
-| 🧠 **Conversational memory**      | Follow-up questions auto-reformulated into standalone queries using chat context   |
-| 🔀 **Hybrid search**              | BM25 keyword matching + vector similarity via EnsembleRetriever for better recall  |
-| 📊 **Cross-encoder re-ranking**   | Re-ranks retrieved chunks with `ms-marco-MiniLM-L-6-v2` for higher precision       |
-| 📁 **Multi-format ingestion**     | Supports `.txt`, `.pdf`, and `.json` transcript files                              |
+| Feature                           | Details                                                                                |
+| --------------------------------- | -------------------------------------------------------------------------------------- |
+| 🔍 **RAG pipeline**               | Semantic search over your transcripts using ChromaDB + HuggingFace embeddings          |
+| 🗂️ **Multi-session chat history** | Conversations persist across browser refreshes in SQLite                               |
+| ⚙️ **Live sidebar configuration** | Switch model, adjust temperature and retrieval count (`k`) without restarting          |
+| 📄 **Source citations**           | Every answer shows which transcripts were retrieved                                    |
+| 🟢 **Relevance score badges**     | Each source shows a colour-coded match % (green / yellow / red)                        |
+| 🧪 **Evaluation test suite**      | 18 pytest tests covering index integrity, retrieval quality, and prompt validation     |
+| 🧠 **Conversational memory**      | Follow-up questions auto-reformulated into standalone queries using chat context       |
+| 🔀 **Hybrid search**              | BM25 keyword matching + vector similarity via EnsembleRetriever for better recall      |
+| 📊 **Cross-encoder re-ranking**   | Re-ranks retrieved chunks with `ms-marco-MiniLM-L-6-v2` for higher precision           |
+| 📁 **Multi-format ingestion**     | Supports `.txt`, `.pdf`, and `.json` transcript files                                  |
 | 🦙 **Ollama support**             | Run any local model (Llama, Gemma, Mistral, Qwen…) with zero data leaving your machine |
 
 ---
@@ -109,13 +118,13 @@ graph TD
 
 Ensure the following are installed on your system before proceeding:
 
-| Requirement         | Version | Notes                                                           |
-| ------------------- | ------- | --------------------------------------------------------------- |
-| **Python**          | 3.9+    | [Download](https://www.python.org/downloads/)                   |
-| **pip**             | Latest  | Comes with Python                                               |
-| **`jq`** (CLI tool) | Any     | Required for JSON document loading — `brew install jq` on macOS |
-| **Groq API Key**    | —       | Free at [console.groq.com](https://console.groq.com) *(only needed for Groq provider)* |
-| **Ollama**          | Latest  | [ollama.com](https://ollama.com) — only needed for local inference |
+| Requirement         | Version | Notes                                                                                  |
+| ------------------- | ------- | -------------------------------------------------------------------------------------- |
+| **Python**          | 3.9+    | [Download](https://www.python.org/downloads/)                                          |
+| **pip**             | Latest  | Comes with Python                                                                      |
+| **`jq`** (CLI tool) | Any     | Required for JSON document loading — `brew install jq` on macOS                        |
+| **Groq API Key**    | —       | Free at [console.groq.com](https://console.groq.com) _(only needed for Groq provider)_ |
+| **Ollama**          | Latest  | [ollama.com](https://ollama.com) — only needed for local inference                     |
 
 > **Note:** An internet connection is required on first run to download the HuggingFace embedding model (`~90 MB`). After that, it works fully offline for embeddings. With Ollama, **inference is also fully offline**.
 
@@ -176,13 +185,13 @@ GROQ_MODEL_NAME=openai/gpt-oss-120b
 # OLLAMA_MODEL=gemma3:1b
 ```
 
-| Variable           | Required          | Description                                                                      |
-| ------------------ | ----------------- | -------------------------------------------------------------------------------- |
-| `GROQ_API_KEY`     | ✅ For Groq       | Your Groq API key — get one free at [console.groq.com](https://console.groq.com) |
-| `GROQ_MODEL_NAME`  | Optional          | Default Groq model shown in the sidebar                                          |
-| `LLM_PROVIDER`     | Optional          | Pre-select provider on launch: `Groq (Fast Cloud)` or `Ollama (Local & Private)` |
-| `OLLAMA_BASE_URL`  | Optional          | Ollama server URL — default `http://localhost:11434`                             |
-| `OLLAMA_MODEL`     | Optional          | Default Ollama model tag — default `gemma3:1b`                                   |
+| Variable          | Required    | Description                                                                      |
+| ----------------- | ----------- | -------------------------------------------------------------------------------- |
+| `GROQ_API_KEY`    | ✅ For Groq | Your Groq API key — get one free at [console.groq.com](https://console.groq.com) |
+| `GROQ_MODEL_NAME` | Optional    | Default Groq model shown in the sidebar                                          |
+| `LLM_PROVIDER`    | Optional    | Pre-select provider on launch: `Groq (Fast Cloud)` or `Ollama (Local & Private)` |
+| `OLLAMA_BASE_URL` | Optional    | Ollama server URL — default `http://localhost:11434`                             |
+| `OLLAMA_MODEL`    | Optional    | Default Ollama model tag — default `gemma3:1b`                                   |
 
 > **Security:** `.env` is listed in `.gitignore` and will never be committed. Never share this file.
 
@@ -223,7 +232,10 @@ Open **[http://localhost:8501](http://localhost:8501)** in your browser.
    - **Action Steps** — what to watch for on the chart
 3. Below the answer, expand **📄 Sources** to see which transcripts were retrieved and how well they matched.
 
-> If the question isn't covered in your transcripts, the response will be: **"Not in my notes."**
+> If the question isn't covered in your transcripts, the response will be:
+>
+> **"I am a Retrieval-Augmented Generation (RAG) assistant...**  
+> _(Displays the full strict out-of-bounds message explaining it only uses your notes and has no internet access)._
 
 ---
 
@@ -235,10 +247,10 @@ The **⚙️ RAG Configuration** sidebar lets you tune the pipeline live without
 
 At the top of the sidebar, a **🤖 LLM Provider** radio button lets you switch between:
 
-| Option | Description |
-|---|---|
-| **Groq (Fast Cloud)** | Calls the Groq API — fastest inference, requires `GROQ_API_KEY` |
-| **Ollama (Local & Private)** | Runs a model on your machine — no data leaves your network |
+| Option                       | Description                                                     |
+| ---------------------------- | --------------------------------------------------------------- |
+| **Groq (Fast Cloud)**        | Calls the Groq API — fastest inference, requires `GROQ_API_KEY` |
+| **Ollama (Local & Private)** | Runs a model on your machine — no data leaves your network      |
 
 A **connection status badge** appears below the toggle — 🟢 Connected or 🔴 Not running. If Ollama is unreachable, an **⚡ Switch to Groq** button appears so you can fall back instantly.
 
@@ -246,12 +258,13 @@ A **connection status badge** appears below the toggle — 🟢 Connected or �
 
 When Ollama is selected, two additional controls appear:
 
-| Control | Default | Description |
-|---|---|---|
-| **Ollama Model** | `gemma3:1b` | Selectbox of your locally installed models |
+| Control             | Default                  | Description                                                 |
+| ------------------- | ------------------------ | ----------------------------------------------------------- |
+| **Ollama Model**    | `gemma3:1b`              | Selectbox of your locally installed models                  |
 | **Ollama Base URL** | `http://localhost:11434` | URL of your Ollama server — change for remote/Docker Ollama |
 
 **Quick Ollama setup:**
+
 ```bash
 # Install Ollama
 brew install ollama       # macOS
@@ -428,12 +441,12 @@ docker compose down -v        # stop + wipe all persistent data
 4. Set `GROQ_API_KEY` in **Environment → Secret Files** (never hardcode it).
 5. Every push to `main` triggers an auto-deploy.
 
-| Setting | Value |
-|---|---|
-| Instance | `starter` ($7/mo) — upgrade to `standard` for production |
-| Port | `10000` (injected as `$PORT` automatically) |
-| Persistent disk | `/app/data` — 5 GB (covers ChromaDB + chat history) |
-| Health check | `/_stcore/health` |
+| Setting         | Value                                                    |
+| --------------- | -------------------------------------------------------- |
+| Instance        | `starter` ($7/mo) — upgrade to `standard` for production |
+| Port            | `10000` (injected as `$PORT` automatically)              |
+| Persistent disk | `/app/data` — 5 GB (covers ChromaDB + chat history)      |
+| Health check    | `/_stcore/health`                                        |
 
 ### Deploy to Railway.app
 
@@ -443,12 +456,12 @@ docker compose down -v        # stop + wipe all persistent data
 4. Add `GROQ_API_KEY` in the **Variables** tab.
 5. Add a **Volume** in Railway and mount it at `/app/data` to persist ChromaDB across deploys.
 
-| Setting | Value |
-|---|---|
-| Builder | Dockerfile |
-| Port | Injected automatically as `$PORT` |
-| Health check | `/_stcore/health` (120 s timeout) |
-| Restart policy | On failure, max 3 retries |
+| Setting        | Value                             |
+| -------------- | --------------------------------- |
+| Builder        | Dockerfile                        |
+| Port           | Injected automatically as `$PORT` |
+| Health check   | `/_stcore/health` (120 s timeout) |
+| Restart policy | On failure, max 3 retries         |
 
 ---
 
@@ -490,23 +503,23 @@ trading-rag-mentor/
 
 ## Troubleshooting
 
-| Problem                               | Solution                                                     |
-| ------------------------------------- | ------------------------------------------------------------ |
-| `GROQ_API_KEY not set` error          | Ensure `.env` exists in the project root with your key       |
-| `No documents found to index`         | Make sure files exist in `data/transcripts/`                 |
-| Old answers after adding transcripts  | Delete `data/chroma_db/` and restart the app                 |
-| `jq` not found                        | `brew install jq` (macOS) or `apt install jq` (Linux)        |
-| Embeddings download is slow           | First-run only; cached in `~/.cache/huggingface/` after that |
-| Port 8501 already in use              | Run `streamlit run src/app.py --server.port 8502`            |
-| Tests fail with `chroma_db not built` | Run the app once first to build the index, then run tests    |
-| Ollama — 🔴 Not running badge         | Run `ollama serve` in a separate terminal                    |
-| Ollama — model not found error        | Run `ollama pull <model-name>` to download the model first   |
-| Ollama — slow first response          | Model is loading into RAM; subsequent queries are faster     |
-| Ollama — out of memory                | Use a smaller model (e.g. `gemma3:1b`) or increase RAM       |
-| Docker build fails on spaCy model     | Ensure internet access during `docker build` (model download) |
+| Problem                               | Solution                                                                         |
+| ------------------------------------- | -------------------------------------------------------------------------------- |
+| `GROQ_API_KEY not set` error          | Ensure `.env` exists in the project root with your key                           |
+| `No documents found to index`         | Make sure files exist in `data/transcripts/`                                     |
+| Old answers after adding transcripts  | Delete `data/chroma_db/` and restart the app                                     |
+| `jq` not found                        | `brew install jq` (macOS) or `apt install jq` (Linux)                            |
+| Embeddings download is slow           | First-run only; cached in `~/.cache/huggingface/` after that                     |
+| Port 8501 already in use              | Run `streamlit run src/app.py --server.port 8502`                                |
+| Tests fail with `chroma_db not built` | Run the app once first to build the index, then run tests                        |
+| Ollama — 🔴 Not running badge         | Run `ollama serve` in a separate terminal                                        |
+| Ollama — model not found error        | Run `ollama pull <model-name>` to download the model first                       |
+| Ollama — slow first response          | Model is loading into RAM; subsequent queries are faster                         |
+| Ollama — out of memory                | Use a smaller model (e.g. `gemma3:1b`) or increase RAM                           |
+| Docker build fails on spaCy model     | Ensure internet access during `docker build` (model download)                    |
 | Container OOM killed                  | Increase memory limit in `docker-compose.yml` (`deploy.resources.limits.memory`) |
-| Render deploy stuck at health check   | Check logs — index build on first start can take 2–3 minutes |
-| Railway volume not persisting         | Attach a Volume in Railway dashboard and mount at `/app/data` |
+| Render deploy stuck at health check   | Check logs — index build on first start can take 2–3 minutes                     |
+| Railway volume not persisting         | Attach a Volume in Railway dashboard and mount at `/app/data`                    |
 
 ---
 

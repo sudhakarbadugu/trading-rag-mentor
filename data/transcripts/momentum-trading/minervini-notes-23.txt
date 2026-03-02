@@ -1,0 +1,205 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – THE HARDER SIDE IS SELLING FOR PROFIT  
+Why it matters:  Most traders focus on stop‑losses (the “loss side”).  The real challenge is deciding when to take profits or move to a new trade without letting emotion dictate the decision.  
+How to apply:  After you buy, monitor the first 5‑10 days.  Use the “natural reaction” pattern (see below) to decide whether to hold, add, or sell part of the position.
+
+KEY IDEA 2 – VOLATILITY CONTRACTION PATTERN (VCP) AND THE PIVOT POINT  
+Why it matters:  A tight VCP shows that supply is drying up and the stock is ready to break out.  The pivot (the low of the VCP) is the “buy point.”  
+How to apply:  Look for a well‑defined price range that contracts (e.g., 30% → 15% → 8%).  The breakout should occur above the pivot with a volume surge.
+
+KEY IDEA 3 – TENNIS‑BALL ACTION (FAST REBOUND)  
+Why it matters:  After a breakout, a quick bounce back to new highs signals strong buying pressure and a high probability of a larger move.  
+How to apply:  Count the days of pull‑back after the breakout.  If the stock recovers to the breakout level in ≤ 6‑8 days (often 1‑3 days), it has tennis‑ball action.  Favor these stocks for longer holds or add‑on positions.
+
+KEY IDEA 4 – FOLLOW‑THROUGH BUYING  
+Why it matters:  Immediate buying pressure after the breakout confirms that the breakout is genuine.  
+How to apply:  Look for 1‑2 days of buying volume and price increases right after the breakout.  More up‑days than down‑days, and more good closes than bad closes, reinforce the signal.
+
+KEY IDEA 5 – NATURAL REACTIONS (Pull‑backs)  
+Why it matters:  A healthy pull‑back is short, shallow, and quickly erased.  It shows the stock is “resting” before the next leg.  
+How to apply:  After the breakout, expect 4‑8 days of modest decline (single‑digit %).  The stock should rebound to new highs within a few days.  If the pull‑back drags on or deepens, treat it as a warning sign.
+
+KEY IDEA 6 – SELL‑IN‑STRENGTH VS. HOLDING FOR BIGGER MOVES  
+Why it matters:  Swing traders often sell after 1‑2 natural reactions; long‑term traders stay through 2‑3 reactions.  The goal is to capture the “efficient move” and avoid large volatility that erodes the equity curve.  
+How to apply:  Decide your trade horizon before entering.  If you are a swing trader, plan to sell part or all after the first or second natural reaction.  If you aim for a big move, be prepared to ride through 2‑3 reactions and manage risk with stops or partial exits.
+
+KEY IDEA 7 – NO‑NOS (Violation Signals)  
+Why it matters:  Certain price/volume patterns after a breakout indicate the trade is likely to fail.  
+How to apply:  Watch for any of the following within the first week:  
+- Breakout on low volume followed by high‑volume pull‑back.  
+- Close below the 20‑day or 50‑day moving average.  
+- High volume on the downside and low volume on the upside.  
+- Multiple lower lows with increasing volume.  
+If you see a violation, consider exiting immediately.
+
+KEY IDEA 8 – REINTRODUCTION OF SUPPLY  
+Why it matters:  When a stock that was tight suddenly sees high volume on a pull‑back, new sellers are entering, weakening the move.  
+How to apply:  Compare volume on the breakout (should be high) to volume on the pull‑back.  If pull‑back volume > breakout volume, treat it as a supply re‑introduction and prepare to exit.
+
+KEY IDEA 9 – PIVOT FAILURE RESET & BASE FAILURE RESET  
+Why it matters:  A pivot that is undercut but then tightens again can produce a stronger setup (reset).  Ignoring a reset wastes a high‑probability trade.  
+How to apply:  If the pivot fails (price falls below the low) but the price quickly contracts again and forms a tighter range, consider re‑entering.  The count of contractions restarts (still a single‑digit pull‑back is acceptable).
+
+KEY IDEA 10 – COUNTING CONTRACTIONS  
+Why it matters:  The VCP “count” (1‑2‑3…) helps you know when the pattern is tight enough to buy.  
+How to apply:  Each time the price contracts to a smaller percentage range, increment the count.  A count of 3 or more with single‑digit pull‑back is generally buyable.  If the price widens, the count resets.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- VCP (Volatility Contraction Pattern) – tightening price range, low volatility, breakout on volume.  
+- Pivot Point / Buy Point – the low of the VCP; entry is placed slightly above it (5‑20% above recent high).  
+- Natural Reaction – short pull‑back after breakout; typically 4‑8 days, shallow, quickly erased.  
+- Tennis‑Ball Action – rapid rebound to new highs after a pull‑back; indicates strong buying.  
+- Follow‑Through Buying – immediate buying pressure after breakout (1‑2 days of up moves).  
+- Sell‑In‑Strength – exiting into a strong up‑move to protect gains and keep equity curve smooth.  
+- Swing vs. Short‑Term Trade Horizon – swing: hold 1‑2 natural reactions; short‑term: exit on first move.  
+- No‑Nos / Violation Screen – low‑volume breakout, high‑volume pull‑back, close below 20‑/50‑day MA, multiple lower lows, high volume on downside.  
+- Reintroduction of Supply – high volume on pull‑back after a tight breakout, signaling new sellers.  
+- Pivot Failure Reset – undercut of pivot followed by a tighter range; opportunity to re‑enter.  
+- Base Failure Reset – similar to pivot reset but on a larger base; the pattern tightens again after a failure.  
+- Contraction Count – tracking how many times volatility has contracted; count ≥ 3 is a strong signal.  
+- Relative Strength – stock must be above its 200‑day MA, and the 200‑day must be trending up for at least 3‑5 months.  
+- Position Sizing – implied by “sell part to finance risk” and “keep drawdowns minimal.”  
+- Risk Management – predetermined stop‑loss, avoid holding stocks that fall below 20‑/50‑day MA, limit drawdowns to single‑digit percentages.  
+- Psychology – accept that all stocks are “bad” until they prove themselves; treat mistakes as learning, not as a reason to double‑down.  
+- “Buy tennis balls, sell eggs” (Bill Berger) – focus on high‑probability, low‑risk setups (tennis balls) and avoid low‑probability, high‑risk trades (eggs).
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Identify a clean VCP with at least three contraction steps before buying.  
+- Enter a few percent above the pivot (5‑20% above recent high).  
+- Use a stop‑loss just below the 20‑day MA (or below the pivot if tighter).  
+- Look for immediate follow‑through buying and volume surge on breakout.  
+- Monitor the first natural reaction; if the stock rebounds quickly (tennis‑ball action), consider holding or adding.  
+- Sell into strength after 1‑2 natural reactions for swing trades; keep a portion for a larger move if you’re long‑term.  
+- Re‑enter after a pivot failure reset if the price contracts again and the count remains ≥ 3.  
+- Keep the equity curve smooth: exit before large volatility expands the drawdown.  
+- Review each trade after market close; note violations and successes.  
+- Keep a “no‑nos” checklist and act immediately on any violation.
+
+DON'T:
+- Buy a breakout on low volume without immediate follow‑through buying.  
+- Hold a stock that closes below the 20‑day or 50‑day moving average within the first week.  
+- Ignore high volume on a pull‑back; that is a supply re‑introduction signal.  
+- Let a stock run deep into a pull‑back (more than 8‑10 days) without a clear rebound.  
+- Add to a position that shows multiple lower lows with increasing volume.  
+- Trade a stock that is more than 20‑25% off its recent high unless you have a very strong VCP.  
+- Assume a trade is safe because of past performance; each trade must meet the current criteria.  
+- Let emotions dictate selling; stick to the pre‑planned exit strategy.  
+- Over‑trade; keep position size such that a single loss does not exceed your max loss per trade (typically 1‑2% of account).  
+- Forget to reset the contraction count after a pivot failure; treat the new tighter range as a fresh setup.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Stock above 200‑day MA, and the 200‑day itself is trending up for ≥ 3‑5 months.  
+- Clear VCP: price range contracts from wide (e.g., 30%) → medium (15%) → tight (≤ 8%).  
+- Pivot low is visible; breakout occurs above the pivot with a volume spike.  
+
+PRICE / VOLUME BEHAVIOR
+- Breakout volume ≥ 2‑3× average daily volume.  
+- Immediate follow‑through buying: 1‑2 days of up moves, volume stays elevated.  
+- Natural reaction: 4‑8 days of modest decline (≤ 5‑8%); volume on pull‑back is low.  
+- Tennis‑ball action: rebound to breakout level within ≤ 6 days, often in 1‑3 days, with volume surge on the rebound.  
+- Violations: low breakout volume, high pull‑back volume, close below 20‑/50‑day MA, multiple lower lows with rising volume.
+
+BUY POINT
+- Place entry 5‑20% above the pivot low (or just above the breakout candle’s high).  
+- Confirm with at least one contraction count ≥ 3 and follow‑through buying.
+
+CONFIRMATION SIGNALS
+- > 50% of days in the first 9‑day window are up days.  
+- Good closes (close > open) outnumber bad closes.  
+- Volume pattern: high on up moves, low on pull‑backs.  
+- No “no‑no” violations in the first week.
+
+DANGER SIGNS / INVALIDATIONS
+- Close below 20‑day MA (or 50‑day MA) within first 5‑7 days.  
+- Pull‑back lasting > 10 days or > 10% decline.  
+- High volume on pull‑back exceeding breakout volume.  
+- Multiple lower lows with increasing volume.  
+- Re‑introduction of supply (sharp volume spike on downside).  
+- Failure to rebound to new high ground within 6‑8 days.
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Scan for stocks > 200‑day MA, 200‑day trending up ≥ 3 months.  
+- Run VCP screen: ≥ 3 contraction steps, pivot low identified, price ≤ 20% off recent high.  
+- Verify breakout volume ≥ 2× average and no recent “no‑no” flags.  
+- Set alerts for follow‑through buying and natural reaction start.  
+- Determine position size (max 1‑2% of account risk).  
+- Pre‑place stop‑loss just below 20‑day MA or pivot low.
+
+MARKET HOURS DISCIPLINE
+- Execute entry only after confirming breakout and follow‑through buying.  
+- Record entry price, stop‑loss, target (based on 2‑3× risk).  
+- Monitor volume and price action every 30‑60 minutes for the first 5 days.  
+- If a violation appears (e.g., close below 20‑day MA), exit immediately.  
+- For swing trades: consider partial profit take after first natural reaction (sell 50‑75%).  
+- For longer‑term trades: hold after first reaction, add only if tennis‑ball action confirmed.
+
+POST‑MARKET REVIEW TASKS
+- Log the trade: entry, stop, exit, reason for exit (profit, violation, reset).  
+- Review natural reaction length, volume pattern, and whether tennis‑ball action occurred.  
+- Update “no‑nos” list with any new violation patterns observed.  
+- Compare actual drawdown to planned risk; adjust position sizing if needed.  
+- Note any psychological reactions (fear, greed) and how you handled them.
+
+RISK CONTROL REMINDERS
+- Never risk more than 1‑2% of total capital on a single trade.  
+- Stop‑loss must be honored; no moving it further away after entry.  
+- If the stock breaches the 20‑day MA, exit regardless of profit.  
+- Keep overall portfolio drawdown below 10% (annual target).  
+
+MINDSET REINFORCEMENT (Mark style)
+- Treat every stock as “bad” until it proves it’s a tennis‑ball.  
+- Accept that mistakes happen; focus on learning, not on recouping losses.  
+- Remember Bill Berger’s mantra: “Buy tennis balls, sell eggs.”  Stay in high‑probability setups.  
+- Visualize the “train on schedule” – if the train (price) is late or off‑track, get off.  
+- Keep emotions out of the exit decision; follow the pre‑planned rule.  
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. LULULEMON (VCP) – Tight contraction, breakout, short pull‑back of 2‑3 days, rapid rebound to new high (tennis‑ball).  Held for a larger move.  
+2. NETFLIX – Pull‑back of 5 days, then rebound in 1 day with volume surge; strong tennis‑ball, kept a portion for a bigger move.  
+3. CENTRAL GARDEN PET (CENT) – Multiple natural reactions (up to 4); sold into strength after the third reaction.  
+4. LUMBER LIQUIDATORS – Low‑volume breakout, high‑volume pull‑back, closed below 20‑day MA → immediate exit (no‑no).  
+5. TRTN – Pivot failure with high volume on downside, multiple lower lows → reduced position quickly, then exited.  
+6. GT ADVANCED TECHNOLOGIES – Initially good VCP, then sudden loss of tennis‑ball action, deep pull‑back, eventual 99% loss – illustrates the danger of ignoring violations.  
+7. NVIDIA – Example of a reset: pivot undercut, price re‑tightened, count restarted, then a strong breakout followed.  
+
+Each example reinforces the same checklist: VCP → breakout volume → follow‑through → natural reaction → tennis‑ball → decide hold/sell; violations trigger immediate exit.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. Only trade stocks above a rising 200‑day MA; the 200‑day must have been up ≥ 3‑5 months.  
+2. Look for a VCP with at least three contraction steps (single‑digit pull‑back).  
+3. Enter a few percent above the pivot low; use a stop just below the 20‑day MA.  
+4. Confirm breakout with high volume and at least one day of follow‑through buying.  
+5. Expect a short natural reaction (4‑8 days, ≤ 8% decline).  
+6. Tennis‑ball action = rebound to new high within ≤ 6 days; treat as a green light for longer holds.  
+7. Sell into strength after 1‑2 natural reactions for swing trades; keep a portion for big moves if tennis‑ball persists.  
+8. Immediate “no‑no” violations (low breakout volume, high pull‑back volume, close < 20‑day MA) = exit now.  
+9. Re‑enter only after a pivot failure reset if the price re‑contracts and the count stays ≥ 3.  
+10. Keep each trade’s risk ≤ 2% of account; honor stops, avoid emotional exits, and review every trade after market close.
+
+================================================================================
+END OF SUMMARY
+================================================================================

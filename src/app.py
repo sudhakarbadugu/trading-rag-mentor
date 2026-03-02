@@ -132,6 +132,41 @@ st.caption("Ask anything about my momentum & price action video transcripts")
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
+    st.header("📁 Data Management")
+    uploaded_files = st.file_uploader(
+        "Upload Transcripts (.txt, .pdf < 2MB)", 
+        type=["txt", "pdf"], 
+        accept_multiple_files=True,
+    )
+    
+    if uploaded_files:
+        TRANSCRIPTS_DIR = Path(__file__).resolve().parent.parent / "data" / "transcripts" / "uploads"
+        TRANSCRIPTS_DIR.mkdir(parents=True, exist_ok=True)
+        
+        for uploaded_file in uploaded_files:
+            if uploaded_file.size > 2 * 1024 * 1024:
+                st.error(f"File {uploaded_file.name} exceeds 2MB limit.")
+                continue
+                
+            save_path = TRANSCRIPTS_DIR / uploaded_file.name
+            with open(save_path, "wb") as f:
+                f.write(uploaded_file.getbuffer())
+            st.success(f"Saved {uploaded_file.name}")
+
+    if st.button("🔄 Re-index", use_container_width=True):
+        with st.spinner("Building index..."):
+            try:
+                build_index()
+                st.cache_resource.clear()
+                st.success("Indexing complete!")
+                import time
+                time.sleep(1)
+                st.rerun()
+            except Exception as e:
+                st.error(f"Failed to re-index: {e}")
+
+    st.divider()
+
     st.header("⚙️ RAG Configuration")
 
     # ── LLM Provider ───────────────────────────────────────────────────────────

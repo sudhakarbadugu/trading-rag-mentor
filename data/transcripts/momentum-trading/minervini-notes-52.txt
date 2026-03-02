@@ -1,0 +1,240 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – PIVOT POINTS  
+Why it matters: A pivot is the exact price where a breakout becomes “buyable.” If the stock fails to stay above the pivot it is a false breakout.  
+How to apply: Wait for the price to cross the pivot and close above it (or hit the pivot on a pull‑back). Only enter at the pivot or a few cents below; do not chase a stock that has already spiked 10% and fallen back.
+
+KEY IDEA 2 – VOLATILITY CONTRACTION PATTERN (VCP)  
+Why it matters: VCP shows a tightening price range and decreasing volume, indicating supply is being exhausted. This is the “low‑volatility” entry zone.  
+How to apply: Look for a series of tightening pull‑backs (usually 3‑5). The final pull‑back should be the tightest and occur near the right side of the base. Enter at the breakout from that tight area.
+
+KEY IDEA 3 – CHEATS, LOW CHEATS, HANDLES, POWER PLAYS  
+Why it matters: Different stages of a base have different risk/reward profiles. Low cheats are early, high‑risk; cheats and handles are more reliable; power plays are rare but can be huge.  
+How to apply:  
+- Low cheat: buy if the setup meets all VCP criteria even without a handle.  
+- Cheat: buy after the low cheat if the price contracts further.  
+- Handle: buy after the cheat when a clear handle forms and the breakout clears all supply.  
+- Power play: a very short, tight base (often <2 weeks) that breaks out with strong volume.
+
+KEY IDEA 4 – SCREENING TIME MANAGEMENT  
+Why it matters: Efficient screening lets you focus on high‑probability setups without wasting hours.  
+How to apply:  
+- Weekends: 2‑3 hours of heavy screening (full scan, flag potential bases).  
+- Weekdays: 30 minutes to 1 hour pre‑market to review flagged names, news, earnings.  
+- Keep a “watch‑list” (buyable now) and a “buy‑list” (needs confirmation).
+
+KEY IDEA 5 – RISK MANAGEMENT & STOP‑LOSS PLACEMENT  
+Why it matters: Protecting capital is more important than catching every big winner.  
+How to apply:  
+- Place a hard stop as soon as you buy, typically 4‑6 % below the entry (or just below the pivot low).  
+- Move stop to break‑even once the trade is 5‑6 % in profit.  
+- Use staggered stops only in highly volatile markets to keep half the position alive.  
+- Do NOT use trailing stops that trail too tightly; they get “whipped” in whipsaw markets.
+
+KEY IDEA 6 – PROGRESSIVE EXPOSURE (ADDING POSITION SIZE)  
+Why it matters: When a trade works, you should increase exposure quickly; when it fails, cut back fast.  
+How to apply:  
+- Start with a quarter position.  
+- If the trade moves +5‑6 % and other setups are also working, add another quarter (or a half).  
+- If the trade stalls or market pressure rises, stop adding and consider reducing.  
+- Base the decision on “traction” – how many setups are working, how the market feels, and your current portfolio heat.
+
+KEY IDEA 7 – OPEN vs CLOSED PROFITS & “LEANING ON PROFIT”  
+Why it matters: Open profit can be used as “capital” to fund new trades without adding fresh cash. Closed profit can be used to increase overall exposure.  
+How to apply:  
+- When a trade is +10 % and you have a 2 % average gain target, you may sell half, lock in profit, and use that cash to fund a new breakout.  
+- Never let an open profit turn into a loss by holding a losing position too long; protect the gain with a stop.
+
+KEY IDEA 8 – MARKET TREND IDENTIFICATION  
+Why it matters: The overall market must be in an up‑trend for SEPA to work.  
+How to apply:  
+- 50‑day MA above 200‑day MA, and 200‑day MA trending up.  
+- S&P 500 pull‑backs limited to 2‑5 % (shallow).  
+- If the market is choppy or the VIX is high, reduce exposure and focus on tighter VCPs.
+
+KEY IDEA 9 – FUNDAMENTALS ARE SECONDARY  
+Why it matters: The chart is the final arbiter. Good earnings, sales, or news do not override a broken VCP.  
+How to apply: Check earnings and news for context, but if the price action fails the technical criteria, stay out.
+
+KEY IDEA 10 – PSYCHOLOGY & DISCIPLINE  
+Why it matters: The edge comes from consistent rule‑following, not from “getting lucky.”  
+How to apply:  
+- Treat every trade as a probability game (like poker).  
+- Accept that you will miss some leaders and catch some losers.  
+- Stick to the plan; do not change it mid‑trade because of “market pressure.”  
+- Review trades daily, keep a loss‑limit (1‑2 % of equity per trade), and never risk more than your total risk budget.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- VCP (Volatility Contraction Pattern): tightening price action with decreasing volume, usually 3‑5 pull‑backs, ending in a tight breakout.  
+- Pivot Point: the exact price level where supply has been cleared; entry should be at or just below this level.  
+- Low Cheat / Cheat / Handle: three progressive stages of a base; each has its own buy point.  
+- Power Play: very short, tight base (often <2 weeks) that breaks out sharply; rare but high‑reward.  
+- Trend Template: 50‑day above 200‑day, 200‑day sloping upward, shallow market pull‑backs.  
+- Relative Strength (RS): look for RS > 90 (or 95) to confirm a leader; lower RS may still be acceptable if other criteria are strong.  
+- Earnings & Sales Requirements: earnings acceleration and strong sales are supportive but never override a broken VCP.  
+- Position Sizing Rules: start with ¼ of intended max position; add in quarters as the trade proves itself.  
+- Risk Management: hard stop placed 4‑6 % below entry (or just below pivot low); stop moved to break‑even after 5‑6 % gain.  
+- Staggered Stops: split position into two halves with separate stops to survive whipsaws.  
+- Open vs Closed Profit: open profit can be “leaned on” for new trades; closed profit funds overall exposure.  
+- Trailing Stops: rarely used; only on parabolic moves, otherwise mental stops.  
+- Psychology: treat trading like poker – focus on odds, not on individual outcomes.  
+- Screening Process: weekend heavy screen (2‑3 h), weekday quick scan (30‑60 min).  
+- Market Volatility Assessment: use VIX for overall market, but primary gauge is how many stocks are forming tight VCPs.  
+- Ants (12 of 15 days up): early‑stage strength indicator; may signal a good entry or a warning if the move is already extended.  
+- “Lean on Traction”: use the number of winning setups and portfolio heat to decide when to increase exposure.  
+- “Backstop” (50‑day rule): sell or move stop if price closes below 50‑day for three consecutive weeks (or strong volume down).  
+- “Power Factor”: compounding effect of large gains; larger gains require less additional return to improve overall equity.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Wait for the price to cross the pivot point before buying.
+- Place a hard stop as soon as you enter, typically 4‑6 % below entry or just below the pivot low.
+- Move stop to break‑even once the trade is 5‑6 % in profit.
+- Use staggered stops in high‑volatility environments.
+- Add to a winning trade only after it has moved 5‑6 % in your favor.
+- Keep total risk per trade ≤ 2 % of total equity.
+- Review the watch‑list daily and remove stocks that fail the VCP criteria.
+- Use the 50‑day above 200‑day trend as a market‑wide filter.
+- Treat each trade as a probability game; accept losses as part of the process.
+- Keep a “sold‑list” of stocks you exited to watch for re‑entries.
+
+DON'T:
+- Chase a stock that has already spiked 10 % and fallen back; the breakout is no longer clean.
+- Use trailing stops that trail too tightly; they will be hit in normal whipsaws.
+- Add position size in a market that is choppy or when you feel “pressure” – let the rules dictate exposure.
+- Rely on the VIX or any single indicator to decide on a trade; focus on the chart.
+- Base decisions on who is buying (e.g., “who is buying this gap?”) – the chart tells you the answer.
+- Ignore the 50‑day rule; do not hold a stock that closes below the 50‑day for three weeks without a strong reason.
+- Over‑rely on fundamentals; if the price action fails, stay out.
+- Change your trade plan mid‑trade because of news or market sentiment unless the stop is hit.
+- Trade without a pre‑defined stop; never “hope” a loss will reverse.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Look for a base (VCP) with 3‑5 tightening pull‑backs.
+- The final pull‑back should be the tightest and sit on the right side of the base.
+- Volume should decline on each pull‑back and then surge on the breakout.
+- Pivot point appears as a clear low‑price level where the breakout clears all prior supply.
+
+PRICE / VOLUME BEHAVIOR
+- Tight price range (e.g., 0.5‑1 % swing) over several weeks.
+- Decreasing daily volume on each pull‑back.
+- Breakout volume at least 2‑3× the average of the last 20 days.
+- After breakout, price should stay above the pivot for at least one day (or close above on the same day).
+
+BUY POINTS
+- Enter at the exact pivot price or a few cents below it.
+- For a low cheat, buy as soon as the price rebounds to the cheat level and shows tightening.
+- For a handle, wait for the handle to form and break above the handle high.
+
+CONFIRMATION SIGNALS
+- Close above the pivot on the breakout day.
+- No immediate reversal (price stays above pivot for at least one additional bar).
+- Relative Strength > 90 (optional but helpful).
+- No large sell‑off volume on the breakout day.
+
+DANGER SIGNS / INVALIDATIONS
+- Price spikes > 10 % then falls back below the pivot on the same day.
+- Volume spikes on the pull‑back (indicates new supply).
+- Breakout fails to close above the pivot (close below or at the pivot).
+- Three consecutive lower lows or weekly close below the 50‑day MA.
+- Market VIX spikes and many stocks are failing VCPs (high overall volatility).
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Run the weekend heavy screen; flag any new VCPs, cheats, handles, power plays.
+- Update the “watch‑list” with symbols that have cleared the pivot overnight.
+- Review earnings calendar for the day; note any stocks with earnings within 24 h.
+- Check macro news (interest rates, major geopolitical events) for market‑wide risk.
+- Set alerts for pivot points and stop‑loss levels on all watch‑list stocks.
+- Confirm the market trend: 50‑day > 200‑day and 200‑day sloping up.
+
+MARKET HOURS DISCIPLINE
+- Monitor price action on the watch‑list; only enter when price hits the pivot.
+- Place hard stop immediately after entry; log the stop level in your trade journal.
+- Move stop to break‑even once the trade is +5 % to +6 % profit.
+- If a trade moves +10 %–+15 %, consider adding a quarter position (progressive exposure).
+- Keep a running total of portfolio risk; stop adding new positions if total risk > 10 % of equity.
+- Use staggered stops only if the market shows high intraday volatility (wide ATR).
+
+POST‑MARKET REVIEW TASKS
+- Close out any positions that hit their stop or reached your profit target.
+- Record each trade: entry, exit, stop level, reason for exit, profit/loss.
+- Update the “sold‑list” with symbols you exited; watch them for re‑entry signals.
+- Review the market trend: did the 50‑day stay above the 200‑day? Any major pull‑backs?
+- Analyze any missed setups (stocks that broke out after you closed) and note why they were missed.
+
+RISK CONTROL REMINDERS
+- Never risk more than 2 % of total equity on a single trade.
+- Keep total portfolio risk (sum of all stops) ≤ 10 % of equity.
+- If the market VIX rises > 30, tighten stops by an additional 1‑2 %.
+- In a choppy market, reduce position size to ¼ of the usual quarter (i.e., ½ of a quarter).
+
+MINDSET REINFORCEMENT (Mark style)
+- “The chart is the only thing that gives me comfort.” Review the chart before any emotional decision.  
+- Treat each trade like a poker hand – focus on odds, not on the outcome of any single hand.  
+- Remember: you are aiming to make more than you lose, over many trades, not to catch every “NVIDIA.”  
+- If you feel pressure, step away, re‑read your trade plan, and act only if the plan still holds.  
+- Celebrate small wins; learn from losses without blaming the market.
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+EXAMPLE 1 – BURLINGTON (BURL) HANDLE  
+- Chart showed tight upper‑range closes, forming a classic high handle.  
+- Pivot was drawn at the low of the handle; breakout cleared the pivot with no supply left.  
+- Entry at the pivot, stop placed just below the low of the handle.  
+- Trade stayed above the 50‑day MA; after three lower lows the trade would have been exited.
+
+EXAMPLE 2 – PHC DAILY PIVOT  
+- Stock broke out at 9.45 am, ran +10 % intraday, then fell back to the breakout level by close.  
+- Because the breakout was not “clean” (price fell back to the breakout level), the trade was rejected.  
+- Lesson: only buy when the breakout stays above the pivot and does not immediately retreat.
+
+EXAMPLE 3 – ELAN (ELAN) BASE DURING BEAR MARKET  
+- Tight base formed over 5‑7 weeks, volume contracted, then breakout with strong earnings acceleration.  
+- Entry at the breakout pivot; stop placed just below the base low.  
+- Trade rode the uptrend as the market turned bullish.
+
+EXAMPLE 4 – LULU DOUBLE BOTTOM  
+- Two lows formed, each higher than the previous, with a clean breakout on earnings.  
+- Pivot was the low of the second bottom; entry at the breakout, stop just below the first bottom.  
+- Demonstrates that double‑bottoms can be treated as VCPs when volume contracts.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ONLY BUY AT OR JUST BELOW THE PIVOT POINT – never chase a post‑spike pull‑back.  
+2. PLACE A HARD STOP IMMEDIATELY (4‑6 % below entry or below pivot low).  
+3. MOVE STOP TO BREAK‑EVEN AFTER 5‑6 % PROFIT – protect gains early.  
+4. START WITH A QUARTER POSITION; ADD ONLY IF THE TRADE IS +5‑6 % AND OTHER SETUPS ARE WORKING.  
+5. USE VCP (3‑5 TIGHTENING PULL‑BACKS) AS THE PRIMARY ENTRY FILTER.  
+6. KEEP TOTAL PORTFOLIO RISK ≤ 10 % OF EQUITY; SINGLE‑TRADE RISK ≤ 2 %.  
+7. FOLLOW THE MARKET TREND TEMPLATE (50‑day > 200‑day, shallow S&P pull‑backs).  
+8. TREAT EVERY TRADE AS A PROBABILITY GAME – accept losses, don’t chase winners.  
+9. BACKSTOP WITH THE 50‑DAY RULE ONLY WHEN THE STOCK CLOSES BELOW IT FOR 3 WEEKS OR HAS HEAVY VOLUME DOWN.  
+10. REVIEW EVERY TRADE DAILY, UPDATE WATCH‑LIST, AND KEEP YOUR “SOLD‑LIST” FOR RE‑ENTRY OPPORTUNITIES. 
+
+================================================================================
+END OF COACHING NOTE
+================================================================================
+
+================================================================================
+END OF SUMMARY
+================================================================================

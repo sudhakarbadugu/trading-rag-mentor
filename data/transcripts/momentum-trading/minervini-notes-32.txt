@@ -1,0 +1,214 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA: POWER PLAY = HIGH‑TIGHT FLAG (O’NEILL STYLE)
+WHY IT MATTERS: It signals a rapid, explosive move (≈100%+ gain) from a dormant stock, offering huge alpha.
+HOW TO APPLY: Scan for stocks that have been flat for 10‑12 days (max 20% swing for mid‑price, 25% for low‑price), then explode ≥95% in ≤8 weeks.
+
+KEY IDEA: VELOCITY PLAY vs. MAGNITUDE PLAY
+WHY IT MATTERS: Velocity plays start with fast price acceleration; magnitude plays let you enter earlier, before the full move.
+HOW TO APPLY: Look for the first “velocity” breakout (tightening price, 200‑day turning up) and consider a partial entry; add on as the base tightens.
+
+KEY IDEA: RELATIVE STRENGTH (RS) & 200‑DAY MOVING AVERAGE
+WHY IT MATTERS: RS above the market and a 200‑day in an uptrend confirm a leader.
+HOW TO APPLY: Require the 200‑day to be above the 50‑day for at least 30 days (or loosen for dormant stocks). If the 200‑day is flat/down, still consider a “early turn” if the stock is exploding.
+
+KEY IDEA: SHALLOW PULLBACK IS CRUCIAL
+WHY IT MATTERS: Small pullbacks (≤10‑15%) indicate little supply and strong institutional accumulation.
+HOW TO APPLY: After the breakout, measure the max retracement. If it exceeds ~20% (or 25% for cheap stocks) reject or treat as lower‑probability.
+
+KEY IDEA: SUPPLY‑DEMAND DYNAMICS
+WHY IT MATTERS: A stock that rockets without profit‑taking shows that institutions are still buying.
+HOW TO APPLY: Observe volume on the breakout; low profit‑taking volume + minimal pullback = high confidence.
+
+KEY IDEA: DISCIPLINE THROUGH SCREENING
+WHY IT MATTERS: Filtering out 90%+ of symbols removes noise and prevents “candy” (bad ideas).
+HOW TO APPLY: Build a screen that enforces: (1) RS > market, (2) 200‑day up/flat, (3) base length 10‑12 days, (4) max pullback ≤20%, (5) price‑action tightening.
+
+KEY IDEA: POSITION SIZING & STOP‑LOSS
+WHY IT MATTERS: Even a perfect setup can be wrecked by a single large loss.
+HOW TO APPLY: Risk ≤1% of account per trade; set stop 5% below entry (or tighter if volatility is low). For power plays, give a little extra room (5‑7%) because you expect fast moves.
+
+KEY IDEA: TRADE MANAGEMENT – HOLDING FOR 20‑50 DAYS
+WHY IT MATTERS: The biggest moves often occur after the first 5‑10 days.
+HOW TO APPLY: After a winning breakout, keep at least a portion of the position for 20‑50 days, scaling out gradually (e.g., 30% at 20% profit, 30% at 40%, rest to target).
+
+KEY IDEA: JUMPY VS. COMPLACENT TRADERS
+WHY IT MATTERS: Jumpies get stopped out on normal pullbacks; complacents hold through big violations.
+HOW TO APPLY: Know the “normal” pullback range for the stock; exit only when pullback exceeds your rule (e.g., >20% for mid‑price).
+
+KEY IDEA: REVERSE‑RECOVERY (SQUAT) PATTERN
+WHY IT MATTERS: A brief dip below the breakout level that quickly recovers is a sign of strong accumulation.
+HOW TO APPLY: If a squat lasts 1‑2 days and the stock rebounds above the breakout high, stay in; if it lingers >3 days, consider exiting.
+
+KEY IDEA: CONTINUOUS LEARNING & ART OF PRICE ACTION
+WHY IT MATTERS: Rules are a framework; the real edge comes from reading supply‑demand nuances.
+HOW TO APPLY: Review every trade, note deviations, and refine your screen and entry criteria over time.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- POWER PLAY (high‑tight flag): ≥95% move in ≤8 weeks, shallow pullback, originates from a flat base.
+- VELOCITY PLAY: Early breakout with rapid price acceleration; entry before full base formation.
+- MAGNITUDE PLAY: Entry at the earliest possible point, often at the start of the velocity move.
+- VCP (Volatility Contraction Pattern): Series of tightening price ranges; each contraction should be tighter than the last.
+- BASE CONSOLIDATION: 10‑12 days of sideways movement, max 20% swing (25% for <$5 stocks).
+- RELATIVE STRENGTH (RS): Stock’s performance vs. market; must be strong to qualify.
+- 200‑DAY MOVING AVERAGE (MA): Should be turning up or at least flat; early turn acceptable for dormant stocks.
+- 50‑DAY ABOVE 200‑DAY: Confirmation of stage‑2 uptrend (30‑day minimum).
+- SHALLOW PULLBACK RULE: ≤10‑15% ideal, ≤20% maximum; deeper pullbacks indicate supply.
+- SUPPLY‑DEMAND ANALYSIS: Low profit‑taking volume + minimal pullback = institutional accumulation.
+- STOP‑LOSS: Typically 5% below entry; may be widened to 5‑7% for power plays.
+- POSITION SIZING: Risk ≤1% of capital per trade.
+- TRADE MANAGEMENT: Scale out over 20‑50 days; hold a core position for the full move.
+- SQUAT / REVERSE RECOVERY: Brief dip after breakout; 1‑2 day recovery is a green flag.
+- DISCIPLINE THROUGH SCREENING: Filter out 80‑90% of symbols; focus on top 5‑10% that meet criteria.
+- PSYCHOLOGY: Avoid “candy” (temptation to chase); be the last‑week holder, not the first‑week holder.
+- RULE FLEXIBILITY: Stretch rules only when the statistical edge remains (e.g., early turn without full stage‑2).
+- LONG‑TERM vs. SHORT‑TERM: Power plays can be held longer (20‑50 days) for swing profits; other setups may be day‑trades.
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Screen daily and only look at symbols that meet all base, RS, and MA criteria.
+- Enter on the first tight breakout (velocity play) with a stop 5‑7% below entry.
+- Keep pullback depth ≤20% (≤15% ideal) before adding or staying in.
+- Scale out gradually; keep at least 30‑40% of the position for 20‑50 days.
+- Use a maximum risk of 1% of account per trade.
+- Review each trade after market close; note what matched or violated the rules.
+- Stay patient; wait for the full 10‑12 day base before entering if you missed the early turn.
+- Adjust stop size for low‑price stocks (allow up to 25% pullback tolerance).
+- Keep a “cheat” area in mind – buying on a low‑price cheat can improve average cost if supply is low.
+- Maintain discipline: no trading stocks that do not meet the checklist, even if they look “hot”.
+
+DON'T:
+- Chase a stock that has already moved >200% in the past 5 years (late‑stage blow‑off).
+- Enter a power play if the pullback exceeds the max allowed (20‑25%).
+- Trade a stock whose 200‑day is in a clear downtrend unless you have a strong early‑turn justification.
+- Sell the entire position as soon as you hit a 20% profit on a power play.
+- Let a squat last more than 2‑3 days without a clear recovery.
+- Over‑tighten stops (e.g., 1‑2%) on volatile power plays; you’ll get “death by a thousand cuts.”
+- Ignore the market context; a breakout in a strong market pullback is a red flag.
+- Stretch the rules just because you “feel” a stock is special; stick to the statistical edge.
+- Trade on news alone without confirming the price‑action pattern.
+- Let emotions dictate position size; always calculate risk before entering.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Flat consolidation for 10‑12 days, price range ≤20% (≤25% for <$5 stocks).
+- Tightening candlesticks (VCP) with each contraction narrower than the previous.
+- 200‑day MA beginning to turn up or already above the 50‑day for ≥30 days.
+- Relative Strength line diverging upward from the market index.
+- Volume spike on breakout, then tapering off (low profit‑taking).
+
+PRICE / VOLUME BEHAVIOR
+- Breakout candle closes above the high of the base with volume ≥1.5‑2× average.
+- Immediate pullback after breakout should be ≤10‑15% of breakout size.
+- Minimal volume on pullback; no large sell‑off bars.
+- After pullback, price resumes upward with 1‑3% daily gains (tennis‑ball action).
+
+BUY POINTS
+- Primary entry: at the breakout high (or slightly above) with stop 5‑7% below.
+- Secondary entry (cheat): on a low‑price “cheat” within the base if supply appears low.
+- Add‑on: after a successful pullback, re‑enter on a tighter VCP contraction.
+
+CONFIRMATION SIGNALS
+- 200‑day staying above 50‑day (or early turn confirmed by price staying above 200).
+- RS staying above market for at least 3 consecutive days.
+- Pullback depth ≤10% and recovery within 1‑2 days (reverse‑recovery).
+- Tight weekly closes (3‑5 consecutive weeks with <0.5% range) reinforce strength.
+
+DANGER SIGNS / INVALIDATIONS
+- Pullback >20% (or >25% for cheap stocks) – reject or exit.
+- 200‑day moving down sharply, crossing below 50‑day.
+- Breakout occurs during a market-wide crash and the stock fails to hold above the breakout high.
+- Volume surge on pullback (indicates profit‑taking).
+- Squat lasting >3 days without a clear bounce.
+- RS dropping below market for two consecutive days.
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST:
+- Run the master screen: RS > market, 200‑day up/flat, base length 10‑12 days, max swing ≤20%.
+- Review watchlist for any new “early turn” candidates (200‑day just turned up).
+- Check macro context: overall market trend, upcoming earnings, major news.
+- Set alerts for price approaching breakout levels and for pullback depth.
+- Verify position‑size calculator (risk 1% of equity, stop 5‑7% below entry).
+
+MARKET HOURS DISCIPLINE:
+- Monitor breakout candidates; only enter after confirming volume spike and price above high.
+- Place stop order immediately after entry; do not move stop tighter than 5% unless volatility justifies.
+- If a squat occurs, watch for 1‑2 day recovery; do not exit on the first dip.
+- Scale out: 30% at 20% profit, another 30% at 40% profit, rest to target (50‑100%+).
+- Keep a journal note on each trade (entry, stop, reason, emotions).
+
+POST‑MARKET REVIEW TASKS:
+- Review each trade against the checklist; mark any rule breaches.
+- Record pullback depth, recovery time, and final profit/loss.
+- Update the watchlist: move winners to “hold for 20‑50 days” list, losers to “review” list.
+- Analyze any missed setups (stocks that met criteria but you didn’t trade) and note why.
+- Adjust screen parameters if market conditions have shifted (e.g., widen pullback tolerance in high volatility).
+
+RISK CONTROL REMINDERS:
+- Never risk more than 1% of total capital on a single trade.
+- Keep stops at least 5% away; for low‑price stocks allow up to 7% if volatility is low.
+- If a trade hits stop, accept loss and move on – no revenge trading.
+- Review daily max loss limit (e.g., 2% of account); stop trading for the day if reached.
+- Use position‑sizing software to avoid manual errors.
+
+MINDSET REINFORCEMENT (Mark style):
+- “Be the last‑week holder, not the first‑week holder.”
+- Treat each trade as a probability play; focus on edge, not on individual outcome.
+- Remember the “train schedule” – if the stock isn’t arriving on time, it’s likely delayed.
+- Accept that strategies have cycles; stay disciplined during down periods.
+- Visualize the trade plan before entering; repeat the mantra: “Stick to the rules, let the edge work.”
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. BEST BUY – Power play: double from $12 to $24, 200‑day turning up, pullback <10%, held >20 days, produced ~100% gain.
+2. TASER – Late‑stage blow‑off (4,000% rise over 5 years) – NOT a power play; ignored.
+3. QUALITY SYSTEMS – 4‑week base, max pullback 25% (allowed for low‑price), 126% gain in 66 days.
+4. CARPARTS.COM – Low‑price base, 80% rise in 26 days, shallow pullback, strong RS.
+5. AMD – Turned from stage‑1 to stage‑2, 200‑day up, power play, ~200% gain in 18 months.
+6. LQDA – 52% gain in 4 days (aberrational), still met VCP and shallow pullback, entered quickly.
+7. ACCELUS (ACIA) – 85% gain in 20 days, ~4% daily average, classic velocity play.
+8. WEIGHT WATCHERS – Example of “news‑driven” power play (Oprah announcement) that fit the pattern.
+
+Each example illustrates:
+- Base formation → breakout → shallow pullback → rapid advance.
+- Importance of confirming RS and 200‑day trend.
+- Consequences of exiting too early (e.g., selling at 20% profit on a 100%+ move).
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. POWER PLAY = ≥95% move in ≤8 weeks with ≤20% pullback from a 10‑12 day flat base.
+2. 200‑DAY must be turning up or flat; 50‑DAY above 200 for ≥30 days (early turn allowed for dormant stocks).
+3. RELATIVE STRENGTH must beat the market; use RS line as a filter.
+4. ENTRY: breakout high with 1.5‑2× average volume; stop 5‑7% below entry.
+5. PULLBACK RULE: ≤10‑15% ideal, never >20% (≤25% for <$5 stocks).
+6. HOLD FOR 20‑50 DAYS; scale out gradually; keep a core position for the full move.
+7. POSITION SIZE: risk ≤1% of account per trade; never exceed 5% total exposure to a single sector.
+8. SQUAT/REVERSE‑RECOVERY: 1‑2 day dip that rebounds is a green flag; >3 days = possible exit.
+9. DISCIPLINE: Screen daily, stick to the checklist, and accept losses without revenge.
+10. MINDSET: Be the last‑week holder, trust the “train schedule,” and remember that rules are the edge – not emotions.
+
+================================================================================
+END OF COACHING NOTE
+================================================================================
+
+================================================================================
+END OF SUMMARY
+================================================================================

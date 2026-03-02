@@ -1,0 +1,206 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+Key Idea 1 – POSITION SIZING BASICS  
+Why it matters: Determines how much of your account is at risk on each trade. Too large a size blows up the account; too small limits profit potential.  
+How to apply:  
+- Use a max stop of 8% for a full position. If you stagger the stop (split the trade), you may allow 10‑12% on the portion that is farther from entry.  
+- Keep average loss per trade around 3‑6% of the position.  
+- Never exceed 25‑30% of your account on a single overnight position; 50% is an absolute ceiling (only in rare cases).  
+
+Key Idea 2 – RISK OF TOTAL EQUITY (RTE)  
+Why it matters: RTE translates position size + stop distance into a percentage of your whole account, letting you control overall drawdown.  
+How to apply:  
+- Target 1.0‑1.5% RTE per trade. 2.5% is the absolute max for experienced traders.  
+- Example: 12.5% position size with a 10% stop = 1.25% RTE (good).  
+- If you double the position size, you must halve the stop distance to keep the same RTE.  
+
+Key Idea 3 – STOP‑LOSS DISCIPLINE  
+Why it matters: Stops protect you from catastrophic loss and keep the RTE in check.  
+How to apply:  
+- When a stop is hit, exit immediately – no rationalizing, no “wait and see”.  
+- Even for high‑quality stocks (e.g., Coca‑Cola) you must obey the stop.  
+
+Key Idea 4 – POSITION SIZING OVER TIME (Pyramid)  
+Why it matters: Small early positions protect capital while you learn; larger positions increase return when you have a proven edge.  
+How to apply:  
+- Start with “pilot” trades (tiny size, risk <0.5% RTE) to test the waters.  
+- As you prove consistency, increase to the optimal 20‑35% of your account per trade (Kelly‑optimal for a 2:1 reward‑to‑risk).  
+
+Key Idea 5 – POST‑TRADE ANALYSIS & GRADE  
+Why it matters: Identifies strengths, weaknesses, and recurring tendencies. Without it you repeat the same mistakes.  
+How to apply:  
+- After each trade, mark up the chart and assign grades: perfect entry, early/late entry, perfect exit, early/late exit, missed opportunity, bad buy, bad sell.  
+- Use a journal (digital or paper) to note why you made each decision.  
+- Review trades after 1 month, 3 months, 6 months to remove emotional bias.  
+
+Key Idea 6 – KNOW YOUR TENDENCIES  
+Why it matters: Everyone has systematic biases (e.g., buying early, selling early). Recognizing them lets you guard against them.  
+How to apply:  
+- Track the frequency of each grade. If “early seller” appears >30% of exits, create a rule to always take partial profits instead of exiting fully.  
+- Adjust your plan to counter the bias (e.g., set a rule to “sell only half at 20% profit, let the rest run”).  
+
+Key Idea 7 – PROBABILITY THINKING VS ONE‑TIME GAINS  
+Why it matters: Trading is a series of many small edges, not a lottery ticket. A 1% chance of losing everything will eventually happen if you take many trades.  
+How to apply:  
+- Favor a guaranteed modest return (e.g., $1,000 guaranteed) over a high‑risk jackpot.  
+- Keep the “bell‑curve” mindset: aim for a high win‑rate with controlled loss, not occasional huge wins.  
+
+Key Idea 8 – TRADE SETUP FILTERS (Recap of earlier days)  
+Why it matters: Only trade stocks that meet the SEPA criteria, increasing the odds of a big winner.  
+How to apply:  
+- Must be in a Stage‑2 uptrend, above the 200‑day SMA for at least 30 days.  
+- Look for VCP (volatility contraction) patterns, strong earnings growth, accelerating sales, and high relative strength.  
+- Avoid stocks below the 200‑day SMA unless they are a proven “power play” with clear breakout potential.  
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- POSITION SIZING: 8% max stop for full position, 10‑12% for staggered portions; 25‑30% max account exposure overnight; 1‑1.5% RTE target.  
+- RISK OF TOTAL EQUITY (RTE): Position size × stop % = % of total equity at risk. Keep ≤2.5% (ideal ≤1.5%).  
+- STOP‑LOSS DISCIPLINE: Exit immediately when stop is hit; no exceptions.  
+- KELLY / OPTIMAL POSITION SIZE: For a 2:1 reward‑to‑risk trader, ~25% of equity is optimal.  
+- VCP (VOLATILITY CONTRACTION PATTERN): Tight price range with decreasing volume on the right side, indicating a breakout point.  
+- STAGE‑2 UPTREND: Market‑leader condition; price above 200‑day SMA for ≥30 days.  
+- RELATIVE STRENGTH: Must be among top performers in its sector/industry.  
+- EARNINGS & SALES ACCELERATION: Look for sequential earnings growth and sales acceleration; margins alone are insufficient.  
+- POWER PLAY: Early‑stage breakout stocks that may be below 200‑day SMA but have a clear catalyst and strong volume.  
+- POST‑TRADE ANALYSIS: Grade each trade, track tendencies, use journal, review after weeks/months.  
+- TENDENCY IDENTIFICATION: Recognize patterns like “early buyer”, “early seller”, “cut loss too soon”.  
+- PROBABILITY THINKING: Treat trading as a series of small edges; avoid lottery‑style risk.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Set a stop loss before entering any trade.
+- Keep RTE between 1.0% and 1.5% (max 2.5% for very experienced traders).
+- Use staggered stops when splitting a position; allow a slightly larger % stop on the later leg.
+- Limit any single overnight position to ≤30% of account equity; never exceed 50% under any circumstance.
+- Grade every trade immediately after exit and record notes in a journal.
+- Review graded trades after at least one month to remove emotional bias.
+- Trade only stocks in a Stage‑2 uptrend above the 200‑day SMA (or qualified power plays).
+- Look for VCP patterns, accelerating earnings, and strong sales growth before entering.
+- Adjust position size upward only after consistent performance (e.g., 80%+ perfect loss cuts).
+- Take partial profits on strong moves; never sell the entire position at the first profit target.
+
+DON’T:
+- Ignore a stop once it’s hit; no “wait and see” or “the company is solid” excuses.
+- Use a stop larger than 8% on a full‑size position unless you have staggered the trade.
+- Overexpose your account (≥50% on one stock) – it creates a high risk of ruin.
+- Trade stocks below the 200‑day SMA without a clear power‑play catalyst.
+- Rely on a single big win (lottery mindset) to fund your strategy.
+- Skip post‑trade analysis; it is the single biggest differentiator between winners and losers.
+- Let emotions dictate scaling in/out; follow the pre‑defined plan instead.
+- Forget to record why you made a trade; lack of notes makes future analysis impossible.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+Chart Cues:
+- Price above 200‑day SMA for at least 30 consecutive days.
+- Clear Stage‑2 uptrend: higher highs, higher lows, strong relative strength.
+- Volatility Contraction Pattern (VCP): narrowing price range, decreasing volume on the right side of the pattern.
+- Pivot point with a “tight entry zone” (price‑volume vacuum) right before breakout.
+
+Price/Volume Behavior:
+- Volume spikes on breakout candle, then contracts during pull‑back.
+- Low volume on the right side of the VCP indicates accumulation.
+- After breakout, volume should stay above the average of the last 20 days.
+
+Buy Points:
+- Enter at the low of the VCP or at the breakout candle if price breaks cleanly above the contraction zone.
+- For staggered entries, place a smaller position first, then add on a second leg with a slightly wider stop (10‑12%).
+
+Confirmation Signals:
+- Relative Strength Index (RSI) above 70 is acceptable if price is still in an uptrend.
+- Earnings or sales acceleration in the last two quarters.
+- No major negative news catalyst.
+
+Danger Signs / Invalidations:
+- Price falls below the 200‑day SMA after entry.
+- Stop‑loss hit on the first leg (indicates the pattern failed).
+- Volume surge on the downside (selling pressure) before breakout.
+- Unexpected earnings miss or downgrade that contradicts the growth narrative.
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST:
+- Review overnight news for any earnings, guidance, or macro events affecting your watchlist.
+- Verify that each stock on the watchlist is above its 200‑day SMA and in Stage‑2 uptrend.
+- Scan for VCP patterns on the daily chart (tight price range, low right‑side volume).
+- Update your journal with any new notes on why a stock is on the list.
+- Set alerts for price levels where you would place entry or stop orders.
+
+MARKET HOURS DISCIPLINE:
+- Only enter trades that meet all SEPA criteria; skip anything that fails a single filter.
+- Place stop‑loss order immediately after entry (calculate RTE to stay ≤1.5%).
+- Use staggered entries for larger positions: first leg 2‑3% of equity, second leg up to 8‑10% with a wider stop.
+- Monitor position size; never let any single stock exceed 30% of equity overnight.
+- If a trade hits stop, exit instantly; do not re‑enter the same day.
+
+POST‑MARKET REVIEW TASKS:
+- Grade each trade (entry timing, exit timing, profit/loss, adherence to plan).
+- Record the grade and a brief note on why the trade performed as it did.
+- Update the “tendency” tracker (early buyer, early seller, etc.).
+- Calculate daily RTE total; ensure it stayed within the 1‑2% range.
+- Review any missed opportunities and note why you didn’t take them.
+
+RISK CONTROL REMINDERS:
+- RTE per trade ≤1.5% (max 2.5% for very experienced days).
+- Max overnight exposure per stock ≤30% of equity.
+- Total daily exposure (sum of all open positions) ≤70% of equity.
+- Never trade without a pre‑defined stop.
+
+MINDSET REINFORCEMENT (Mark style):
+- Remind yourself: “I am managing risk, not chasing profit.”
+- Visualize the bell‑curve: many small edges beat one big gamble.
+- Accept that a few losses are inevitable; focus on the overall win rate.
+- Keep the “integrity of the personal bell curve” front‑and‑center.
+- Use the “respect the pause” mantra when you feel the urge to act impulsively.
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+Example 1 – Proper Position Sizing:  
+- Account equity $100,000. Desired RTE 1.25%.  
+- Choose 12.5% position size = $12,500.  
+- Set stop at 10% of entry price → $1,250 risk.  
+- $1,250 / $100,000 = 1.25% RTE – within target.
+
+Example 2 – Bad Sell (Power Play)  
+- Bought a power‑play at $50, price rose to $60 (+20%).  
+- Sold the entire position immediately, missing further upside.  
+- Correct approach: sell 30‑50% at $60, move stop to breakeven on remaining shares, let the rest run.
+
+Example 3 – Post‑Trade Grading  
+- Trade A: Entered early VCP, stopped out at 15% loss. Grade = “Bad sell – stop hit, but stop was correct”.  
+- Trade B: Entered perfect VCP, exited at 30% profit, kept half position, moved stop to breakeven. Grade = “Excellent – perfect entry, partial profit‑take, good risk management”.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. Keep risk of total equity per trade between 1.0%‑1.5% (max 2.5%).  
+2. Use an 8% max stop for a full‑size position; staggered legs may allow up to 10‑12% on the later leg.  
+3. Never let a single overnight position exceed 30% of your account (50% absolute ceiling).  
+4. Trade only stocks in a Stage‑2 uptrend above the 200‑day SMA (or qualified power plays).  
+5. Look for VCP patterns: tight price range, low right‑side volume, breakout volume surge.  
+6. Exit immediately when a stop is hit – no rationalizing.  
+7. Grade every trade and log the reasoning in a journal; review after weeks/months.  
+8. Identify personal tendencies (early buyer, early seller, etc.) and create rules to counter them.  
+9. Treat trading as a series of small edges; avoid lottery‑style “big‑win” thinking.  
+10. Progressively increase position size only after consistent performance; start with pilot trades (<0.5% RTE). 
+
+================================================================================
+
+================================================================================
+END OF SUMMARY
+================================================================================

@@ -41,7 +41,7 @@ KEY IDEA 8 – MINIMAL USE OF MARGIN
 Why it matters: Mark’s 40‑year record shows massive returns with little or no margin. Leverage should come from high‑alpha stocks, not borrowed money.  
 How to apply: Trade with cash or a small, judicious margin line only on intraday contests. For daily/weekly trading, keep margin at 0%.
 
-KEY IDEA 9 – NOTE‑TAKING IS PART OF THE LEARNING LOOP  
+KEY IDEA 9 – NOTE‑TAKING IS PART OF THE LEARNING LOOP    
 How to apply: Write questions directly in the workbook, annotate charts, and review your notes after each session.
 
 KEY IDEA 10 – MINDSET: BELIEF + DISCIPLINE = CONSISTENT EDGE  
@@ -89,7 +89,7 @@ DO:
 - Maintain a single trading style for at least six months.  
 
 DON’T:
-- Post questions in the Zoom chat during the presentation.  
+- Post questions in the Zoom chat during the presentation.   
 - Buy a stock that is below its 200‑day moving average, even if the story is exciting.  
 - Trade based solely on hype or “hot” tips without the full checklist.  
 - Use large amounts of margin to chase returns.  

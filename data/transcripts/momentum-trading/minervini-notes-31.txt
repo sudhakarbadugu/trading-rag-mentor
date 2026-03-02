@@ -1,0 +1,200 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – CATEGORIES & CATALYSTS  
+Why it matters: The biggest moves come from a handful of stock types.  
+How to apply: Focus your screen on four groups – Market Leader, Top Competitor, Institutional Favorite, Turn‑around. Treat commodity‑cyclical plays as secondary.
+
+KEY IDEA 2 – VALUATION IS SECONDARY TO GROWTH  
+Why it matters: A high price is justified when earnings and sales are exploding.  
+How to apply: When a stock shows double‑digit earnings growth and expanding margins, ignore traditional P/E limits. Verify the growth will last at least 1‑2 quarters.
+
+KEY IDEA 3 – TREND STAGE  
+Why it matters: Only Stage 2 up‑trends give the fastest capital appreciation. Stage 4 is a money‑loser; Stage 1/2 wastes time.  
+How to apply: Use moving averages (50‑day, 200‑day) and price‑action to confirm you are in Stage 2 before entering.
+
+KEY IDEA 4 – FUNDAMENTALS BREAKDOWN  
+Why it matters: Earnings, sales, and margins are the three pillars of a growth stock.  
+How to apply: Look for rising earnings, increasing top‑line sales, and improving (or at least stable) margins. If margins are falling, demand higher sales growth.
+
+KEY IDEA 5 – VOLATILITY CONTRACTION PATTERN (VCP)  
+Why it matters: Every Minervini trade is entered on a VCP; it keeps you out of “bucking broncos” (high‑volatility, high‑risk moves).  
+How to apply: Scan for tightening price ranges, shrinking daily range, and a sharp drop in volume. The tighter the contraction, the better the entry.
+
+KEY IDEA 6 – PRIMARY BASE (MAGNITUDE PLAY)  
+Why it matters: The first buyable base after an IPO (or after a major correction) offers the biggest upside.  
+How to apply: Identify the first VCP that forms after the IPO or after a deep correction. Verify low volume, tight price action, and a clear breakout point.
+
+KEY IDEA 7 – ONE‑TWO PUNCH ENTRY  
+Why it matters: The “one” is a precise, low‑risk entry; the “two” is the larger move that follows.  
+How to apply: Enter at the exact point where volume contracts and price tightens (the “one”). Let the breakout (the “two”) carry the bulk of the profit.
+
+KEY IDEA 8 – PIVOT POINTS & MULTIPLE BUY POINTS  
+Why it matters: A pivot is the moment the stock changes direction; multiple entry levels let you add to winners.  
+How to apply: After the initial VCP breakout, watch for pull‑backs to the breakout level or to the next minor support. Add only if the pattern remains tight and volume stays low.
+
+KEY IDEA 9 – RISK MANAGEMENT (THE CORE OF DAY 4)  
+Why it matters: Even the best setups can fail; protecting capital is the difference between a trader and a gambler.  
+How to apply: Set stop‑loss just below the most recent supply (the low of the VCP). Limit risk to ≤1 % of account per trade. Never chase a broken pattern.
+
+KEY IDEA 10 – MINDSET & DISCIPLINE  
+Why it matters: Trading success is 80 % psychology.  
+How to apply: Trust what you see on the chart, not what you think you know. Stay calm during pull‑backs, avoid “fear of missing out,” and keep a trade journal.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- CATEGORIES & CATALYSTS: Market Leader, Top Competitor, Institutional Favorite, Turn‑around.  
+- VALUATION vs. GROWTH: High valuation is acceptable when earnings/sales growth is strong.  
+- TREND STAGE: Four stages; Stage 2 is the only one to trade.  
+- FUNDAMENTALS: Earnings, Sales, Margins – the three pillars of growth.  
+- VOLATILITY CONTRACTION PATTERN (VCP): Tight price range + falling volume = entry zone.  
+- PRIMARY BASE (MAGNITUDE PLAY): First buyable base after IPO or deep correction.  
+- VELOCITY PLAY: Not covered in depth today, but refers to fast‑moving, short‑term setups.  
+- PIVOT POINTS: The price level where the stock changes direction; often precedes a breakout.  
+- ONE‑TWO PUNCH: Precise entry (one) followed by the larger move (two).  
+- MULTIPLE BUY POINTS: Adding on pull‑backs to the breakout level.  
+- SUPPLY/Demand ZONE: Low‑volume “vacuum” indicates supply has been exhausted.  
+- RISK MANAGEMENT: Position sizing, stop‑loss placement, max 1 % account risk.  
+- PSYCHOLOGY: Trust the chart, avoid “bucking bronco” trades, stay disciplined.  
+- SCREENING: IPO screen, primary‑base screen, VCP screen, and market‑condition filter.  
+- RELATIVE STRENGTH: Look for stocks that outperform the market during corrections.  
+- WEEKLY vs. DAILY Confirmation: Same VCP characteristics must appear on both time frames.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Use the same Zoom login credentials for every session; no new passwords.  
+- Reference the workbook page number when emailing questions.  
+- Scan for primary‑base VCPs after IPOs or deep corrections.  
+- Enter only when volume contracts and price range tightens (the “one”).  
+- Place stop‑loss just below the most recent supply (low of the VCP).  
+- Limit risk to ≤1 % of total account per trade.  
+- Add to winners only after a clean pull‑back to the breakout level.  
+- Review weekly charts for the same VCP pattern before taking a daily trade.  
+- Keep a trade journal: entry, stop, reason, outcome.  
+- Stay patient; wait for the pattern to fully develop before entering.
+
+DON’T:
+- Chase stocks that are already “bucking broncos” or showing high volatility.  
+- Enter a trade without a clear VCP contraction and low volume.  
+- Ignore the trend stage; never buy in Stage 4 or Stage 1.  
+- Base decisions on hype, news, or “I think I know the industry.”  
+- Over‑size a position; never risk more than 1 % on a single trade.  
+- Move the stop‑loss after the trade is live (unless a clear new supply appears).  
+- Trade on the basis of a single high‑price candle without confirming contraction.  
+- Forget to reference page numbers when asking questions (creates confusion).  
+- Let emotions dictate adding to a losing position.  
+- Trade without reviewing both daily and weekly charts for confirmation.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Look for a sharp decline followed by a series of tighter price swings (VCP).  
+- Volume should drop dramatically during the contraction; a “volume vacuum.”  
+- The low of the VCP becomes the supply zone; breakout occurs above the prior high.
+
+PRICE / VOLUME BEHAVIOR
+- Price range narrows: each successive bar’s high‑low spread is smaller.  
+- Daily volume falls to a fraction (often <30 % of prior average).  
+- On breakout, volume spikes sharply, confirming demand.
+
+BUY POINTS
+- Enter at the exact point where the last contraction bar closes near its low and volume is at its minimum.  
+- If the breakout candle closes above the prior high, place a stop just below the VCP low.
+
+CONFIRMATION SIGNALS
+- Weekly chart shows the same VCP shape (price tightness + low volume).  
+- Relative strength: stock is above the 200‑day MA and outperforms the market during a correction.  
+- Pivot point: a clear change from down‑trend to up‑trend on the same bar that starts the contraction.
+
+DANGER SIGNS / INVALIDATIONS
+- Right‑side compression: price is already crowded near the breakout level with visible supply.  
+- Volume does not contract (remains high) – indicates lingering supply.  
+- Breakout fails: price closes below the breakout high on the next bar.  
+- Stock is in Stage 4 downtrend (below 50‑day MA, making lower lows).  
+- Multiple large gaps down after the VCP – suggests fundamental weakness.
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Log into Zoom with the standard credentials; verify session times (8:30 am pre‑market, 6 pm encore).  
+- Review the day’s agenda (page numbers, Q&A schedule).  
+- Scan the IPO screen for new listings within the last 30 days.  
+- Run the Primary‑Base/VCP screen for stocks in Stage 2 up‑trend.  
+- Check market‑wide indicators: S&P 200‑day MA, overall volatility (VIX).  
+- Set risk parameters: max 1 % per trade, stop‑loss rule, position‑size calculator ready.  
+- Write down three top candidates with ticker, entry zone, and stop level.
+
+MARKET HOURS DISCIPLINE
+- 8:30‑9:30 am: Watch pre‑market charts; confirm VCPs on daily and weekly.  
+- 9:30‑11:00 am: Enter only after the precise “one” point is hit; place stop immediately.  
+- 11:00‑13:30 pm: Monitor open positions; do not add unless a clean pull‑back to breakout level occurs.  
+- 13:30‑15:30 pm: Review any new VCP formations; avoid chasing after news spikes.  
+- 15:30‑16:00 pm: Close any positions that have hit stop or reached target; note any “near‑miss” setups for later review.  
+- Throughout: Keep chat clean – only post session‑related questions with page reference.
+
+POST‑MARKET REVIEW TASKS
+- Fill out trade journal: entry, stop, reason, outcome, emotions.  
+- Compare daily chart to weekly chart – did both confirm the VCP?  
+- Identify any missed setups; note why they were missed (e.g., impatience, unclear VCP).  
+- Update watchlist: move winners to “add‑on” list, losers to “review later.”  
+- Send any questions to workshop@minervini.com with page numbers.
+
+RISK CONTROL REMINDERS
+- Never exceed 1 % account risk per trade.  
+- Stop‑loss must be placed at the low of the VCP (or just below recent supply).  
+- If price moves 2 % against you before the breakout, exit immediately – treat as a false breakout.  
+- Avoid adding to a losing position; only add on confirmed pull‑backs to breakout level.
+
+MINDSET REINFORCEMENT (Mark style)
+- “Trust your eyes, not your opinions.” Review the chart before thinking about the story.  
+- Treat each trade as a probability play; focus on process, not outcome.  
+- Remind yourself that pull‑backs are normal; they are the “tennis‑ball” action.  
+- Visualize the perfect VCP before the market opens – this primes disciplined entry.  
+- End the day with a short gratitude note: thank yourself for following the rules.
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. YAHOO (1997) – Primary base after a deep decline, VCP with tight price action, volume vacuum. Bought at breakout, 8,000 % gain in ~2 years. Demonstrates power of early primary‑base entry.
+
+2. AMAZON – Early primary base not perfect; Mark admits he would wait for a tighter setup today. Still yielded 78,000 % over 18 years, showing that even imperfect VCPs can work if trend stays strong.
+
+3. STARBUCKS – Primary base formed after IPO, tight VCP, low volume, breakout to 3,200 % over 11 years. Shows that IPO‑adjacent bases can be huge winners.
+
+4. OLLIE’S – Classic VCP with multiple iterations, low volume, breakout, then a “one‑two punch” of adding on pull‑backs. Resulted in >100 % gain in a few months.
+
+5. LINKEDIN – IPO, deep correction, tight VCP, institutional accumulation (12 M shares). Breakout after earnings; used as a “number‑one pick” example.
+
+6. SHOPIFY – Recent IPO, deep correction, tight VCP on weekly chart, breakout after market low – illustrates that the same principles apply to modern tech stocks.
+
+7. SHAKE SHACK – Not a high‑growth company but still produced a clean VCP after IPO, 86 % move in 30 days. Shows that even modest fundamentals can produce short‑term magnitude moves.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. Trade only when you see a clear Volatility Contraction Pattern (VCP) with shrinking volume.  
+2. Confirm the stock is in Stage 2 up‑trend – above 50‑day MA, making higher highs.  
+3. Primary base = first buyable VCP after IPO or deep correction; it offers the biggest upside.  
+4. Enter at the precise “one” point (tightest bar, lowest volume); set stop just below the VCP low.  
+5. Use the “one‑two punch”: the entry is the first punch, the breakout is the second, larger move.  
+6. Limit risk to ≤1 % of account per trade; never move the stop unless new supply appears.  
+7. Avoid “bucking bronco” trades – high volatility, no contraction, or Stage 4 downtrends.  
+8. Always check the weekly chart for the same VCP shape; weekly confirmation adds safety.  
+9. Keep a disciplined journal; reference workbook page numbers when asking questions.  
+10. Trust the chart, not the hype. Stay patient, wait for the pattern to fully develop, and let the trade run.
+
+================================================================================
+END OF SUMMARY
+================================================================================

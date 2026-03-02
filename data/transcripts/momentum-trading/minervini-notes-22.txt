@@ -1,0 +1,220 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – PIVOT POINTS  
+Why it matters: A pivot point is the price level where supply has been exhausted and demand begins to dominate. It often marks the low of a VCP base and gives the best entry with minimal risk.  
+How to apply: After a stock has made a “turn” (break of a downtrend) watch the right‑hand side of the chart. When price contracts into a tight range and volume drops to a “vacuum,” draw a horizontal line at the low of that range – that is your pivot point.  
+
+KEY IDEA 2 – THE TURN  
+Why it matters: The turn signals the start of a new intermediate up‑trend. Buying before the turn is buying a down‑trend; buying after the turn aligns you with the new trend.  
+How to apply: Confirm the turn by a clear break above the prior down‑trend line, followed by a pull‑back that respects the new higher low. Only then start looking for a pivot.  
+
+KEY IDEA 3 – VCP (VOLATILITY CONTRACTION PATTERN)  
+Why it matters: VCP shows that supply is being removed through repeated pull‑backs and tighter price action. The tighter the contraction, the stronger the eventual breakout.  
+How to apply: Count the number of pull‑backs (minimum two). Each pull‑back should be tighter than the previous and occur on lower volume. When the right side is very tight (often 1‑2 days of low volume) you are ready to buy at the pivot.  
+
+KEY IDEA 4 – CHEAT, LOW CHEAT, LOAD CHEAT  
+Why it matters: These are “early” pivot points that form inside the base, lower than the traditional handle. Buying at a cheat gives a lower entry and higher upside potential.  
+How to apply: Identify a small, tight low inside the base (often in the middle third). If volume is low and price is near the line of least resistance, consider a partial position (half or quarter). Add more if a higher pivot or handle forms.  
+
+KEY IDEA 5 – SUPPLY & DEMAND REFERENCE LINES  
+Why it matters: The “line of most resistance” (left‑side supply) and the “line of least resistance” (right‑side demand) frame the trade. The farther the supply is from the pivot, the lower the risk.  
+How to apply: Draw a horizontal line at the pivot. Look left – how many days of supply (price above the line) exist? Fewer days = less risk.  
+
+KEY IDEA 6 – VOLUME VACUUM & EXPANSION  
+Why it matters: Low volume during contraction shows weak supply; high volume on breakout confirms strong demand.  
+How to apply: Verify that the last 2‑3 days of contraction have the lowest volume of the entire base. Then watch for a volume surge on the breakout (or within a few days).  
+
+KEY IDEA 7 – SYMMETRY & TIME COMPRESSION  
+Why it matters: A symmetric base (balanced left and right sides) indicates the market had time to absorb supply. Time‑compressed bases (right side rushed) often fail.  
+How to apply: Compare the width of the left side (distance from high to pivot) with the right side (distance from pivot to breakout). Aim for roughly equal or right side slightly longer.  
+
+KEY IDEA 8 – POSITION SIZING & RISK  
+Why it matters: Even a perfect setup can fail; limiting loss protects capital for the next trade.  
+How to apply: Risk no more than 1‑2% of account per trade. Place stop just below the pivot (or below the low of the most recent pull‑back). Adjust position size accordingly.  
+
+KEY IDEA 9 – DAILY DISCIPLINE  
+Why it matters: Consistency beats occasional brilliance.  
+How to apply: Follow a pre‑market screen, a set of entry rules, and a post‑trade journal every day.  
+
+KEY IDEA 10 – MINDSET  
+Why it matters: Trading is a marathon; volatility is the enemy, alpha is the goal.  
+How to apply: Focus on clean, low‑risk entries that move up daily (zero volatility). Avoid chasing, avoid over‑trading, and treat each trade as a “train” you board just before it leaves the station.  
+
+
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- PIVOT POINT – The low of a tight contraction; entry level with minimal supply.  
+- TURN – Break of a down‑trend followed by a pull‑back that creates a new higher low.  
+- VCP (Volatility Contraction Pattern) – Series of tightening pull‑backs on decreasing volume.  
+- CHEAT – Early pivot inside the base, lower than the handle; “cup completion cheat.”  
+- LOW CHEAT – Even lower pivot, often the first low after a down‑trend break.  
+- LOAD CHEAT – A second, deeper pivot within a strong base; requires expert timing.  
+- BOTTOM FISHING PIVOT – Pivot formed very close to a market low; high risk, small position.  
+- SUPPLY LINE (Line of Most Resistance) – Price area left of the pivot where sellers reside.  
+- DEMAND LINE (Line of Least Resistance) – Right‑hand side where buyers dominate.  
+- VOLUME VACUUM – Very low volume during contraction; sign of exhausted supply.  
+- VOLUME EXPANSION – Spike in volume on breakout; confirms demand.  
+- SYMMETRY – Balance between left‑side supply width and right‑side demand width.  
+- TIME COMPRESSION – Right side rushed; reduces probability of success.  
+- ITERATIONS – Each pull‑back in a VCP; more iterations = stronger base.  
+- RELATIVE STRENGTH – Stock must be in an up‑trend (above 200‑day MA, beating market).  
+- EARNINGS / GUIDANCE – Positive news can trigger the initial turn but must be followed by base formation.  
+- POSITION SIZING – Risk 1‑2% per trade; scale in at cheat, add at handle.  
+- STOP‑LOSS PLACEMENT – Just below pivot or below most recent low.  
+- RISK MANAGEMENT – Max loss per trade, max daily loss, avoid volatility.  
+- PSYCHOLOGY – Patience, avoid “stretch” trades, focus on fundamentals, keep a clean mental “reference chart.”  
+
+
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:  
+- Wait for a clear turn (break of down‑trend) before looking for a pivot.  
+- Identify a VCP with at least two tightening pull‑backs on decreasing volume.  
+- Draw the pivot line at the low of the tightest contraction.  
+- Place stop just below the pivot (or below the most recent low).  
+- Risk no more than 1‑2% of account on any single trade.  
+- Scale in: buy a small position at the cheat, add at the handle or higher pivot.  
+- Verify volume vacuum on the right side and volume expansion on breakout.  
+- Ensure symmetry: left‑side supply should not be dramatically larger than right‑side demand.  
+- Keep a model book of perfect charts; study only good examples.  
+- Review every trade after market close and update your model book.  
+
+DON’T:  
+- Buy before the turn; buying a down‑trend is a losing trade.  
+- Enter on a compressed right side (time compression) without sufficient supply absorption.  
+- Chase a breakout without a pivot or VCP confirmation.  
+- Use a stock that is below its 200‑day moving average or in a weak sector.  
+- Over‑size a position on a low‑volume cheat; keep the initial stake small.  
+- Place stops too tight (above the pivot) – you’ll get stopped out on normal noise.  
+- Trade stocks with massive left‑side supply (deep V‑shaped declines).  
+- Rely on “noise” indicators not covered in the SEPA methodology.  
+- Let emotions dictate trade size; stick to the pre‑defined risk rules.  
+- Ignore the need for a clean, low‑volatility move after entry.  
+
+
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+1. CHART CUES  
+   - Stock is in a confirmed up‑trend (above 200‑day MA, relative strength > market).  
+   - A down‑trend line has been broken → the “turn.”  
+   - Right‑hand side of the chart shows a series of pull‑backs (2‑4) that get tighter.  
+
+2. PRICE / VOLUME BEHAVIOR  
+   - Each pull‑back occurs on lower volume than the previous one.  
+   - The final contraction (pivot) shows the lowest volume of the entire base (volume vacuum).  
+   - Breakout (or a few days later) is accompanied by a noticeable volume surge (volume expansion).  
+
+3. BUY POINTS  
+   - CHEAT: Buy at the low of the first tight pivot inside the base (often middle third).  
+   - LOAD CHEAT: If a second, deeper pivot forms, add a small position.  
+   - HANDLE / HIGHER PIVOT: After the base tightens and price breaks above the pivot, add more.  
+   - Bottom‑fishing pivot: Very small position if the pivot is right at a market low and supply is minimal.  
+
+4. CONFIRMATION SIGNALS  
+   - Symmetry: Right‑side width ≈ left‑side width; no extreme time compression.  
+   - Supply line distance: Few days of price above the pivot (ideally <5 days).  
+   - Strong demand: Price moves up on low volume, then spikes on higher volume.  
+
+5. DANGER SIGNS / INVALIDATIONS  
+   - Right side rushes up with little or no contraction (time compression).  
+   - Volume does not drop during contraction (supply still present).  
+   - Breakout occurs without volume expansion (weak demand).  
+   - Stock falls back below the pivot after breakout (failed breakout).  
+   - Stock is below 200‑day MA or has negative relative strength.  
+
+
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST  
+- Scan for stocks above 200‑day MA and with RS > market.  
+- Look for recent earnings or guidance upgrades (potential turn catalyst).  
+- Run the Intervening Markets 360 screen for “new turn” and “VCP candidates.”  
+- Mark any stocks that have broken a down‑trend line in the last 1‑3 days.  
+- Pull up the last 3‑6 months of charts for each candidate; note any existing VCPs.  
+
+MARKET HOURS DISCIPLINE  
+- Monitor the pre‑identified candidates for the formation of a pivot (tight low, volume vacuum).  
+- When a pivot forms, place a limit order at or just above the low; set stop 0.5‑1% below pivot.  
+- If a cheat appears, enter a small position (≤25% of intended full size).  
+- Add to the position only after a higher pivot or handle confirms (volume expansion).  
+- Keep a running “watch list” of stocks that missed the cheat; re‑evaluate later in the day.  
+- Avoid any trade that shows compressed right side or high volume on the left side.  
+
+POST‑MARKET REVIEW TASKS  
+- Log every trade: entry price, pivot level, stop, position size, reason for entry.  
+- Record outcome: hit stop, hit target, or still open.  
+- Review chart to see if symmetry, volume, and supply lines behaved as expected.  
+- Update model book with new perfect examples; discard bad charts.  
+- Use Trade Grader (or similar) to calculate win rate, average R, and max drawdown.  
+
+RISK CONTROL REMINDERS  
+- Max 1‑2% account risk per trade.  
+- Daily loss limit = 3% of account; stop trading for the day if hit.  
+- Never move stop higher; only tighten if price moves well above pivot.  
+- Keep position size small on low‑cheat or bottom‑fishing pivots.  
+
+MINDSET REINFORCEMENT (Mark style)  
+- “I am boarding the train just before the doors close.” – be ready, not frantic.  
+- Focus on low‑volatility, high‑alpha moves (steady daily up moves).  
+- Treat each trade as a practice of fundamentals; ignore noise.  
+- Remember: perfection in the model book > quantity of trades.  
+- Stay patient; wait for the perfect pivot before acting.  
+
+
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. YAHOO IPO – Bought at the first breakout after the IPO high, then watched VCP tighten over several iterations before a clean breakout.  
+
+2. CIRRUS – Earnings/Guidance lift created a turn, followed by a tight VCP. Pivot formed below breakout; entry at pivot gave strong upside.  
+
+3. BB STORES – Classic VCP with 4‑5 pull‑backs, low volume on final contraction, breakout on volume surge; resulted in a 146% move in 14 days.  
+
+4. MICROSOFT – “Cheat” formed at the cup completion; entered early, added at handle, captured rapid post‑cheat rally.  
+
+5. GOOGLE & TWITTER – Low‑cheat with almost no handle; after a tiny pull‑back, price exploded upward with minimal supply left.  
+
+6. QUEST COMMUNICATIONS – Missed trade; looked good on paper but lacked understanding of the underlying industry, illustrating the need for fundamental context.  
+
+7. TZU – Right side was too compressed; despite a turn, the base failed and the stock crashed – a cautionary “time compression” example.  
+
+8. MGA – Strong demand on the right side, low volume on contraction, breakout on high volume – a textbook VCP.  
+
+These examples reinforce the pattern of turn → pivot → low volume contraction → breakout with volume expansion.  
+
+
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ONLY BUY AFTER A CLEAR TURN (break of down‑trend) – never trade a down‑trend.  
+2. LOOK FOR A VCP: ≥2 tightening pull‑backs, each on lower volume.  
+3. IDENTIFY THE PIVOT POINT – the lowest low of the tightest contraction; entry level.  
+4. CONFIRM LOW VOLUME (VACUUM) ON THE PIVOT AND HIGH VOLUME ON BREAKOUT.  
+5. ENSURE SYMMETRY – left‑side supply should not vastly exceed right‑side demand.  
+6. USE CHEAT / LOW CHEAT FOR EARLY, LOWER‑COST ENTRIES; add at higher pivots.  
+7. PLACE STOP JUST BELOW THE PIVOT; risk ≤1‑2% of account per trade.  
+8. AVOID TIME‑COMPRESSION SETUPS – right side must develop gradually.  
+9. KEEP A MODEL BOOK OF PERFECT CHARTS; study only good examples.  
+10. MAINTAIN THE “TRAIN” MINDSET: be ready, be patient, board just before the doors close, and ride the upward momentum with minimal volatility.  
+
+================================================================================
+END OF SUMMARY
+================================================================================

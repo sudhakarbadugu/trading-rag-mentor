@@ -1,0 +1,235 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+Key Idea 1 – Context is everything  
+Why it matters: The same technical pattern can be bullish in an early‑stage uptrend and bearish in a late‑stage trend.  
+How to apply: Before you trade, determine which “mountain stage” the stock is in (stage 1‑5) and then apply the appropriate rules.
+
+Key Idea 2 – Base Count (stage counting)  
+Why it matters: The number of bases a stock has built tells you how far up the mountain you are and how much upside is likely left.  
+How to apply: Count completed VCP bases after the 200‑day moving average turned up. Early (stage 1‑2) = more upside, mid (stage 3) = watch volatility, late (stage 4‑5) = prepare to sell.
+
+Key Idea 3 – VCP (Volatility Contraction Pattern)  
+Why it matters: VCPs are high‑probability entry setups when they occur early in a trend.  
+How to apply: Look for a tightening price range with decreasing volume, then a breakout above the contraction zone with strong volume.
+
+Key Idea 4 – PE Expansion as a Contextual Cue  
+Why it matters: Rapid PE expansion (2‑3×) signals that price is outpacing earnings and the stock may be frothy.  
+How to apply: Track the PE before the breakout and after each base. If it jumps from ~20× to 40‑70×, tighten your stop or consider exiting.
+
+Key Idea 5 – Up‑Day/Down‑Day Ratio (70% Rule)  
+Why it matters: A high proportion of up days shows strength; a sudden drop below the rule signals exhaustion.  
+How to apply: Count up‑days vs down‑days over the last 7‑15 trading days. ≥70% up = hold; falling below = start reducing.
+
+Key Idea 6 – Acceleration & Largest Up/Down Days  
+Why it matters: The biggest single‑day move, widest spread, and biggest gap indicate the stock is entering a parabolic phase.  
+How to apply: When you see a new “largest up day” followed quickly by a “largest down day on heavy volume,” prepare to sell into strength.
+
+Key Idea 7 – 50‑Day Break‑Even or Better Rule  
+Why it matters: It gives a simple, objective exit point that adapts to the stock’s volatility.  
+How to apply: Set a stop (5‑8%). Once the 50‑day SMA moves above your entry price, move the stop to just below the 50‑day. Exit only when price closes below the 50‑day.
+
+Key Idea 8 – Lower Lows as Support in Strong Uptrends  
+Why it matters: Institutions tend to buy on the first two lower lows; the third lower low often signals exhaustion.  
+How to apply: Track weekly (or daily) lower lows. Two lower lows = hold; three lower lows or a close below the 50‑day = sell.
+
+Key Idea 9 – “Dinosaur Footprint” – Largest Down Day on Highest Volume  
+Why it matters: Institutional profit‑taking shows up as a massive down move on huge volume.  
+How to apply: When you see the biggest daily drop on the highest volume since the move began, exit or sharply reduce position.
+
+Key Idea 10 – Mental Model: Mountain Climbing Analogy  
+Why it matters: It reinforces the need to adapt tactics as you ascend (early, mid, late stage).  
+How to apply: Constantly ask “Which stage am I on?” and adjust position size, stop placement, and profit targets accordingly.
+
+
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- Base Count / Stage Counting  
+  Count of completed VCP bases after the 200‑day turned up. Stages 1‑5 indicate early to late trend.
+
+- VCP (Volatility Contraction Pattern)  
+  Tightening price range with falling volume, breakout on strong volume.
+
+- 200‑Day Moving Average (MA)  
+  Breakout above 200‑day signals start of a new uptrend; staying above is a health check.
+
+- PE Expansion  
+  Ratio of current PE to PE at base breakout; 2‑3× expansion warns of overvaluation.
+
+- Up‑Day / Down‑Day Ratio (70% Rule)  
+  ≥70% up days over 7‑15 days = strength; dropping below signals exhaustion.
+
+- Acceleration / Largest Up Day / Largest Gap / Widest Spread  
+  Indicators of a parabolic move; watch for rapid increase in advance rate.
+
+- “ANTs” Confirmation (David Ryan)  
+  12 out of 15 up days after a breakout = strong power play.
+
+- “Dinosaur Footprint”  
+  Largest down day on highest volume since the move began; indicates institutional selling.
+
+- 50‑Day Break‑Even or Better Rule  
+  Move stop to just below 50‑day SMA once price is above it; exit on close below.
+
+- Lower Lows (2‑3 weekly lower lows)  
+  Two lower lows = support; three lower lows or close below 50‑day = sell signal.
+
+- Sell Rules (into strength)  
+  Sell on heavy‑volume reversals, after acceleration, or when price falls below key MAs.
+
+- Position Sizing & Risk per Trade  
+  Risk 5‑7% per trade; take partial profits when gain exceeds 2‑3× risk.
+
+- Psychology – “Turnaround Time” Analogy (Annie Duke)  
+  Know when to quit while ahead; treat each stage like a mountain turn‑around point.
+
+- Market Context (Secular Bull vs Bear)  
+  Leaders in a multi‑year bull market have more supply; later stages carry higher risk.
+
+
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Determine the stage (1‑5) before entering any trade.
+- Use a VCP breakout with strong volume as an entry signal.
+- Keep risk per trade at 5‑7% of account equity.
+- Move stop to break‑even once price is above the 50‑day SMA.
+- Take partial profits when the trade is 2‑3× your risk.
+- Monitor PE expansion; if PE doubles or triples, tighten stops.
+- Count up‑days; maintain ≥70% up days before adding.
+- Watch for the “largest down day on highest volume” and exit promptly.
+- Use lower‑low analysis: after three lower lows, prepare to sell.
+- Review the mountain stage each day and adjust tactics accordingly.
+
+DON’T:
+- Trade a stock solely because it looks “late stage” without checking context.
+- Ignore the 200‑day MA; a breakout below it is a weak signal.
+- Hold a position after the price falls below the 20‑day MA shortly after entry.
+- Let a trade run past the point where the largest up day is followed by a large down day on heavy volume.
+- Rely on PE alone to decide entry; it is only a contextual filter.
+- Add to a position when the up‑day ratio falls below 70%.
+- Keep a full position after three lower lows without a clear catalyst.
+- Trade on ticker symbols supplied by others during curriculum sessions.
+- Forget to reset stops after a partial profit is taken.
+- Assume that a leader in one cycle will lead the next cycle.
+
+
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+Chart Cues
+- Price has broken above the 200‑day SMA and is forming a tight range (VCP).
+- Volume is decreasing during the contraction and spikes on breakout.
+- PE ratio at breakout is modest (15‑25×); watch for rapid rise.
+
+Price / Volume Behavior
+- Up‑day count ≥70% over the last 7‑15 days.
+- First “largest up day” creates a wide spread or gap upward.
+- Within 5‑10 days, a “largest down day” appears on the highest volume since the move began.
+- After the breakout, price may pull back to the 20‑day or 50‑day SMA.
+
+Buy Points
+- Enter on a clean breakout above the VCP contraction zone with volume > average 2‑3×.
+- Confirm with at least 12 of the last 15 days being up (ANTs) if early stage.
+- Ensure PE has not expanded more than ~2× from base level.
+
+Confirmation Signals
+- Price stays above the 200‑day SMA for at least 3‑5 sessions.
+- No lower low formed on the daily chart within the first week.
+- Volume on the breakout is higher than the average of the prior 20 days.
+
+Danger Signs / Invalidations
+- PE expands >3× from base level.
+- Up‑day ratio drops below 60% within two weeks.
+- Largest down day on highest volume appears.
+- Price closes below the 20‑day MA within 3 days of entry.
+- Formation of the third lower low (weekly) or a close below the 50‑day SMA.
+
+
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Scan for stocks that have just broken above the 200‑day SMA.
+- Verify VCP contraction (price range narrowing, volume falling).
+- Check PE ratio at breakout; note any recent expansion.
+- Count completed bases (stage 1‑5) using charting software.
+- Run the “70% up‑day” filter on the last 10‑15 days.
+- Set alerts for largest up day, gap, and volume spikes.
+
+MARKET HOURS DISCIPLINE
+- Enter only on a breakout with volume ≥2‑3× average.
+- Immediately place a stop at 5‑8% below entry (or below the 20‑day MA if tighter).
+- Monitor real‑time volume; if volume spikes on a down move, consider reducing half the position.
+- Keep a running tally of up‑days vs down‑days; if ratio falls below 70%, tighten stop.
+- Watch for the “largest up day” and note the date; set a reminder to watch for reversal within the next 5‑7 days.
+
+POST‑MARKET REVIEW TASKS
+- Record the stage, entry price, stop level, and PE at entry for each trade.
+- Review whether any “dinosaur footprint” (largest down day on high volume) occurred.
+- Update the base count for each holding; note any new bases formed.
+- Calculate profit/loss and compare to average gain; if trade exceeded average gain by >2× risk, consider taking partial profit.
+- Log any rule breaches (e.g., price fell below 20‑day MA) and adjust future criteria.
+
+RISK CONTROL REMINDERS
+- Never risk more than 7% of account on a single trade.
+- Move stop to break‑even once price is above the 50‑day SMA.
+- If two weekly lower lows appear, tighten stop to just below the most recent low.
+- On a “largest down day on highest volume,” exit or cut position to ≤20% of original size.
+
+MINDSET REINFORCEMENT (Mark style)
+- Ask each morning: “Which mountain stage am I on for each position?”
+- Visualize the “turnaround point” – be ready to quit while ahead.
+- Remember that PE expansion is a warning, not a ban; stay objective.
+- Treat each trade as a probability game; focus on the weight of evidence.
+- Keep emotions out: if a rule triggers, act immediately; no second‑guessing.
+
+
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. Taser – Early stage VCP breakout, accelerated advance, then a large up day followed by a modest pullback. Held through the acceleration and sold into strength.
+
+2. Qualcomm – 80% rise in 9 days, clean VCP breakout, then a 73% jump in 6 days. Demonstrated early‑stage power play; stop moved to break‑even after 50‑day crossed.
+
+3. Tesla – Stage‑2 base, big correction, then a “blow‑off” with 58% gain in five days. Sell signal triggered when the largest down day on high volume appeared.
+
+4. Snap – After a strong breakout, price widened, PE expanded from ~20× to 40×, then a massive down day on earnings beat. The “dinosaur footprint” prompted a full exit.
+
+5. Crocs – IPO base breakout, strong up move, then a sharp drop on earnings with the biggest volume day. Same sell‑signal pattern as Snap.
+
+6. Home Depot (historical) – PE rose from ~25× to 75× before topping; later the PE fell as earnings caught up, illustrating how PE expansion can reverse.
+
+
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ALWAYS IDENTIFY THE MOUNTAIN STAGE (1‑5) BEFORE ENTERING.
+2. USE VCP BREAKOUTS WITH 2‑3× AVERAGE VOLUME AS YOUR ENTRY SIGNAL.
+3. KEEP RISK PER TRADE AT 5‑7% OF ACCOUNT; SET STOP AT 5‑8% OR BELOW 20‑DAY MA.
+4. MOVE STOP TO BREAK‑EVEN ONCE PRICE IS ABOVE THE 50‑DAY SMA.
+5. MONITOR PE EXPANSION – IF PE DOU­BLES OR TRIPL­ES, TIGHTEN STOP OR EXIT.
+6. MAINTAIN ≥70% UP‑DAYS OVER THE LAST 7‑15 DAYS; FALLING BELOW = REDUCE.
+7. WATCH FOR THE LARGEST UP DAY, THEN THE LARGEST DOWN DAY ON HIGH VOLUME – SELL INTO STRENGTH.
+8. APPLY THE 50‑DAY BREAK‑EVEN OR BETTER RULE AS A SIMPLE EXIT FRAMEWORK.
+9. TWO LOWER LOWS = SUPPORT; THREE LOWER LOWS OR CLOSE BELOW 50‑DAY = SELL.
+10. KEEP THE MOUNTAIN‑CLIMBER MINDSET: Know your turn‑around point, adapt tactics, and quit while ahead.
+
+================================================================================
+END OF SUMMARY
+================================================================================

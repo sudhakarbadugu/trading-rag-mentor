@@ -1,0 +1,189 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA: Pre‑market routine and focus list creation  
+WHY IT MATTERS: Gives you a disciplined start, filters thousands of symbols to a handful of viable candidates before the market opens.  
+HOW TO APPLY: Every morning at 8:45 AM EST run the “Bread & Butter” screen, add any tight, low‑volume right‑side pullbacks to a WATCH LIST, then move promising symbols to ON‑DECK and finally to the BUY LIST once a clear pivot forms.
+
+KEY IDEA: VCP (Volatility Contraction Pattern) and right‑side tightening  
+WHY IT MATTERS: A VCP shows supply being absorbed; the tighter the price range and the lower the volume, the higher the probability of a breakout.  
+HOW TO APPLY: Look for 3‑5 consecutive lower lows on the daily, decreasing volume, and a clear “pivot” line where the price has stopped falling. The buy point is just above the breakout high (or the prior day’s high).
+
+KEY IDEA: Stage‑2 uptrend (new bull market phase)  
+WHY IT MATTERS: Stocks in a confirmed stage‑2 uptrend have momentum and are less likely to reverse on a pullback.  
+HOW TO APPLY: Verify the stock is at least 25 % above its 52‑week low, above the 200‑day moving average, and has been trending higher for 4‑5 months on the weekly chart.
+
+KEY IDEA: Fab‑5 panel (RPR, TPR, Pressure, Trend, Buy‑Risk)  
+WHY IT MATTERS: Provides a quick, at‑a‑glance health check. Green across the board = strong candidate.  
+HOW TO APPLY: Use the platform’s Fab‑5 panel; require RPR ≥ 90, TPR = A or B, Pressure off (no recent down pressure), Trend = Stage‑2, and Buy‑Risk green before entering.
+
+KEY IDEA: Relative Performance Rank (RPR)  
+WHY IT MATTERS: Equivalent to IBD’s Relative Strength but on a 1‑100 scale; higher numbers indicate market‑leading stocks.  
+HOW TO APPLY: Filter for RPR ≥ 90; treat anything below 70 as a “no‑go.” Track RPR changes; a sharp rise can signal a power‑play opportunity.
+
+KEY IDEA: Technical Profile Rank (TPR)  
+WHY IT MATTERS: Scores how closely a stock’s technical profile matches historic winners.  
+HOW TO APPLY: Aim for TPR = A or B. If the stock is a C, verify other Fab‑5 components before proceeding; D is off‑limits.
+
+KEY IDEA: Pressure indicator  
+WHY IT MATTERS: Shows short‑term buyer/seller dominance. A stock under pressure after a breakout often stalls.  
+HOW TO APPLY: After a breakout, look for pressure to drop to green within 1‑2 days. If pressure stays red, consider exiting or tightening stops.
+
+KEY IDEA: Power‑play criteria  
+WHY IT MATTERS: Power plays are rare, high‑reward setups where fundamentals are less important because a catalyst is driving the move.  
+HOW TO APPLY: Look for a stock that has doubled (or more) in ≤ 8 weeks, RPR ≥ 95, and a tight VCP or base. Accept higher volatility but keep stop‑loss tight (≤ 2 % of entry price).
+
+KEY IDEA: Alerts & MonAlert recipes  
+WHY IT MATTERS: Saves time and prevents missed entries or exits.  
+HOW TO APPLY: Right‑click a price level → “Trap Alert Above High” or “Below Low.” Use preset recipes (e.g., “Buy‑Risk,” “No‑Nos”) to automatically flag violations, extensions, or ANTS confirmations.
+
+KEY IDEA: Violation / No‑No analysis  
+WHY IT MATTERS: Identifies abnormal behavior after you’re in a trade (e.g., close below 20‑day MA, multiple lower lows).  
+HOW TO APPLY: After entering, switch MonAlert to “No‑Nos.” If red bars appear, consider exiting or reducing position.
+
+KEY IDEA: Risk‑to‑Reward (R:R) minimum 2:1  
+WHY IT MATTERS: Ensures each trade has the potential to earn at least twice what you risk.  
+HOW TO APPLY: Calculate stop distance, then set target at ≥ 2 × stop. Use the platform’s risk calculator to verify before placing the trade.
+
+KEY IDEA: Stop‑to‑Break‑Even financing  
+WHY IT MATTERS: Allows you to lock in a risk‑free position by selling a portion of the trade.  
+HOW TO APPLY: Determine the % of shares needed to cover the stop (e.g., 22 % for a 3.4 R trade). Set a sell order for that portion at the entry price.
+
+KEY IDEA: Post‑trade analytics (Trade Grader, Analytics)  
+WHY IT MATTERS: Objective performance review speeds learning and eliminates emotional bias.  
+HOW TO APPLY: After closing, the platform auto‑sends the trade to Trade Grader. Review the grade, compare to your own expectations, and adjust future entries accordingly.
+
+KEY IDEA: Market‑wide pressure and distribution vs. accumulation  
+WHY IT MATTERS: The S&P 500 can be high while the majority of stocks are under pressure—sign of a fragile rally.  
+HOW TO APPLY: Monitor the “% of stocks under pressure” indicator. If > 60 % are under pressure while the index makes new highs, stay in cash or look for high‑RPR, low‑pressure stocks.
+
+KEY IDEA: Seasonal edge (December “Santa Claus” rally)  
+WHY IT MATTERS: Historical data shows December often provides extra upside.  
+HOW TO APPLY: In late November/early December, increase position size modestly on high‑quality setups, but still respect stop‑loss rules.
+
+KEY IDEA: Avoid buying on 50‑day pullbacks alone  
+WHY IT MATTERS: Pullbacks to the 50‑day MA are not a reliable entry unless a VCP base is present.  
+HOW TO APPLY: Only consider a 50‑day pullback if the price is forming a tight right‑side contraction and the Fab‑5 panel is green.
+
+KEY IDEA: Backup plan for connectivity  
+WHY IT MATTERS: Internet outages can prevent you from managing stops.  
+HOW TO APPLY: Keep a phone‑based trading app ready, have broker’s speed‑dial saved, and know your stop levels so you can verbally instruct a sell if needed.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- VCP (Volatility Contraction Pattern): 3‑5 lower lows, decreasing volume, tight right‑side; entry just above breakout high.  
+- Stage‑2 Uptrend: Stock > 25 % above 52‑week low, above 200‑day MA, trending up for several months.  
+- Fab‑5 Panel: RPR, TPR, Pressure, Trend, Buy‑Risk; all green = strong candidate.  
+- RPR (Relative Performance Rank): 1‑100 scale of relative strength; ≥ 90 preferred.  
+- TPR (Technical Profile Rank): Grades A‑D; A/B are ideal, C acceptable with other green Fab‑5 signals, D off‑limits.  
+- Pressure Indicator: Shows short‑term buyer/seller dominance; should turn green quickly after breakout.  
+- Power Play: Stock doubles (or more) in ≤ 8 weeks, high RPR, tight base; fundamentals less critical.  
+- Buy‑Risk: Early‑turn version of TPR; allows slightly looser criteria for early entries.  
+- No‑Nos / Violations: Post‑entry red flags (close below 20‑day MA, multiple lower lows, etc.).  
+- ANTS Confirmation: After breakout, a series of strong days confirming the move.  
+- Angle Warning: Detects steep 50‑day MA angles that can impede a pullback; minor vs. major warnings.  
+- Volume Run Rate (VRR): Daily volume vs. 50‑day average; low VRR on right side is desirable.  
+- Alerts (Trap Alert): Quick one‑click alerts for price levels (above high, below low).  
+- MonAlert Recipes: Customizable sets of indicators (e.g., “Buy‑Risk,” “No‑Nos”) applied forward or backward.  
+- Earnings Calendar Integration: Shows upcoming earnings directly on screen; helps avoid unwanted earnings risk.  
+- Market Pressure Indicator: % of stocks under pressure; divergence from index signals hidden weakness.  
+- Seasonal Patterns: December “Santa Claus” rally tendency.  
+- Position Sizing & Risk per Trade: Typically 1‑2 % of portfolio risk per trade.  
+- Stop‑to‑Break‑Even Financing: Sell a portion of shares to cover stop loss.  
+- Trade Grader & Analytics: Automatic post‑trade grading and statistical tracking.  
+- Model Book / Workbook: Collection of historic chart precedents for visual pattern matching.  
+- IPO Screen: Finds newly listed stocks; requires extra caution because TPR may be unavailable.  
+- Short‑selling Rules: Only short stocks below 200‑day MA, heavy down pressure, and with red Fab‑5.  
+- Psychological Discipline: Earn the right to play, avoid chasing, stick to rules, accept losses quickly.  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Run the Bread & Butter screen every pre‑market and add tight, low‑volume pullbacks to your WATCH LIST.
+- Verify Fab‑5 panel is green (RPR ≥ 90, TPR = A/B, Pressure off, Trend = Stage‑2, Buy‑Risk green) before entering.
+- Enter only at the breakout high or a buy‑stop placed a few cents above it.
+- Place stop loss just below the pivot low (or below the recent low of the right side).
+- Ensure R:R ≥ 2:1; use the risk calculator to confirm.
+- Finance your stop by selling the calculated % of shares (e.g., 22 % for a 3.4 R trade).
+- Use MonAlert “Trap Alert” for entry, stop, and critical alerts.
+- Review each closed trade in Trade Grader and adjust future entries.
+- Keep a backup trading method (phone app, broker speed‑dial) for internet outages.
+- Monitor the market‑wide pressure indicator; stay cautious when > 60 % of stocks are under pressure.
+
+DON’T:
+- Buy a stock that is merely pulling back to the 50‑day MA without a VCP base.
+- Enter a trade if any Fab‑5 component is red (especially RPR < 70 or TPR = D).
+- Chase a stock that has already moved 5 %+ above the pivot; wait for the next pullback.
+- Short a stock that is in a confirmed uptrend or above its 200‑day MA.
+- Ignore violations; a single red “No‑No” bar should trigger an exit or position reduction.
+- Over‑size positions; never risk more than 2 % of your total capital on a single trade.
+- Rely solely on price targets; let the chart dictate exits.
+- Trade penny stocks (< $10) unless they meet power‑play criteria and have a clear base.
+- Spend more than 30 minutes a day on screening without a focused list; avoid analysis paralysis.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- Daily chart shows 3‑5 lower lows, each lower low accompanied by lower volume.
+- Right side of the pattern is tight (price range ≤ 10 % of recent high) and volume is at least 30‑80 % below 50‑day average.
+- Pivot line drawn from the lowest low to the breakout high; price respects this line for at least 2‑3 days.
+- Weekly chart confirms Stage‑2 uptrend (price > 25 % above 52‑week low, above 200‑day MA).
+
+PRICE / VOLUME BEHAVIOR
+- Volume contraction on each pullback day.
+- After breakout, volume spikes sharply then returns to low levels.
+- No‑Nos: No close below 20‑day MA, no more than 1 lower low after entry, no series of red closes.
+
+BUY POINTS
+- Place a buy‑stop a few cents (0.5‑1 %) above the breakout high or the prior day’s high.
+- For intraday, use the high of the last bar of the right‑side contraction.
+- Confirm with MonAlert “Buy‑Risk” green and Pressure turning green within 1‑2 days.
+
+CONFIRMATION SIGNALS
+- Pressure indicator turns green within 2 days of breakout.
+- ANTS confirmation: ≥ 3 consecutive days with close above open and low‑to‑high range expanding.
+- RPR jumps 2‑5 points on the day of breakout.
+- TPR upgrades to A or B within the next week.
+
+DANGER SIGNS / INVALIDATIONS
+- Red “No‑Nos” appear (close below 20‑day MA, multiple lower lows, volume surge on down days).
+- Pressure stays red for more than 2 days after breakout.
+- RPR falls below 80 or TPR drops to C/D.
+- Stock breaks below the pivot low before the stop is hit (indicates supply still present).
+- Market‑wide pressure > 60 % while index makes new highs (high risk of hidden weakness).
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- 08:30 AM: Open platform, check news feed for any overnight headlines on your watch list.
+- 08:35 AM: Run Bread & Butter screen; add any new tight pullbacks to WATCH LIST.
+- 08:40 AM: Review Fab‑5 panel for all ON‑DECK symbols; move green ones to BUY LIST.
+- 08:45 AM: Verify earnings calendar; flag any stocks with earnings within the next 2 days.
+- 08:50 AM: Set alerts (buy‑stop, stop‑loss, critical) for each BUY LIST candidate.
+- 08:55 AM: Review market‑wide pressure indicator; note any divergence with the S&P 500.
+
+MARKET HOURS DISCIPLINE
+- 09:30 AM: If a buy‑stop triggers, enter immediately; record entry price, stop, target, and % financed.
+- 09:45 AM: Scan for any “No‑Nos” on newly entered positions; adjust stops if needed.
+- 10:30 AM: Quick 5‑minute scan of high‑RPR, low‑VRR stocks for intraday opportunites.
+- 12:00 PM: Lunch break – keep alerts active; do not manually adjust unless a violation occurs.
+- 01:30 PM: Re‑check Fab‑5 panel on open positions; if any component turns red, consider scaling out.
+- 03:00 PM: Review “Pressure” indicator; if still red, tighten stop or exit.
+- 04:00 PM: Close all positions that have not met target and are still in risk; ensure stops are in place for any overnight holds.
+
+POST‑MARKET REVIEW TASKS
+- 04:15 PM: Export today’s trades to Trade Grader; assign a grade and note any violations.
+- 04:30 PM: Review MonAlert report
+
+================================================================================
+END OF SUMMARY
+================================================================================

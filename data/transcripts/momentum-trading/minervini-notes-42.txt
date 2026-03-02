@@ -1,0 +1,205 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – YOU CREATE YOUR OWN ODDS  
+Why it matters:  In the market you never control the odds; you control the odds you get on your capital. Betting a small amount into a large pot (high odds) lets you survive more mistakes.  
+How to apply:  Aim for a risk‑to‑reward of at least 2:1 (preferably 3:1). Size each trade so that a loss is a small % of your account (e.g., 1‑2%). This gives you “big odds” on your money.
+
+KEY IDEA 2 – PROGRESSIVE EXPOSURE (SCALING)  
+Why it matters:  Trading larger when you’re winning and smaller when you’re losing protects you from ruin and lets profits fund bigger bets.  
+How to apply:  Start with a pilot trade (e.g., 5‑6% of portfolio). If it wins, use the profit to double the next position size. Continue scaling up while the streak stays positive; scale back or exit when a loss occurs.
+
+KEY IDEA 3 – “EARN THE RIGHT TO TRADE BIGGER”  
+Why it matters:  You only add capital after a smaller trade proves the strategy works. This prevents throwing large sums into unproven setups.  
+How to apply:  Treat every winning trade as a “ticket” that lets you add a larger position on the next setup. Do not increase exposure unless you have open or closed profit to finance the added risk.
+
+KEY IDEA 4 – RISK OF RUIN & STREAKS  
+Why it matters:  Even a system with a positive expectancy can be wiped out if you stay flat‑sized during a losing streak.  
+How to apply:  Use position‑size formulas (e.g., Kelly, fixed‑fraction) that shrink exposure after losses. Recognize that 20‑30 consecutive losses are possible; be prepared to cut back to the minimum size.
+
+KEY IDEA 5 – STOP‑TO‑BREAKEVEN & PARTIAL EXIT (ADD‑AND‑REDUCE)  
+Why it matters:  Moving a stop to breakeven or selling a portion of a winning position locks in profit while keeping upside.  
+How to apply:  When a trade moves 2‑3× your stop distance, sell 50% (or enough to cover the stop) and move the stop on the remaining shares to breakeven. You can then add more shares if the trend continues, keeping overall risk unchanged.
+
+KEY IDEA 6 – PROXIMITY RISK & STAGGERED STOPS  
+Why it matters:  A stop placed too close to current price can be hit by normal volatility or a gap, causing unnecessary exits.  
+How to apply:  If a stock is volatile, set a wider stop or use two staggered stops (e.g., 4% and 8%). The average of the two equals your target risk but gives the trade room to breathe.
+
+KEY IDEA 7 – EARNINGS & IMPLIED VOLATILITY  
+Why it matters:  Earnings can cause large moves; knowing the market’s implied volatility helps size a profit cushion.  
+How to apply:  Calculate IV% = (Call Premium + Put Premium) / Stock Price × 100. Aim for a profit cushion of at least 2‑3× IV before the earnings announcement. If IV = 5%, keep at least 10‑15% unrealized profit or reduce position size.
+
+KEY IDEA 8 – PRIORITY SHIFT AS TRADE PROGRESSES  
+Why it matters:  Your focus changes from “protect downside” → “protect breakeven” → “protect profit”.  
+How to apply:  1) Enter trade – primary goal = stop loss at calculated % (risk). 2) After price moves past stop distance, move stop to breakeven. 3) Once profit exceeds your average gain (≈9‑10% for Minervini), protect that level (e.g., lock in 9% by moving stop to that point).
+
+KEY IDEA 9 – TURNOVER IS GOOD IF IT’S PROFIT‑DRIVEN  
+Why it matters:  High turnover from cutting losers and taking profits is a sign of disciplined risk management, not “churning”.  
+How to apply:  Track each trade’s R‑multiple. If you’re consistently exiting losers early and letting winners run, turnover will be high and equity curve will stay smooth.
+
+KEY IDEA 10 – MINDSET: “BET ON THE PROCESS, NOT THE STOCK”  
+Why it matters:  Emotions cause over‑trading, holding losers, or adding to losers.  
+How to apply:  Follow the written rules every day. When a rule says “reduce exposure after a loss,” do it automatically. Treat each trade as a data point, not a personal win or loss.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- ODDS ON YOUR MONEY: Seek favorable risk‑to‑reward; never bet a small amount into a large pot.  
+- PROGRESSIVE EXPOSURE: Scale position size up with winners, down with losers.  
+- EARN THE RIGHT TO TRADE LARGER: Use profits (open or closed) to finance bigger bets.  
+- RISK OF RUIN: Understand that long loss streaks can destroy a flat‑sized account; adjust size accordingly.  
+- VCP (VOLATILITY CONTRACTION PATTERN): Mentioned as a setup that can proliferate, prompting larger exposure.  
+- ADD‑AND‑REDUCE (or “add and reduce”): Add shares while moving stop up so total risk stays the same.  
+- REDUCE‑AND‑FREE‑ROLL: Sell part of a winning position to fund the stop, making the trade essentially risk‑free.  
+- HALF‑SELL (50% exit): Provides a psychological win‑win and keeps risk‑reward intact.  
+- PROXIMITY RISK: Risk of being stopped out by a tiny price move or gap when stop is too close.  
+- STAGGERED STOPS: Two stops (tight and wide) whose average equals desired risk, giving the trade breathing room.  
+- IMPLIED VOLATILITY (IV) FOR EARNINGS: Use option premiums to estimate expected move; set profit cushion accordingly.  
+- POSITION SIZING RULES: Full position capped at ~25% of equity; pilot trades ~5‑6%; scale in steps (6.25%, 12.5%, 25%).  
+- RISK‑REWARD PRIORITY SHIFT: Protect downside → protect breakeven → protect profit (average gain).  
+- TURNOVER AS A POSITIVE SIGNAL: High turnover from disciplined exits is desirable.  
+- PSYCHOLOGICAL DISCIPLINE: “Bet on the process, not the stock”; avoid ego‑driven size increases.
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Set a minimum risk‑to‑reward of 2:1 on every trade.
+- Start each new market entry with a pilot size (≈5‑6% of equity).
+- Use profits to finance larger subsequent positions.
+- Move stops to breakeven once the trade is 2‑3× the stop distance.
+- Sell half (or enough to cover the stop) when a trade is comfortably in profit.
+- Adjust position size down after any loss; never increase size on a losing streak.
+- Calculate implied volatility before earnings and keep a profit cushion of 2‑3× IV.
+- Use staggered stops when the stock is volatile.
+- Keep the full‑position cap at ~25% of total equity.
+- Review your equity curve daily; aim for a smooth, upward trend.
+
+DON’T:
+- Lay odds (bet a small amount into a large pot) – always get odds on your money.
+- Add to a losing position without first having open or closed profit.
+- Keep the same flat size through a long losing streak.
+- Choke a winning trade by moving the stop too close too early.
+- Let proximity risk force a stop on a normal pullback; consider widening or staggered stops.
+- Trade on intuition alone; follow the written process.
+- Hold a full position into earnings without a profit cushion.
+- Ignore the need to reduce exposure when market sentiment turns bearish.
+- Let emotions dictate position size; always follow the scaling rules.
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+CHART CUES
+- VCP or “cheat area” (tight consolidation in the lower third of the price range) followed by a breakout.
+- Formation of a “handle” after the breakout – indicates continuation potential.
+- Low‑volume pullbacks that respect the 20‑day and 50‑day moving averages.
+- Volume spikes on breakout; low volume on normal pullbacks.
+
+PRICE / VOLUME BEHAVIOR
+- Initial breakout: price moves ≥2× the stop distance with rising volume.
+- After breakout, price may retrace 10‑20% (normal pullback) before resuming higher.
+- Look for multiple lower lows that stay above key moving averages – sign of strength.
+
+BUY POINTS
+- Enter at the top of the cheat area or just above the breakout point.
+- Use a stop 4‑6% below entry (or based on technical support) as the pilot trade.
+- If the trade hits the target (2‑3× stop), consider adding more shares (add‑and‑reduce).
+
+CONFIRMATION SIGNALS
+- Price holds above the breakout level for at least one full day.
+- Volume on the second day remains above the average of the last 20 days.
+- The trade moves to a new 20‑day high without violating the stop.
+
+DANGER SIGNS / INVALIDATIONS
+- Immediate reversal that hits the stop within the first 30‑60 minutes.
+- Large gap down that bypasses the stop (proximity risk) – exit or reduce exposure.
+- Failure to respect the 20‑day/50‑day support after a pullback.
+- Earnings announcement approaching without a sufficient profit cushion (IV‑based).
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+PRE‑MARKET CHECKLIST
+- Review overnight news, earnings calendar, and implied volatility for any holdings.
+- Identify 3‑5 VCP or cheat‑area setups on the watchlist; note entry, stop, and target.
+- Calculate pilot position size (≈5‑6% of equity) for each candidate.
+- Verify that any planned trade has a minimum 2:1 risk‑reward.
+- Check account equity; ensure full‑position cap (≤25%) is not exceeded.
+
+MARKET HOURS DISCIPLINE
+- 8:30‑9:30 am: Execute only pilot trades that meet all criteria.
+- After each pilot win: Immediately log profit, calculate new position size, and plan the next add‑on.
+- If a trade hits stop: Reduce exposure to the minimum pilot size before the next entry.
+- Throughout the day: Monitor stop levels; adjust to breakeven once price ≥2× stop distance.
+- Use staggered stops for volatile stocks; set primary stop tighter, secondary wider.
+
+POST‑MARKET REVIEW TASKS
+- Record R‑multiple of every trade (win or loss).
+- Update the “exposure ledger” showing how profits funded larger positions.
+- Analyze any proximity‑risk events; decide if stop width needs adjustment.
+- Review equity curve for smoothness; note any drawdown spikes and why they occurred.
+- Plan the next day’s pilot trades based on today’s outcomes.
+
+RISK CONTROL REMINDERS
+- Never exceed 25% total exposure across all open positions.
+- Keep each individual trade risk ≤2% of total equity (adjust if equity changes).
+- After any loss, reset next trade to pilot size regardless of confidence.
+- Use profit‑cushion (≥2× IV) before holding through earnings.
+- If a stop is within 0.5% of current price and volatility is high, widen or stagger the stop.
+
+MINDSET REINFORCEMENT (Mark style)
+- “Bet on the process, not the stock.” Recite before each trade.
+- Visualize the trade as a data point; avoid personal attachment.
+- Remind yourself: “I earn the right to trade bigger only after I’ve proven the smaller trade.”
+- Celebrate each successful scaling step; treat a loss as a data point, not a failure.
+- Review the “odds” you have on your money each morning; if odds are low, stay out.
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+EXAMPLE 1 – ADD‑AND‑REDUCE
+- Buy 1,000 shares @ $16.50, stop $1 below entry (risk $1,000).  
+- Stock moves to $18.50 (≈2× stop). Add 1,000 more shares at $18.00, move stop on entire 2,000‑share position to $17.00.  
+- Total risk remains $1,000, upside doubled.
+
+EXAMPLE 2 – HALF‑SELL FOR WIN‑WIN
+- Position up 30% with 2,000 shares.  
+- Sell 1,000 shares (50%) to lock in profit and finance the stop on the remaining 1,000.  
+- If price continues up, you still have exposure; if it reverses, you keep the profit already taken.
+
+EXAMPLE 3 – IMPLIED VOLATILITY CALCULATION
+- Stock $162, nearest call $160 ask = $3.50, nearest put $160 ask = $2.75.  
+- IV% = (3.50 + 2.75) / 162 × 100 ≈ 3.86%.  
+- Set profit cushion ≥ 2 × 3.86% ≈ 8% before earnings.
+
+EXAMPLE 4 – STAGGERED STOP
+- Desired risk = 6%.  
+- Set primary stop at 4% (tight) and secondary stop at 8% (wide).  
+- Average = (4% + 8%) / 2 = 6% risk, giving the trade extra breathing room.
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. ALWAYS SEEK ODDS ON YOUR MONEY – minimum 2:1 risk‑reward.  
+2. START EVERY DAY WITH A PILOT TRADE (≈5‑6% of equity).  
+3. SCALE UP ONLY AFTER A WIN; use that profit to finance the next larger bet.  
+4. KEEP TOTAL EXPOSURE ≤ 25% of account; never exceed the cap.  
+5. MOVE STOP TO BREAKEVEN once price is 2‑3× the stop distance.  
+6. SELL 50% (or enough to cover the stop) when a trade is comfortably in profit.  
+7. USE STAGGERED OR WIDER STOPS to avoid proximity‑risk gaps.  
+8. BEFORE EARNINGS, CALCULATE IMPLIED VOLATILITY and keep a profit cushion of 2‑3× IV.  
+9. PRIORITIZE: protect downside → protect breakeven → protect profit (your average gain).  
+10. FOLLOW THE PROCESS RIGOROUSLY; treat each trade as data, not a personal win or loss. 
+
+================================================================================
+
+================================================================================
+END OF SUMMARY
+================================================================================

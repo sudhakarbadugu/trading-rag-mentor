@@ -1,0 +1,219 @@
+================================================================================
+SECTION 1: STUDENT NOTES (Clear, Simple, Actionable)
+================================================================================
+
+KEY IDEA 1 – BUY AT THE PIVOT, NOT AT THE CLOSE  
+Why it matters: The breakout price is the point where demand overwhelms supply. Waiting for the daily close can miss the move and increase risk.  
+How to apply: As soon as the price trades a penny (or a few pennies) above the tight pivot, enter the trade intraday. Add to the position on the next pull‑back to the breakout level if the price moves higher.
+
+KEY IDEA 2 – VOLUME RUN RATE (VRR) IS A GUIDE, NOT A RULE  
+Why it matters: Early‑day volume is often inflated by the open/close; a quiet breakout can still be valid.  
+How to apply: Check the VRR on the platform. If volume is low but the price breaks the pivot, still buy. If the breakout occurs on a tiny 100‑share gap at the open, wait a few minutes for real buying interest.
+
+KEY IDEA 3 – WHAT IS A “BASE” (VCP, CHEAT, LOW CHEAT, HANDLE)  
+Why it matters: Bases show consolidation and supply absorption. The tighter the right‑hand side, the higher the probability of a clean breakout.  
+How to apply:  
+- Identify a sideways channel (peak‑to‑trough).  
+- Measure depth: typical pull‑backs are 10‑35 % (10‑20 % most common).  
+- Contractions should get tighter with each iteration.  
+- Classify:  
+  * Low cheat – pivot in the lower third of the base.  
+  * Cheat – pivot in the middle third.  
+  * Handle – pivot in the upper third.  
+
+KEY IDEA 4 – PRIMARY BASE DURATION  
+Why it matters: Very short bases (2‑3 weeks) can work but are riskier; longer bases (6‑65 weeks) give more time for supply to dry out.  
+How to apply: For a primary base, look for at least 2‑3 weeks of consolidation. If the base is only a few days, use a very tight stop and be prepared for a higher stop‑out rate.
+
+KEY IDEA 5 – IPO AGE & FLOAT SIZE ARE NOT DEAL‑BREAKERS  
+Why it matters: The methodology cares about chart structure, not how long a company has been public. Newer IPOs have a higher statistical edge, but older companies are still eligible if they meet the template.  
+How to apply: Do not filter out stocks simply because they have been public >10 years. Use float size as a guideline – modern averages are ~50 million shares; anything under 100 million is acceptable.
+
+KEY IDEA 6 – EXTENDED STOCKS  
+Why it matters: Buying far above the base (30 %+ above the 20‑day MA) is risky unless it is a “power play.”  
+How to apply:  
+- Mildly extended: 2‑3 % above the pivot.  
+- Extended: 10‑15 % above the pivot.  
+- Very extended: >30 % above the 20‑day MA.  
+Avoid buying when the stock is >30 % extended unless you have a power‑play setup.
+
+KEY IDEA 7 – TBA (TENNIS BALL ACTION)  
+Why it matters: After a breakout, rapid pull‑backs that are immediately “caught” by buying indicate strong accumulation.  
+How to apply: Look for a pull‑back of 1‑3 % that is met with buying pressure and a quick return to new highs. This confirms the breakout’s strength.
+
+KEY IDEA 8 – TIME OF DAY FOR BREAKOUTS  
+Why it matters: Most breakouts happen in the first half of the session when institutional buying is most active.  
+How to apply: Prioritize monitoring the market from open to 12:00 pm. Still be ready for breakouts any time, but allocate more screen time early.
+
+KEY IDEA 9 – RISK MANAGEMENT & STOP PLACEMENT  
+Why it matters: Protecting capital is the foundation of long‑term success.  
+How to apply:  
+- Use tight stops (0.2‑0.5 % of price) on high‑momentum breakouts.  
+- For choppy setups, give a slightly wider stop (1‑2 %).  
+- Never risk more than 1‑2 % of your total account on a single trade.  
+- When a trade is up 20 %+, move the stop to lock in at least 10‑15 % profit (the “back‑stop” rule).  
+- If a power play stalls for weeks, re‑evaluate; if the chart no longer looks constructive, exit.
+
+KEY IDEA 10 – MINDSET & DISCIPLINE  
+Why it matters: The market does not reward “feelings.” Consistency beats occasional brilliance.  
+How to apply:  
+- Treat every trade as a probability play; never assume a “sure thing.”  
+- Perform post‑trade grading after every session.  
+- Accept that you will be stopped out; the goal is to have many small winners and few small losers.  
+- Keep a “rules‑first” attitude – never deviate because a trade “looks good” in hindsight.
+
+================================================================================
+SECTION 2: MINERVINI TRADING CONCEPTS EXTRACTED
+================================================================================
+
+- VCP (Volatility Contraction Pattern) – tightening price range with decreasing volume; each contraction must be tighter than the previous.  
+- Primary Base – a short‑term VCP (2‑3 weeks minimum) that can still qualify if the pattern is tight.  
+- Low Cheat / Cheat / Handle – classification of pivot location within the base (lower, middle, upper third).  
+- Power Play – a breakout that moves >100 % in ≤8 weeks with ≤20 % correction; often hyper‑extended.  
+- Extended Stock – defined by % above the base or moving averages (mild, extended, very extended).  
+- Tennis Ball Action (TBA) – rapid pull‑back after breakout that is immediately “caught” by buying, indicating strong accumulation.  
+- Volume Run Rate (VRR) – intraday volume indicator used to gauge buying pressure.  
+- Bottom‑Fishing Pivot – a pivot that occurs near the low of a base, used for early entry when the base is very short.  
+- Cap Pattern – a series of bases stacked (base‑on‑base) that resembles a “cap” shape; often a sign of a developing leader.  
+- Squat – a one‑day pull‑back that closes in the upper half of the day’s range; not a failure, just normal volatility.  
+- Natural Reaction – a series of small pull‑backs that do not violate the breakout structure.  
+- Relative Strength (RS) – measured against the market; a high RS (≥50) is preferred but a newer issue may be accepted with lower RS if the chart is strong.  
+- Earnings & Volatility – implied volatility guides position size around earnings; avoid large overnight exposure unless the risk‑reward is clearly favorable.  
+- Position Sizing – aggressive on high‑probability setups, conservative on low‑confidence or earnings‑risk trades.  
+- Risk Management – max 1‑2 % account risk per trade, stop‑loss placement based on volatility and setup type, back‑stop profit protection.  
+- Psychology – 10,000‑hour rule for pattern mastery, accept responsibility for every loss, treat the market as a probability game.  
+- Screening – daily chart for pivots, weekly chart for trend confirmation; use Minervini Markets 360 scans (green signals for TPR, pressure, buy risk).  
+
+================================================================================
+SECTION 3: TRADING RULES & DO'S/DON'TS
+================================================================================
+
+DO:
+- Enter the trade as soon as price trades above the pivot (even a penny above).  
+- Add to the position on the next pull‑back to the breakout level.  
+- Use the VRR to confirm buying pressure but do not wait for “perfect” volume.  
+- Keep stops tight on high‑momentum breakouts (0.2‑0.5 %).  
+- Move stops forward to lock in at least half of the unrealized profit once the trade is up 20 %+.  
+- Trade only stocks that meet the full SEPA template on both daily and weekly charts.  
+- Perform a post‑trade grade after every market day.  
+- Limit account exposure to 1‑2 % per trade.  
+- Review historical models (pages 118, 439, etc.) to compare new candidates.  
+- Use simple moving averages for trend confirmation; avoid EMA cross‑overs.  
+
+DON'T:
+- Wait for the daily close before entering a breakout.  
+- Chase the price more than 1‑2 % above the pivot.  
+- Trade a stock that is >30 % extended unless it is a verified power play.  
+- Enter a trade on a tiny opening gap without confirming volume.  
+- Ignore the weekly trend; a daily breakout without weekly uptrend is off‑limits.  
+- Base decisions solely on fundamentals for short‑term trades; let the chart speak.  
+- Widen stops arbitrarily on power plays; keep the original stop unless the trade is clearly improving.  
+- Let fear dictate “choking off” a trade; adjust position size instead.  
+- Trade stocks with extremely low float (<5 million) unless you fully understand the liquidity risk.  
+- Over‑analyze a single day’s action (e.g., a squat) and exit prematurely.  
+
+================================================================================
+SECTION 4: SETUP IDENTIFICATION GUIDE (Based on Transcript)
+================================================================================
+
+1. **Chart Cues**  
+   - Look for a tight, horizontal consolidation (base) on the daily chart.  
+   - Verify that the base is also in an uptrend on the weekly chart (200‑day MA sloping up).  
+   - Identify the pivot point: the highest price of the right‑hand side of the base.  
+
+2. **Price / Volume Behavior**  
+   - Price breaks the pivot by a few pennies; volume may be low (dry) at the breakout.  
+   - VRR should not be dramatically low; a modest uptick after the breakout is ideal.  
+   - After breakout, watch for TBA: a 1‑3 % pull‑back that is quickly “caught” by buying.  
+
+3. **Buy Points**  
+   - Immediate entry as price trades above the pivot (intraday).  
+   - If the breakout is very close to an all‑time high, you may wait a few seconds for confirmation, then enter.  
+   - Add on the next pull‑back to the breakout level (often 0.5‑1 % lower than the entry).  
+
+4. **Confirmation Signals**  
+   - Tightening of the right‑hand side (each contraction narrower than the last).  
+   - Volume drying up on the right side of the base, then spiking on the breakout.  
+   - No large “squat” or “shakeout” that closes in the lower half of the day’s range.  
+
+5. **Danger Signs / Invalidations**  
+   - Price climbs >2‑3 % above the pivot before you have a chance to enter (over‑extension).  
+   - Volume spikes on the day of breakout but then collapses, indicating lack of follow‑through.  
+   - The weekly chart shows the 50‑day MA below the 200‑day MA (downtrend).  
+   - The base depth exceeds 50 % of the prior peak‑to‑trough range (too deep a correction).  
+   - A large “squat” that closes near the low of the day and fails to recover quickly.  
+
+================================================================================
+SECTION 5: PRACTICAL DAILY ACTION PLAN FOR ME
+================================================================================
+
+**PRE‑MARKET CHECKLIST**
+- Open Minervini Markets 360, run the “SEPA Scan” (green TPR, pressure, buy‑risk).  
+- Filter for stocks with:
+  * Daily pivot forming in the lower or middle third of a base.  
+  * Weekly 200‑day MA sloping up.  
+  * Float < 100 million (preferably 30‑70 million).  
+- Review any overnight news; ignore macro events unless they cause a market‑wide distribution day.  
+- Set up a watchlist of 8‑12 candidates; note their pivot price and VRR.
+
+**MARKET HOURS DISCIPLINE**
+- 09:30‑12:00 EST: Active monitoring of watchlist; watch for price crossing pivot.  
+- When price breaches pivot:
+  * Enter immediately (market order or limit a few cents above).  
+  * Place stop 0.2‑0.5 % below entry (or 2‑3 % if the setup is choppy).  
+  * Log entry time, price, and stop level.  
+- 12:00‑16:00 EST: Watch for TBA pull‑backs; add on the next pull‑back to the breakout level.  
+- Keep a “no‑new‑entries” rule after 14:00 EST unless a power‑play meets all criteria (≤20 % correction, ≤8 weeks to 100 % move).  
+
+**POST‑MARKET REVIEW TASKS**
+- Grade every trade in the Trade Grader (entry, stop, exit, reason).  
+- Compare each trade to a historical model (pages 118, 439).  
+- Update the model book with any new patterns observed.  
+- Review any stopped‑out trades: was the stop too tight or was the setup invalid?  
+- Adjust watchlist for the next day based on today’s outcomes.
+
+**RISK CONTROL REMINDERS**
+- Max 1‑2 % of total capital at risk per trade.  
+- Never increase position size to compensate for a losing trade.  
+- If a trade is up 20 %+, move stop to protect at least 10‑15 % profit.  
+- For earnings‑adjacent trades, size no more than 0.5 % of capital and use a wider stop (2‑3 %).  
+
+**MINDSET REINFORCEMENT (Mark style)**
+- “The chart never lies.” Treat every loss as a learning point, not a failure.  
+- Remember the 10,000‑hour rule – consistency beats occasional brilliance.  
+- Focus on probability: aim for many small winners, a few small losers.  
+- Keep emotions out: if you feel fear, check whether you are violating a rule.  
+- Celebrate disciplined execution more than trade outcomes.  
+
+================================================================================
+SECTION 6: EXAMPLES (If Applicable)
+================================================================================
+
+1. **Power Play Example (Virgin Galactic)** – broke out, moved >50 % in a few days, was >30 % extended. Used a tight stop (0.3 %) and moved the stop up as the trade hit 20 % profit.  
+
+2. **Low Cheat Example** – pivot in the lower third of a 12‑week base, breakout with minimal volume, immediate TBA pull‑back caught by buying. Entry was a few cents above pivot; stop placed 0.5 % below entry.  
+
+3. **Amazon “Not A‑Plus”** – despite a strong uptrend, the breakout was at an all‑time high with a very extended price (≈40 % above 20‑day MA). Mark would have avoided because the risk of a large pull‑back outweighed the upside.  
+
+4. **Bottom‑Fishing Pivot** – a very short (7‑day) base with a tight pivot near the low of the overall range. Entry was made on the first tick above the pivot; stop was set just below the pivot.  
+
+5. **Squat vs. Natural Reaction** – a one‑day pull‑back that closed in the upper half of the day’s range (squat). The trade remained open; stop was not moved because the overall structure stayed intact.  
+
+================================================================================
+SECTION 7: FINAL 10‑POINT CHEAT SHEET
+================================================================================
+
+1. BUY INTRADAY as soon as price trades above the pivot – do NOT wait for the close.  
+2. Use VRR only as a guide; a quiet breakout can still be valid.  
+3. Base depth should be 10‑35 %; deeper than 50 % is usually a non‑buyable correction.  
+4. Primary bases need at least 2‑3 weeks of consolidation; shorter bases require tighter stops.  
+5. Float size averages ~50 million shares today; don’t exclude older IPOs if the chart fits.  
+6. EXTENDED: >30 % above the 20‑day MA is risky unless it’s a verified power play.  
+7. TBA (tennis‑ball action) = quick pull‑back caught by buying – a strong confirmation.  
+8. Set stops 0.2‑0.5 % for high‑momentum breakouts; widen only for choppy setups.  
+9. Protect profits: once a trade is up 20 %+, move the stop to lock in at least half of that gain.  
+10. Discipline > intuition: follow the rules, grade every trade, and treat each loss as a learning opportunity.  
+
+================================================================================
+END OF SUMMARY
+================================================================================
