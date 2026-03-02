@@ -2,6 +2,7 @@
   {
     "id": "vcp_definition",
     "question": "What is the Volatility Contraction Pattern (VCP) and how does it work?",
+    "reference_answer": "A VCP (Volatility Contraction Pattern) is a chart pattern where a stock undergoes a series of progressively tighter price contractions, each with lower volume. Each iteration shows smaller amplitude swings, indicating that supply is being absorbed and selling pressure is diminishing. The tightening volatility signals that the stock is coiling before a potential breakout driven by demand overcoming remaining supply.",
     "expected_answer_keywords": [
       "volatility",
       "contraction",
@@ -24,6 +25,7 @@
   {
     "id": "200_day_ma_rule",
     "question": "Why should I never buy a stock below its 200-day moving average?",
+    "reference_answer": "You should never buy a stock below its 200-day moving average because stocks trading below this level are in a long-term downtrend. The 200-day MA is one of the most widely watched trend lines; winners consistently trade above it. Buying below this line means fighting the trend, which dramatically lowers the probability of success.",
     "expected_answer_keywords": [
       "200",
       "moving average",
@@ -43,6 +45,7 @@
   {
     "id": "stop_loss_rule",
     "question": "How should I set my stop loss according to the trading rules?",
+    "reference_answer": "Set your stop loss at a specific percentage below your entry so that any single loss risks no more than 1-2% of your total account capital. The stop level should sit below a logical technical support area. Once price hits the stop, it is non-negotiable — you exit immediately to protect capital regardless of how you feel about the trade.",
     "expected_answer_keywords": ["stop", "loss", "risk", "percent", "sell"],
     "expected_context_keywords": [
       "stop",
@@ -56,6 +59,7 @@
   {
     "id": "market_leader_characteristics",
     "question": "What are the characteristics of a market leader stock?",
+    "reference_answer": "A market leader stock has exceptional earnings and revenue growth, a relative strength rating in the top quartile, trades near 52-week highs, and is emerging from a sound base. These stocks are typically in leading industry groups and show consistent fundamental improvement quarter over quarter, attracting heavy institutional buying.",
     "expected_answer_keywords": [
       "market leader",
       "growth",
@@ -75,6 +79,7 @@
   {
     "id": "line_of_least_resistance",
     "question": "What is the line of least resistance and how is it determined?",
+    "reference_answer": "The line of least resistance is the price level above which a stock can advance without encountering significant supply (sellers). It is found at the pivot point of a base — the level where prior overhead supply has been absorbed. When price clears this level on strong volume, the path of least resistance shifts upward as remaining sellers have been satisfied.",
     "expected_answer_keywords": ["resistance", "supply", "pivot", "demand"],
     "expected_context_keywords": [
       "line of least resistance",
@@ -87,6 +92,7 @@
   {
     "id": "position_sizing",
     "question": "How should I size my positions to manage risk?",
+    "reference_answer": "Position size is calculated so that if your stop loss is hit, the monetary loss does not exceed 1-2% of your total account capital. Divide the dollar risk you're willing to accept by the per-share distance to your stop to get the number of shares. This keeps any single loss small and preserves capital across multiple trades.",
     "expected_answer_keywords": [
       "position",
       "risk",
@@ -106,6 +112,7 @@
   {
     "id": "breakout_volume",
     "question": "What role does volume play in a breakout trade?",
+    "reference_answer": "Volume on a breakout is the confirmation of genuine institutional demand. A breakout on volume at least 40-50% above the 50-day average signals that large buyers are aggressively accumulating shares. Without elevated volume, a breakout is suspect — it may be a vacuum move or false breakout that quickly reverses as real demand is absent.",
     "expected_answer_keywords": [
       "volume",
       "breakout",
@@ -124,6 +131,7 @@
   {
     "id": "trading_discipline_mindset",
     "question": "What is important about trading discipline and mindset?",
+    "reference_answer": "Trading discipline means following your rules without exception, especially regarding losses and risk. You must accept small losses quickly before they become large ones, never average down into losing trades, and always protect your capital. Emotional decision-making is the enemy — consistency in applying your system over many trades is what produces long-term profitability.",
     "expected_answer_keywords": ["discipline", "loss", "risk", "capital"],
     "expected_context_keywords": [
       "loss",
@@ -137,6 +145,7 @@
   {
     "id": "relative_strength_threshold",
     "question": "What relative strength threshold should stocks meet before buying?",
+    "reference_answer": "Stocks should have a relative strength rating of at least 68 before considering a purchase. The biggest winning stocks typically have RS ratings of 80 or higher before their major advances begin. This threshold filters out weak performers and focuses attention on the stocks that are already outperforming the broad market.",
     "expected_answer_keywords": ["relative strength", "68", "winner"],
     "expected_context_keywords": [
       "relative strength",
@@ -149,6 +158,7 @@
   {
     "id": "primary_base",
     "question": "What is a primary base and why is it important?",
+    "reference_answer": "A primary base is the first consolidation a stock forms after its IPO or after a major advance. It represents the first buyable setup before the stock is widely recognised by the investment community. Primary bases often precede the greatest magnitude of gain because there is the least overhead supply and the most uninformed sellers still left to be absorbed.",
     "expected_answer_keywords": ["primary", "base", "IPO", "first", "buyable"],
     "expected_context_keywords": [
       "primary base",
@@ -161,6 +171,7 @@
   {
     "id": "cyclical_stocks_avoidance",
     "question": "Why should traders generally avoid cyclical stocks?",
+    "reference_answer": "Cyclical stocks should generally be avoided because they follow an inverse economic cycle: their stock prices often peak when business conditions are improving and their earnings are rising. As commodity prices rise, input costs increase and profit margins compress. By the time fundamentals look great, smart money is already selling, leaving retail traders holding overvalued shares near the top.",
     "expected_answer_keywords": [
       "cyclical",
       "inverse",
@@ -179,6 +190,7 @@
   {
     "id": "earnings_acceleration",
     "question": "Why is earnings acceleration important when selecting stocks?",
+    "reference_answer": "Earnings acceleration means each successive quarter shows a faster rate of earnings growth than the previous quarter. This pattern signals a business with improving fundamentals and increasing institutional interest. Stocks with accelerating earnings attract persistent buying from large funds, which is the primary fuel for major price advances.",
     "expected_answer_keywords": [
       "earnings",
       "acceleration",

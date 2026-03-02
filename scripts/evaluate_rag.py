@@ -8,11 +8,18 @@ Evaluates the trading-rag-mentor pipeline on three dimensions:
 2. **Answer Faithfulness** — Is the generated answer grounded only in the context? (LLM-as-judge)
 3. **Answer Relevance**   — Does the answer actually address the question?        (LLM-as-judge)
 
+Optional: pass --ragas to also run the Ragas standardised metrics suite
+(context_precision, context_recall, faithfulness, response_relevancy,
+factual_correctness) after the custom eval and get a combined comparison table.
+
 Usage:
-    python scripts/evaluate_rag.py               # full evaluation (requires GROQ_API_KEY)
-    python scripts/evaluate_rag.py --retrieval-only  # retrieval recall only (no LLM needed)
+    python scripts/evaluate_rag.py                       # custom eval (requires GROQ_API_KEY)
+    python scripts/evaluate_rag.py --retrieval-only      # retrieval recall only (no LLM needed)
+    python scripts/evaluate_rag.py --ragas               # custom eval + Ragas metrics
+    python scripts/evaluate_rag.py --ragas --no-reference  # Ragas without reference metrics
 
 Results are printed as a table and saved to scripts/evaluation_results.json.
+Ragas results (when --ragas is used) are saved to scripts/ragas_results.json.
 """
 
 import os
@@ -160,15 +167,24 @@ def run_llm_judge(llm, prompt_template: PromptTemplate, **kwargs) -> dict:
 
 # ── Main evaluation ──────────────────────────────────────────────────────────
 
-def evaluate(retrieval_only: bool = False):
+def evaluate(
+    retrieval_only: bool = False,
+    run_ragas: bool = False,
+    ragas_no_reference: bool = False,
+):
     """
     Execute the RAG evaluation pipeline.
 
     Args:
         retrieval_only (bool): If True, skip LLM-based metrics (faithfulness/relevance).
+        run_ragas (bool): If True, also run the Ragas standardised metrics suite
+            after the custom evaluation and print a combined comparison table.
+        ragas_no_reference (bool): When run_ragas=True, skip metrics that require a
+            reference answer (context_precision, context_recall, factual_correctness).
 
     Returns:
-        dict: Summary statistics of the evaluation run.
+        dict: Summary statistics of the custom evaluation run.  When run_ragas=True
+              a ``ragas_summary`` key is also added with the Ragas aggregate scores.
     """
     golden_qa = load_golden_qa()
     vectorstore = load_vectorstore()
@@ -223,7 +239,7 @@ def evaluate(retrieval_only: bool = False):
         # ── Step 2: Generate + Judge (if not retrieval-only) ──────────────
         if not retrieval_only and llm is not None:
             context = "\n\n".join(doc.page_content for doc, _ in scored_docs)
-            formatted_prompt = rag_prompt.format(context=context, question=question)
+            formatted_prompt = rag_prompt.format(context=context, question=question, chat_history="")
             answer = llm.invoke(formatted_prompt).content
 
             # Faithfulness check
@@ -302,6 +318,92 @@ def evaluate(retrieval_only: bool = False):
         print(f"{summary.get('mean_faithfulness', '-'):<10} {summary.get('mean_relevance', '-'):<10}", end="")
     print("\n")
 
+    # ── Optional Ragas evaluation ─────────────────────────────────────────
+    if run_ragas:
+        if retrieval_only:
+            logger.warning("--ragas is ignored when --retrieval-only is set (no answers generated).")
+        else:
+            logger.info("\nStarting Ragas evaluation…\n")
+            try:
+                from ragas_eval import run_ragas_evaluation  # same scripts/ dir
+                ragas_summary = run_ragas_evaluation(
+                    skip_reference_metrics=ragas_no_reference,
+                )
+                summary["ragas_summary"] = ragas_summary
+
+                # ── Combined comparison table ─────────────────────────────
+                print(f"\n{'='*100}")
+                print("  COMBINED COMPARISON  (Custom LLM-judge  vs  Ragas standardised metrics)")
+                print(f"{'='*100}")
+                print(
+                    f"{'ID':<30} {'Category':<18} "
+                    f"{'[Custom]':^30}  "
+                    f"{'[Ragas]':^40}"
+                )
+                print(
+                    f"{'':30} {'':18} "
+                    f"{'Recall':<12}{'Faith.':<10}{'Relev.':<10}  "
+                    f"{'Faith.':<10}{'Resp.Rel.':<12}{'CTX_P':<10}{'CTX_R':<10}{'Factual':<10}"
+                )
+                print("-" * 100)
+
+                # Load Ragas per-question scores
+                ragas_results_path = ROOT_DIR / "scripts" / "ragas_results.json"
+                ragas_per_q: dict[str, dict] = {}
+                if ragas_results_path.exists():
+                    with open(ragas_results_path) as f:
+                        ragas_data = json.load(f)
+                    for rec in ragas_data.get("per_question", []):
+                        ragas_per_q[rec["id"]] = rec
+
+                # Column names that Ragas may use (varies slightly by version)
+                def _rget(rec: dict, *keys, default: float = float("nan")) -> float:
+                    for k in keys:
+                        if k in rec:
+                            return float(rec[k])
+                    return default
+
+                for r in results:
+                    rq = ragas_per_q.get(r["id"], {})
+                    row = (
+                        f"{r['id']:<30} {r['category']:<18} "
+                        f"{r['retrieval_recall']:<12.0%}"
+                    )
+                    # Custom judge columns
+                    faith_c = r.get("faithfulness", "-")
+                    rel_c   = r.get("relevance", "-")
+                    row += f"{(f'{faith_c:.1f}' if isinstance(faith_c, float) else '-'):<10}"
+                    row += f"{(f'{rel_c:.1f}'   if isinstance(rel_c,   float) else '-'):<10}  "
+                    # Ragas columns
+                    row += f"{_rget(rq, 'faithfulness'):<10.3f}"
+                    row += f"{_rget(rq, 'answer_relevancy'):<12.3f}"
+                    row += f"{_rget(rq, 'context_precision_with_reference', 'context_precision'):<10.3f}"
+                    row += f"{_rget(rq, 'context_recall'):<10.3f}"
+                    row += f"{_rget(rq, 'factual_correctness(mode=f1)', 'factual_correctness', 'answer_correctness'):<10.3f}"
+                    print(row)
+
+                print("-" * 100)
+                # Means row
+                rs = ragas_summary
+                means = (
+                    f"{'MEAN':<30} {'':18} "
+                    f"{avg_retrieval:<12.0%}"
+                    f"{summary.get('mean_faithfulness', '-'):<10} "
+                    f"{summary.get('mean_relevance', '-'):<10}  "
+                    f"{rs.get('mean_faithfulness', float('nan')):<10.3f}"
+                    f"{rs.get('mean_answer_relevancy', float('nan')):<12.3f}"
+                    f"{rs.get('mean_context_precision', float('nan')):<10.3f}"
+                    f"{rs.get('mean_context_recall', float('nan')):<10.3f}"
+                    f"{rs.get('mean_factual_correctness', float('nan')):<10.3f}"
+                )
+                print(means + "\n")
+
+            except ImportError as exc:
+                logger.error(
+                    f"Ragas is not installed: {exc}\n"
+                    "Install it with:  pip install 'ragas>=0.2' datasets"
+                )
+
     return summary
 
 
@@ -312,5 +414,20 @@ if __name__ == "__main__":
         action="store_true",
         help="Only evaluate retrieval recall (no LLM calls needed)",
     )
+    parser.add_argument(
+        "--ragas",
+        action="store_true",
+        help="Also run Ragas standardised metrics after the custom eval.",
+    )
+    parser.add_argument(
+        "--no-reference",
+        action="store_true",
+        help="When --ragas is set, skip reference-dependent Ragas metrics "
+             "(context_precision, context_recall, factual_correctness).",
+    )
     args = parser.parse_args()
-    evaluate(retrieval_only=args.retrieval_only)
+    evaluate(
+        retrieval_only=args.retrieval_only,
+        run_ragas=args.ragas,
+        ragas_no_reference=args.no_reference,
+    )

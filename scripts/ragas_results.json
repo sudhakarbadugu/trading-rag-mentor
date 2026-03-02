@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "timestamp": "2026-03-03T00:41:09.311616",
+    "num_questions": 3,
+    "k": 6,
+    "mean_faithfulness": 0.955,
+    "mean_answer_relevancy": 0.684,
+    "mean_context_precision": 1.0,
+    "mean_context_recall": 1.0,
+    "mean_factual_correctness": 0.253
+  },
+  "per_question": [
+    {
+      "id": "vcp_definition",
+      "category": "vcp",
+      "question": "What is the Volatility Contraction Pattern (VCP) and how does it work?",
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.8991334970106765,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 1.0,
+      "factual_correctness": 0.22
+    },
+    {
+      "id": "200_day_ma_rule",
+      "category": "entries",
+      "question": "Why should I never buy a stock below its 200-day moving average?",
+      "faithfulness": 0.9230769230769231,
+      "answer_relevancy": 0.6994017699021479,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 1.0,
+      "factual_correctness": 0.18
+    },
+    {
+      "id": "stop_loss_rule",
+      "category": "risk_management",
+      "question": "How should I set my stop loss according to the trading rules?",
+      "faithfulness": 0.9411764705882353,
+      "answer_relevancy": 0.45347812494160195,
+      "context_precision": 0.9999999999833333,
+      "context_recall": 1.0,
+      "factual_correctness": 0.36
+    }
+  ]
+}

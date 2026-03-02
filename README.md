@@ -21,6 +21,7 @@
 - [Source Citations & Relevance Scores](#source-citations--relevance-scores)
 - [Running Evaluation Tests](#running-evaluation-tests)
 - [RAG Evaluation Framework](#rag-evaluation-framework)
+- [Ragas Integration & Debugging Log](#ragas-integration--debugging-log)
 - [Adding Your Own Transcripts](#adding-your-own-transcripts)
 - [🐳 Docker & Deployment](#-docker--deployment)
   - [Local Docker (docker compose)](#local-docker-docker-compose)
@@ -397,6 +398,197 @@ MEAN                                               87%        0.95      0.97
 
 ---
 
+## Ragas Integration & Debugging Log
+
+This section documents the full integration of [Ragas 0.4.x](https://docs.ragas.io/) alongside the custom LLM-as-judge evaluator, including every non-obvious error encountered and how each was resolved. The key discovery — a reasoning-token overflow in Groq's `llama-3.3-70b-versatile` — is worth preserving in detail.
+
+### Why Ragas?
+
+The custom evaluator covers retrieval recall + two LLM-as-judge dimensions. Ragas adds five complementary dimensions from a single library call:
+
+| Ragas Metric                      | What it measures                                           |
+| --------------------------------- | ---------------------------------------------------------- |
+| **Faithfulness**                  | Is every claim in the answer supported by the context?     |
+| **Answer Relevancy**              | Does the answer address the actual question asked?         |
+| **Context Precision (w/ref)**     | Are retrieved chunks ranked best-first vs. reference answer? |
+| **Context Recall**                | Does the retrieved context cover everything in the reference? |
+| **Factual Correctness**           | Does the answer match the reference answer factually?      |
+
+### Running Ragas evaluation
+
+```bash
+# Standalone (all 12 golden QA pairs)
+python scripts/ragas_eval.py
+
+# Quick smoke-test on first 3 questions
+python scripts/ragas_eval.py --sample 3
+
+# Skip reference-dependent metrics (no reference_answer needed)
+python scripts/ragas_eval.py --no-reference
+
+# Combined custom + Ragas table
+python scripts/evaluate_rag.py --ragas
+```
+
+Results are saved to `scripts/ragas_results.json` and printed as a table.
+
+---
+
+### Bug 1 — `LangchainLLMWrapper` rejected by collections metrics
+
+**Error:**
+```
+ValueError: Collections metrics only support modern InstructorLLM.
+Found: LangchainLLMWrapper
+```
+
+**Root cause:** Ragas 0.4 split metrics into two separate class hierarchies. The new `ragas.metrics.collections` metrics (`Faithfulness`, `AnswerRelevancy`, etc.) require ragas' own `InstructorLLM` — they explicitly reject LangChain wrapper objects.
+
+**Fix:** Use ragas' `llm_factory()` with an `AsyncOpenAI` client pointed at Groq's OpenAI-compatible endpoint:
+
+```python
+from ragas.llms import llm_factory
+from openai import AsyncOpenAI
+
+groq_client = AsyncOpenAI(
+    api_key=groq_api_key,
+    base_url="https://api.groq.com/openai/v1",
+)
+ragas_llm = llm_factory("llama-3.3-70b-versatile", provider="openai",
+                         client=groq_client, max_tokens=16384)
+```
+
+---
+
+### Bug 2 — `Cannot use agenerate() with a synchronous client`
+
+**Error:**
+```
+RuntimeError: Cannot use agenerate() with a synchronous client
+```
+
+**Root cause:** All `ragas.metrics.collections` metrics call `ascore()` (async) internally. The `OpenAI` client is synchronous; only `AsyncOpenAI` supports the async interface.
+
+**Fix:** Replace `OpenAI(...)` with `AsyncOpenAI(...)` — same parameters, different class.
+
+---
+
+### Bug 3 — `KeyError: 'chat_history'`
+
+**Error:**
+```
+KeyError: 'chat_history'
+```
+
+**Root cause:** The trading mentor prompt template has three placeholders: `{context}`, `{question}`, and `{chat_history}`. The evaluation scripts called `rag_prompt.format(context=..., question=...)` without supplying `chat_history`.
+
+**Fix:** Add `chat_history=""` to every standalone `rag_prompt.format()` call in both `ragas_eval.py` and `evaluate_rag.py`:
+
+```python
+answer = rag_prompt.format(context=context, question=question, chat_history="")
+```
+
+---
+
+### Bug 4 — `ragas.evaluate()` rejects collections metrics
+
+**Error:**
+```
+TypeError: All metrics must be initialised metric objects,
+e.g: metrics=[BleuScore(), AspectCritic()]
+```
+
+**Root cause:** `ragas.evaluate()` checks `isinstance(m, ragas.metrics.base.Metric)`. The new `ragas.metrics.collections` classes inherit from `BaseMetric → SimpleBaseMetric → NumericValidator`, **not** from the legacy `ragas.metrics.base.Metric`. The isinstance check fails silently then raises this misleading TypeError.
+
+```
+# MRO of Faithfulness (ragas 0.4.3):
+BaseMetric → SimpleBaseMetric → NumericValidator → BaseValidator → ABC → object
+# ❌ ragas.metrics.base.Metric is NOT in this chain
+```
+
+**Fix:** Bypass `ragas.evaluate()` entirely and call `metric.batch_score(inputs)` directly. Each metric's input dict keys must match its `ascore()` positional arguments exactly:
+
+| Metric | Required input dict keys |
+| ------ | ------------------------ |
+| `Faithfulness` | `user_input`, `response`, `retrieved_contexts` |
+| `AnswerRelevancy` | `user_input`, `response` |
+| `ContextPrecisionWithReference` | `user_input`, `reference`, `retrieved_contexts` |
+| `ContextRecall` | `user_input`, `retrieved_contexts`, `reference` |
+| `FactualCorrectness` | `response`, `reference` |
+
+```python
+# Build per-metric input list
+inputs = [
+    {"user_input": q, "response": a, "retrieved_contexts": ctx}
+    for q, a, ctx in zip(questions, answers, contexts)
+]
+scores = metric.batch_score(inputs)   # returns list[float]
+```
+
+---
+
+### Bug 5 — Reasoning token overflow (the key discovery)
+
+**Error:**
+```
+Faithfulness failed: output incomplete due to max_tokens length limit
+FactualCorrectness failed: output incomplete due to max_tokens length limit
+```
+
+**Root cause:** Groq routes `llama-3.3-70b-versatile` through a **reasoning model** that generates hidden chain-of-thought tokens before producing the visible JSON output. Inspecting the raw completion object revealed:
+
+```
+completion_tokens : 12 288
+  ├─ reasoning_tokens : 7 580   ← hidden, consumed from max_tokens budget
+  └─ visible output  :   708
+prompt_tokens      :  8 763
+```
+
+Ragas' `ModelArguments` defaults to `max_tokens=1024`. At that limit, the reasoning layer alone consumes **7,580 tokens** — more than 7× the budget — leaving the model **zero tokens** to write the closing brace of the JSON response. The result is a truncated, unparseable JSON string.
+
+Increasing to `max_tokens=4096` still fails: `7,580 reasoning tokens > 4,096 limit`.
+
+**Fix:** Set `max_tokens=16384` in the `llm_factory()` call, giving the reasoning layer its full budget with headroom for the JSON response:
+
+```python
+ragas_llm = llm_factory(
+    "llama-3.3-70b-versatile",
+    provider="openai",
+    client=groq_client,
+    max_tokens=16384,   # ← must exceed reasoning_tokens (~7 580) + response tokens
+)
+```
+
+> **Why this matters beyond Groq:** Any provider that runs a reasoning model (OpenAI `o1`/`o3`, Anthropic extended thinking, DeepSeek-R1, etc.) with ragas will hit this same issue. The default `max_tokens=1024` in `ModelArguments` predates reasoning models and is universally insufficient for them. Always set `max_tokens` to at least **4× your expected response size** when using a reasoning-capable model.
+
+---
+
+### Final validated scores (3-question smoke test)
+
+```
+ID                   faithfulness  answer_rel  ctx_prec  ctx_recall  factual
+─────────────────────────────────────────────────────────────────────────────
+vcp_definition            1.000       0.899      1.000      1.000      0.220
+200_day_ma_rule           0.923       0.699      1.000      1.000      0.180
+stop_loss_rule            0.941       0.453      1.000      1.000      0.360
+─────────────────────────────────────────────────────────────────────────────
+MEAN                      0.955       0.684      1.000      1.000      0.253
+```
+
+**Score summary:**
+
+| Metric               | Score | Rating  | What it means                                    |
+| -------------------- | ----- | ------- | ------------------------------------------------ |
+| Context Precision    | 1.000 | Perfect   | Every retrieved chunk is relevant                |
+| Context Recall       | 1.000 | Perfect   | You retrieved ALL needed information             |
+| Faithfulness         | 0.955 | Excellent | Answers are strongly grounded in retrieved context |
+| Answer Relevancy     | 0.684 | Good      | Answers mostly address the question              |
+| Factual Correctness  | 0.253 | Poor      | Answers have many factual errors vs ground truth |
+
+Context precision and recall are perfect (1.000) — the hybrid retrieval + re-ranking pipeline is surfacing exactly the right chunks. Faithfulness reached **0.955** (near-perfect), continuing its trend from 0.738 → 0.882 → 0.955 across successive prompt iterations — the stricter grounding rules are clearly working. Factual correctness dipped to 0.253 (from 0.370), suggesting the tighter prompt may be causing the model to be more conservative and omit details present in the reference answers. Answer relevancy remains steady at 0.684, still dragged down by `stop_loss_rule` (0.453) — a candidate for question reformulation in the golden dataset.
+
+---
+
 ## Adding Your Own Transcripts
 
 1. Drop files into `data/transcripts/`
@@ -485,7 +677,10 @@ trading-rag-mentor/
 │   ├── test_rag_evaluation.py   # RAG evaluation tests (retrieval recall)
 │   └── golden_qa.json           # Golden QA dataset (12 Q/A triplets)
 ├── scripts/
-│   └── evaluate_rag.py          # Full RAG evaluation script (3 metrics)
+│   ├── evaluate_rag.py          # Custom LLM-as-judge evaluation (3 metrics + optional Ragas)
+│   ├── ragas_eval.py            # Ragas evaluation (5 metrics via batch_score API)
+│   ├── evaluation_results.json  # Custom evaluator output
+│   └── ragas_results.json       # Ragas evaluator output
 ├── docs/
 │   ├── chunking_strategy.md     # Chunking approach justification
 │   ├── evaluation_framework.md  # Evaluation methodology documentation
