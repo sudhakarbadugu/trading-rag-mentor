@@ -18,6 +18,7 @@ Usage in app.py:
 import logging
 from langchain_community.retrievers import BM25Retriever
 from sentence_transformers import CrossEncoder
+from langsmith import traceable
 
 logger = logging.getLogger(__name__)
 
@@ -37,6 +38,7 @@ def _get_cross_encoder() -> CrossEncoder:
 
 # ── Stage 1: Hybrid Retrieval ────────────────────────────────────────────────
 
+@traceable(run_type="retriever", name="build_bm25_retriever")
 def build_bm25_retriever(vectorstore, k: int = 12) -> BM25Retriever:
     """
     Construct a BM25Retriever by indexing all document text currently in the vectorstore.
@@ -71,6 +73,7 @@ def build_bm25_retriever(vectorstore, k: int = 12) -> BM25Retriever:
     return bm25_retriever
 
 
+@traceable(run_type="retriever", name="hybrid_retrieve_stage_1")
 def hybrid_retrieve(
     query: str,
     vectorstore,
@@ -139,6 +142,7 @@ def hybrid_retrieve(
 
 # ── Stage 2: Cross-Encoder Re-ranking ────────────────────────────────────────
 
+@traceable(run_type="tool", name="cross_encoder_rerank")
 def rerank_documents(
     query: str,
     doc_score_pairs: list,
@@ -183,6 +187,7 @@ def rerank_documents(
 
 # ── Combined Pipeline ────────────────────────────────────────────────────────
 
+@traceable(run_type="retriever", name="hybrid_retrieve_and_rerank")
 def hybrid_retrieve_and_rerank(
     query: str,
     vectorstore,

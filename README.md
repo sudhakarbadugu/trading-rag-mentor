@@ -22,6 +22,7 @@
 - [Running Evaluation Tests](#running-evaluation-tests)
 - [RAG Evaluation Framework](#rag-evaluation-framework)
 - [Ragas Integration & Debugging Log](#ragas-integration--debugging-log)
+- [LangSmith Observability](#langsmith-observability)
 - [Adding Your Own Transcripts](#adding-your-own-transcripts)
 - [🐳 Docker & Deployment](#-docker--deployment)
   - [Local Docker (docker compose)](#local-docker-docker-compose)
@@ -406,13 +407,13 @@ This section documents the full integration of [Ragas 0.4.x](https://docs.ragas.
 
 The custom evaluator covers retrieval recall + two LLM-as-judge dimensions. Ragas adds five complementary dimensions from a single library call:
 
-| Ragas Metric                      | What it measures                                           |
-| --------------------------------- | ---------------------------------------------------------- |
-| **Faithfulness**                  | Is every claim in the answer supported by the context?     |
-| **Answer Relevancy**              | Does the answer address the actual question asked?         |
-| **Context Precision (w/ref)**     | Are retrieved chunks ranked best-first vs. reference answer? |
-| **Context Recall**                | Does the retrieved context cover everything in the reference? |
-| **Factual Correctness**           | Does the answer match the reference answer factually?      |
+| Ragas Metric                  | What it measures                                              |
+| ----------------------------- | ------------------------------------------------------------- |
+| **Faithfulness**              | Is every claim in the answer supported by the context?        |
+| **Answer Relevancy**          | Does the answer address the actual question asked?            |
+| **Context Precision (w/ref)** | Are retrieved chunks ranked best-first vs. reference answer?  |
+| **Context Recall**            | Does the retrieved context cover everything in the reference? |
+| **Factual Correctness**       | Does the answer match the reference answer factually?         |
 
 ### Running Ragas evaluation
 
@@ -437,6 +438,7 @@ Results are saved to `scripts/ragas_results.json` and printed as a table.
 ### Bug 1 — `LangchainLLMWrapper` rejected by collections metrics
 
 **Error:**
+
 ```
 ValueError: Collections metrics only support modern InstructorLLM.
 Found: LangchainLLMWrapper
@@ -463,6 +465,7 @@ ragas_llm = llm_factory("llama-3.3-70b-versatile", provider="openai",
 ### Bug 2 — `Cannot use agenerate() with a synchronous client`
 
 **Error:**
+
 ```
 RuntimeError: Cannot use agenerate() with a synchronous client
 ```
@@ -476,6 +479,7 @@ RuntimeError: Cannot use agenerate() with a synchronous client
 ### Bug 3 — `KeyError: 'chat_history'`
 
 **Error:**
+
 ```
 KeyError: 'chat_history'
 ```
@@ -493,6 +497,7 @@ answer = rag_prompt.format(context=context, question=question, chat_history="")
 ### Bug 4 — `ragas.evaluate()` rejects collections metrics
 
 **Error:**
+
 ```
 TypeError: All metrics must be initialised metric objects,
 e.g: metrics=[BleuScore(), AspectCritic()]
@@ -508,13 +513,13 @@ BaseMetric → SimpleBaseMetric → NumericValidator → BaseValidator → ABC �
 
 **Fix:** Bypass `ragas.evaluate()` entirely and call `metric.batch_score(inputs)` directly. Each metric's input dict keys must match its `ascore()` positional arguments exactly:
 
-| Metric | Required input dict keys |
-| ------ | ------------------------ |
-| `Faithfulness` | `user_input`, `response`, `retrieved_contexts` |
-| `AnswerRelevancy` | `user_input`, `response` |
+| Metric                          | Required input dict keys                        |
+| ------------------------------- | ----------------------------------------------- |
+| `Faithfulness`                  | `user_input`, `response`, `retrieved_contexts`  |
+| `AnswerRelevancy`               | `user_input`, `response`                        |
 | `ContextPrecisionWithReference` | `user_input`, `reference`, `retrieved_contexts` |
-| `ContextRecall` | `user_input`, `retrieved_contexts`, `reference` |
-| `FactualCorrectness` | `response`, `reference` |
+| `ContextRecall`                 | `user_input`, `retrieved_contexts`, `reference` |
+| `FactualCorrectness`            | `response`, `reference`                         |
 
 ```python
 # Build per-metric input list
@@ -530,6 +535,7 @@ scores = metric.batch_score(inputs)   # returns list[float]
 ### Bug 5 — Reasoning token overflow (the key discovery)
 
 **Error:**
+
 ```
 Faithfulness failed: output incomplete due to max_tokens length limit
 FactualCorrectness failed: output incomplete due to max_tokens length limit
@@ -577,15 +583,40 @@ MEAN                      0.955       0.684      1.000      1.000      0.253
 
 **Score summary:**
 
-| Metric               | Score | Rating  | What it means                                    |
-| -------------------- | ----- | ------- | ------------------------------------------------ |
-| Context Precision    | 1.000 | Perfect   | Every retrieved chunk is relevant                |
-| Context Recall       | 1.000 | Perfect   | You retrieved ALL needed information             |
-| Faithfulness         | 0.955 | Excellent | Answers are strongly grounded in retrieved context |
-| Answer Relevancy     | 0.684 | Good      | Answers mostly address the question              |
-| Factual Correctness  | 0.253 | Poor      | Answers have many factual errors vs ground truth |
+| Metric              | Score | Rating    | What it means                                      |
+| ------------------- | ----- | --------- | -------------------------------------------------- |
+| Context Precision   | 1.000 | Perfect   | Every retrieved chunk is relevant                  |
+| Context Recall      | 1.000 | Perfect   | You retrieved ALL needed information               |
+| Faithfulness        | 0.955 | Excellent | Answers are strongly grounded in retrieved context |
+| Answer Relevancy    | 0.684 | Good      | Answers mostly address the question                |
+| Factual Correctness | 0.253 | Poor      | Answers have many factual errors vs ground truth   |
 
 Context precision and recall are perfect (1.000) — the hybrid retrieval + re-ranking pipeline is surfacing exactly the right chunks. Faithfulness reached **0.955** (near-perfect), continuing its trend from 0.738 → 0.882 → 0.955 across successive prompt iterations — the stricter grounding rules are clearly working. Factual correctness dipped to 0.253 (from 0.370), suggesting the tighter prompt may be causing the model to be more conservative and omit details present in the reference answers. Answer relevancy remains steady at 0.684, still dragged down by `stop_loss_rule` (0.453) — a candidate for question reformulation in the golden dataset.
+
+---
+
+## LangSmith Observability
+
+This project includes integrated observability via **LangSmith** (free tier compatible). With tracing enabled, you can inspect the inner workings of the RAG pipeline in real-time.
+
+To enable tracing, the following environment variables must be configured in your `.env` file:
+
+```env
+LANGCHAIN_TRACING_V2=true
+LANGCHAIN_PROJECT=trading-rag-mentor
+LANGSMITH_API_KEY=your_langsmith_api_key
+```
+
+_(Note: LangSmith tracing activates automatically when `LANGCHAIN_TRACING_V2=true` is present, requiring no code changes to the LangChain pipeline.)_
+
+### What You Can See in LangSmith
+
+Log into your [LangSmith dashboard](https://smith.langchain.com/) to monitor the application in production:
+
+- **⏱️ Retrieval Latency:** View the exact execution time for each step in the pipeline. You can see precisely how many milliseconds are spent on query reformulation, BM25 retrieval, vector search, and cross-encoder re-ranking.
+- **📊 Score Distributions:** Inspect the ChromaDB similarity scores and the cross-encoder re-ranking scores for every retrieved chunk. This highlights whether the system is returning high-confidence matches or struggling to find relevant context.
+- **❌ Failure Cases:** Quickly diagnose exceptions and unexpected outputs. If a query results in the fallback "Not in my notes" response or if an API call to Groq/Ollama times out, the trace captures the exact inputs, intermediate states, and token counts to make debugging trivial.
+- **🔄 Token Usage:** Track prompt, reasoning, and completion tokens consumed per query to manage costs and context window limits.
 
 ---
 

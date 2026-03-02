@@ -25,10 +25,27 @@ from build_index import build_index
 from prompts import TRADING_MENTOR_PROMPT, REFORMULATION_PROMPT
 from chat_history import init_db, load_messages, save_message, clear_messages, list_sessions
 from retrieval import build_bm25_retriever, hybrid_retrieve_and_rerank
+from config import get_secret
 import tiktoken
 
 logging.basicConfig(level=logging.INFO)
 load_dotenv()
+
+# ====================== LANG SMITH OBSERVABILITY (Safe Version) ======================
+LANGCHAIN_API_KEY = get_secret("LANGSMITH_API_KEY")
+LANGCHAIN_TRACING_V2 = get_secret("LANGCHAIN_TRACING_V2", "false").lower() == "true"
+
+if LANGCHAIN_API_KEY and LANGCHAIN_TRACING_V2:
+    os.environ["LANGCHAIN_TRACING_V2"] = "true"
+    os.environ["LANGCHAIN_API_KEY"] = LANGCHAIN_API_KEY
+    os.environ["LANGCHAIN_PROJECT"] = get_secret("LANGCHAIN_PROJECT", "trading-rag-mentor")
+    print("✅ LangSmith tracing ENABLED")
+else:
+    os.environ["LANGCHAIN_TRACING_V2"] = "false"
+    if LANGCHAIN_TRACING_V2:
+        st.sidebar.warning("LangSmith tracing enabled but API key missing. Check Streamlit Secrets.")
+    # print("LangSmith tracing disabled (no key)")
+# ====================================================================================
 
 # ── Ollama model catalogue ─────────────────────────────────────────────────────
 # Reflects locally installed models — run `ollama list` to refresh.
