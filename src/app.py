@@ -33,7 +33,8 @@ load_dotenv()
 
 # ====================== LANG SMITH OBSERVABILITY (Safe Version) ======================
 LANGCHAIN_API_KEY = get_secret("LANGSMITH_API_KEY")
-LANGCHAIN_TRACING_V2 = get_secret("LANGCHAIN_TRACING_V2", "false").lower() == "true"
+_tracing_val = get_secret("LANGCHAIN_TRACING_V2", "false")
+LANGCHAIN_TRACING_V2 = str(_tracing_val).lower() == "true"
 
 if LANGCHAIN_API_KEY and LANGCHAIN_TRACING_V2:
     os.environ["LANGCHAIN_TRACING_V2"] = "true"
