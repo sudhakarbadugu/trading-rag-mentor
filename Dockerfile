@@ -38,7 +38,7 @@ COPY requirements.txt .
 # Install into an isolated prefix so we can copy cleanly to the runtime image.
 # --no-cache-dir keeps the layer tight.
 RUN pip install --upgrade pip setuptools wheel \
-    && pip install --no-cache-dir --prefix=/install -r requirements.txt
+    && pip install --no-cache-dir --prefix=/install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.txt
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -76,15 +76,24 @@ RUN groupadd --gid 1001 appgroup \
 
 WORKDIR /app
 
+# ── Environment variables ─────────────────────────────────────────────────────
+# We set PYTHONPATH early so that `python -m spacy` and ML model caches
+# can locate the pacakges installed into the custom prefix /usr/local.
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONPATH=/usr/local/lib/python3.12/site-packages
+
 # ── Application source ────────────────────────────────────────────────────────
-# Copy only the source — data/ is provided via Docker volumes at runtime
-# so secrets and local DB files never bake into the image.
+# Copy source code, pyproject, and the data/ directory.
+# .dockerignore ensures secrets (e.g. .env) and local DB files (e.g. chroma_db)
+# never bake into the image, so only default data/transcripts/ are included.
 COPY --chown=appuser:appgroup src/         ./src/
 COPY --chown=appuser:appgroup pyproject.toml ./
+COPY --chown=appuser:appgroup data/        ./data/
 
-# Create runtime data directories.
+# Create runtime data directories in case they were fully excluded.
 # chroma_db/ and chat_history.db live here and are persisted via named volumes.
-# transcripts/ is bind-mounted read-only from the host (see docker-compose.yml).
+# transcripts/ can also be bind-mounted read-only from the host (see docker-compose.yml).
 RUN mkdir -p data/transcripts data/chroma_db \
     && chown -R appuser:appgroup /app
 
@@ -94,7 +103,8 @@ USER appuser
 # ── Download spaCy model (en_core_web_sm) ────────────────────────────────────
 # spaCy models are not on PyPI; they must be fetched via `spacy download`.
 # The model is stored inside the image so runtime stays fully offline.
-RUN python -m spacy download en_core_web_sm
+RUN pip install --no-cache-dir --user packaging \
+    && python -m spacy download en_core_web_sm
 
 # ── Pre-cache HuggingFace models inside the image ────────────────────────────
 # Baking the models in (~90 MB embedding + ~85 MB cross-encoder) eliminates
@@ -116,11 +126,14 @@ from sentence_transformers import CrossEncoder; \
 CrossEncoder('cross-encoder/ms-marco-MiniLM-L-6-v2'); \
 print('✅  Cross-encoder model cached.')"
 
+# ── Pre-build the Vector Database (ChromaDB) ─────────────────────────────────
+# By running this during the Docker build, the vector index is baked into the
+# image layer. This prevents Cloud Run from taking 4-5 minutes to chunk and
+# embed transcripts on every single container cold start.
+RUN python src/build_index.py
+
 # ── Environment variables ─────────────────────────────────────────────────────
-ENV PYTHONUNBUFFERED=1 \
-    PYTHONDONTWRITEBYTECODE=1 \
-    # Streamlit: disable telemetry, browser pop-ups, and hot-reload watcher
-    STREAMLIT_BROWSER_GATHER_USAGE_STATS=false \
+ENV STREAMLIT_BROWSER_GATHER_USAGE_STATS=false \
     STREAMLIT_SERVER_FILE_WATCHER_TYPE=none \
     # Run HuggingFace fully offline using the models baked into the image
     TRANSFORMERS_OFFLINE=1 \

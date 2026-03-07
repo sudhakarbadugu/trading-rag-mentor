@@ -656,6 +656,33 @@ docker compose down -v        # stop + wipe all persistent data
 
 > **Volumes:** ChromaDB and `chat_history.db` are stored in the `trading_rag_data` named volume and survive restarts. Your transcripts are bind-mounted read-only from `./data/transcripts/` — drop new files there and the next query triggers an incremental re-index automatically.
 
+### Deploy to Google Cloud Run
+
+Google Cloud Run requires images to be built for the `linux/amd64` architecture. If you are building on an Apple Silicon (M-series) Mac, you **must** specify the platform flag to prevent runtime execution format errors.
+
+```bash
+# 1. Build the image for Cloud Run architecture
+docker build --platform linux/amd64 -t trading-rag-mentor-gcp .
+
+# 2. Test the Cloud Run image locally (Optional)
+docker run --rm -p 8501:8501 --name local-rag-test --env-file .env trading-rag-mentor-gcp
+# Stop the test with: docker stop local-rag-test
+
+# 3. Tag and Push to Google Container Registry
+docker tag trading-rag-mentor-gcp gcr.io/[YOUR_PROJECT_ID]/trading-rag-mentor
+docker push gcr.io/[YOUR_PROJECT_ID]/trading-rag-mentor
+
+# 4. Deploy the service
+gcloud run deploy trading-rag-mentor \
+  --image gcr.io/[YOUR_PROJECT_ID]/trading-rag-mentor \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --memory 4Gi \
+  --timeout 300
+```
+*(Make sure to replace `[YOUR_PROJECT_ID]` with your actual GCP Project ID!)*
+
 ### Deploy to Render.com
 
 1. Push this repo to GitHub.
